@@ -1,45 +1,25 @@
 @charset "UTF-8";
 
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-html,body {
-	background-image:url('../img/concrete_seamless.png');
+body {
+	background-image:url('../img/footer_lodyas.png');
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
-  	-webkit-justify-content: center;
-  	    -ms-flex-pack: center;
-  	        justify-content: center;
-  	-webkit-align-items: center;
-  	    -ms-flex-align: center;
-  	        align-items: center;
-  	height: 100%;
-  	padding-top: 20px;
 }
 
 @media (max-width: 600px) {
-	body {
-		font-size: 0.7em;
-		padding-top: 20px;
-		display: block;
-	}
+	body { font-size: 0.7em; }
 }
 
 .top-bar {
-	background-color:#000;
-	height:10px;
-	position: absolute;
-	top: 0;
-	left: 0;
+	background-color: #1b1b1b;
+	height: 10px;
 	width: 100%;
 }
 
 .container {
-	max-width: 710px;
+	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -49,53 +29,55 @@ html,body {
 .photo {
 	width: 100%;
 	max-width: 250px;
+  margin-top: 50px;
 }
 
-.container p {
-	margin: 50px 0;
+.text-about {
+    margin: 50px 0;
+}
+
+p {
+	margin: 10px 0;
 	font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+strong {
+    color: #eaeaea;
+}
+
+a {
+  color: #f54900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b33500;
 }
 
 .icons  {
 	width: 100%;
-	float: left;
-}
-
-@media (min-width: 420px) {
-	.icons  {
-		width: 50%;
-	}
-
-	.left  {
-		text-align: right;
-	}
-
-	.right  {
-		text-align: left;
-	}
-
-	.icons img:hover {
-		bottom: 0;
-		position: relative;
-		-webkit-animation: float 0.8s infinite;
-	  			animation: float 0.8s infinite;
-	}
-
-}
-
-@-webkit-keyframes float {
-    0% {bottom:   0;}
-   50% {bottom: 8px;}
-  100% {bottom:   0;}
-}
-
-@keyframes float {
-    0% {bottom:   0;}
-   50% {bottom: 8px;}
-  100% {bottom:   0;}
+  text-align: center;
 }
 
 .icons a {
 	text-decoration: none;
 	padding: 5px;
+}
+
+.footer {
+  background-color: #1b1b1b;
+  text-align: center;
+  width: 100%;
+  color: #b6b6b6;
+  padding: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+
+@media (min-height: 742px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
 }
