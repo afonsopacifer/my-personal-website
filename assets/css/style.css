@@ -49,6 +49,8 @@ strong {
 a {
   color: #f54900;
   text-decoration: none;
+	-webkit-transition: color .3s; /* Safari */
+    transition: color .3s;
 }
 
 a:hover {
@@ -60,9 +62,23 @@ a:hover {
   text-align: center;
 }
 
+.icons  img {
+	margin-bottom:-5px;
+}
+
 .icons a {
 	text-decoration: none;
 	padding: 5px;
+	-webkit-transition: transform 1s;
+  transition: transform 1s;
+	position: relative;
+	display: inline-block;
+}
+
+.icons a:hover {
+	-ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .footer {
