@@ -10,4 +10,4 @@
     $ grunt
 
 ### Licence
-[MIT Licence](licence.md)
+[MIT Licence](licence.md) © Afonso Pacifer
