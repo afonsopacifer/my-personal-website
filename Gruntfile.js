@@ -86,5 +86,6 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask( 'default', ['connect','watch']);
+  grunt.registerTask( 'deploy', ['gh-pages']);
 
 };

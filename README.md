@@ -1,19 +1,29 @@
-# Afonso Pacifer Personal Website #
+#Afonso Pacifer Personal Website
 
-## Development
+### Development
+*clone this repository*
+
+    $ git clone https://github.com/afonsopacifer/my-personal-website.git
+
 *Install all dependencies*
 
     $ npm install
 
-*Starts a static server and active the livereload*
+*Starts a static server, watch the .jade/.styl and compile, and active the livereload*
 
     $ grunt
 
 *Deploy for gh-pages*
 
-    $ grunt gh-pages
+    $ grunt deploy
 
-*Folders structure*
+*Commit alterations in the master*
+
+    $ git add .
+    $ git commit -m "alterations"
+    $ git push origin master
+
+### Folders Structure
 <pre>
 .
 ├── README.md
@@ -26,13 +36,23 @@
 |   ├── favicon.ico
 |   ├── assets/
 |   |   ├── img/
-|   |   ├── icons/
+|   |   |   ├── icons/
 |   |   ├── styles/
 |   |   |   ├── normalize.styl
 |   |   |   ├── style.styl
 |   |   ├── scripts/
 |   |   |   ├── script.js
 ├── prod/
+|   ├── index.html
+|   ├── CNAME
+|   ├── favicon.ico
+|   ├── assets/
+|   |   ├── img/
+|   |   |   ├── icons/
+|   |   ├── styles/
+|   |   |   ├── style.css
+|   |   ├── scripts/
+|   |   |   ├── script.js
 `── .gitignore
 </pre>
 
