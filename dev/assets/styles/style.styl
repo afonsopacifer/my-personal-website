@@ -1,0 +1,85 @@
+@charset "UTF-8"
+@import "normalize"
+
+*
+	box-sizing border-box
+
+body
+	background-color #2f2f2f
+	font-family 'Open Sans', sans-serif
+	font-size 1em
+
+@media (max-width 600px)
+	body
+		font-size 0.7em
+
+.top-bar
+	background-color #1b1b1b
+	height 10px
+	width 100%
+
+.container
+	max-width 900px
+	width 100%
+	margin 0 auto
+	text-align center
+	padding 20px
+
+.photo
+	width 100%
+	max-width 250px
+	margin-top 50px
+
+.text-about
+	margin 50px 0
+
+p
+	margin 10px 0
+	font-size 1.5em
+	color #b6b6b6
+
+strong
+	color #eaeaea
+
+a
+	color #f54900
+	text-decoration none
+	-webkit-transition color .3s
+	transition color .3s
+
+a:hover
+	color #b33500
+
+.icons
+	width 100%
+	text-align center
+
+.icons img
+	margin-bottom -5px
+
+.icons a
+	text-decoration none
+	padding 5px
+	-webkit-transition transform 1s
+	transition transform 1s
+	position relative
+	display inline-block
+
+.icons a:hover
+	-ms-transform rotate(360deg)
+	-webkit-transform rotate(360deg)
+	transform rotate(360deg)
+
+.footer
+	background-color #1b1b1b
+	text-align center
+	width 100%
+	color #b6b6b6
+	padding 10px
+	margin-top 50px
+	position relative
+
+@media (min-height 742px)
+	.footer
+		position absolute
+		bottom 0
