@@ -9,17 +9,34 @@ module.exports = function( grunt ) {
     watch: {
 
       html: {
-        files: '*.html',
+        files: 'prod/*.html',
       },
 
       css: {
-        files: 'assets/css/*.css',
+        files: 'prod/assets/styles/*.css',
+      },
+
+      jd: {
+        files: ['dev/*.jade','dev/**/*.jade'],
+        tasks: ['jade:compile'],
       },
 
       options: {
         livereload: true
       }
 
+    },
+
+    // jade
+    jade: {
+      compile: {
+        options: {
+          pretty: true
+        },
+        files: {
+					"prod/index.html": ["dev/index.jade"]
+				}
+      }
     },
 
     connect: {
@@ -39,6 +56,7 @@ module.exports = function( grunt ) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-jade');
 
   grunt.registerTask( 'default', ['connect','watch']);
 

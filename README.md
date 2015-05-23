@@ -12,18 +12,24 @@
 *Folders structure*
 <pre>
 .
-|-- assets/
-|   |-- css/
-|   |   |-- normalize.css
-|   |   |-- style.css
-|   |-- img/
-|-- .gitignore
-|-- CNAME
-|-- licence.md
-|-- README.md
-|-- Gruntfile.js
-|-- package.json
-`-- index.html
+├── README.md
+├── Gruntfile.js
+├── package.json
+├── licence.md
+├── dev/
+|   ├── index.jade
+|   ├── CNAME
+|   ├── favicon.ico
+|   ├── assets/
+|   |   ├── img/
+|   |   ├── icons/
+|   |   ├── styles/
+|   |   |   ├── normalize.styl
+|   |   |   ├── style.styl
+|   |   ├── scripts/
+|   |   |   ├── script.js
+├── prod/
+`── .gitignore
 </pre>
 
 ### Licence
