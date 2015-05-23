@@ -9,6 +9,10 @@
 
     $ grunt
 
+*Deploy for gh-pages*
+
+    $ grunt gh-pages
+
 *Folders structure*
 <pre>
 .

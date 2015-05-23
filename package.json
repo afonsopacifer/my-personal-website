@@ -6,6 +6,7 @@
     "grunt-contrib-connect": "^0.8.0",
     "grunt-contrib-jade": "^0.14.1",
     "grunt-contrib-stylus": "^0.21.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gh-pages": "^0.10.0"
   }
 }

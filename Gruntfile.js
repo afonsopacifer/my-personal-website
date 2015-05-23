@@ -56,6 +56,13 @@ module.exports = function( grunt ) {
       }
     },
 
+    'gh-pages': {
+      options: {
+        base: 'prod/'
+      },
+      src: ['**']
+    },
+
     connect: {
 
       server: {
@@ -76,6 +83,7 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-stylus');
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask( 'default', ['connect','watch']);
 
