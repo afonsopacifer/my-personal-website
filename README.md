@@ -50,7 +50,7 @@
 |   |   ├── img/
 |   |   |   ├── icons/
 |   |   ├── styles/
-|   |   |   ├── style.css
+|   |   |   ├── style.min.css
 |   |   ├── scripts/
 |   |   |   ├── script.js
 `── .gitignore

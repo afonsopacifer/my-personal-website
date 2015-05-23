@@ -26,6 +26,11 @@ module.exports = function( grunt ) {
         tasks: ['stylus:compile'],
       },
 
+      javascript: {
+        files: 'dev/assets/scripts/*.js',
+        tasks: ['concat'],
+      },
+
       options: {
         livereload: true
       }
@@ -47,14 +52,19 @@ module.exports = function( grunt ) {
     // stylus
     stylus: {
       compile: {
-        options: {
-          compress: false
-        },
         files: {
-          'prod/assets/styles/style.css':'dev/assets/styles/style.styl' // 1:1 compile
+          'prod/assets/styles/style.min.css':'dev/assets/styles/style.styl' // 1:1 compile
         }
       }
     },
+
+    //concat JS
+    concat: {
+			dist: {
+		      src: 'dev/assets/scripts/*.js',
+		      dest: 'prod/assets/scripts/scripts.js'
+		    }
+		},
 
     'gh-pages': {
       options: {
@@ -84,6 +94,8 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.registerTask( 'default', ['connect','watch']);
   grunt.registerTask( 'deploy', ['gh-pages']);
