@@ -74,6 +74,17 @@ module.exports = function( grunt ) {
       }
     },
 
+    validation: {
+      options: {
+        reset: grunt.option('reset') || false,
+        stoponerror: false,
+        // relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.']
+      },
+      files: {
+        src: ['prod/index.html']
+      }
+    },
+
     'gh-pages': {
       options: {
         base: 'prod/'
@@ -104,8 +115,10 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-html-validation');
 
   grunt.registerTask( 'dev', ['connect','watch']);
+  grunt.registerTask('quality', ['validation']);
   grunt.registerTask( 'deploy', ['gh-pages']);
 
 };

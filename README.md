@@ -1,7 +1,7 @@
 #Afonso Pacifer Personal Website
 
 ### Development
-####clone this repository
+####Clone this repository
 
     $ git clone https://github.com/afonsopacifer/my-personal-website.git
 
@@ -13,6 +13,11 @@
 *Starts a static server, watch the .jade/.styl for compile, active the livereload and concat/minify all files*
 
     $ grunt dev
+
+####Test code quality
+*W3C html validation*
+
+    $ grunt quality
 
 ####Deploy for gh-pages
 
