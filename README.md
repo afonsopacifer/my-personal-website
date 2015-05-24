@@ -1,23 +1,24 @@
 #Afonso Pacifer Personal Website
 
 ### Development
-*clone this repository*
+####clone this repository
 
     $ git clone https://github.com/afonsopacifer/my-personal-website.git
 
-*Install all dependencies*
+####Install all dependencies
 
     $ npm install
 
-*Starts a static server, watch the .jade/.styl and compile, and active the livereload*
+####Start the dev mode
+*Starts a static server, watch the .jade/.styl for compile, active the livereload and concat/minify all files*
 
-    $ grunt
+    $ grunt dev
 
-*Deploy for gh-pages*
+####Deploy for gh-pages
 
     $ grunt deploy
 
-*Commit alterations in the master*
+####Commit alterations in the master
 
     $ git add .
     $ git commit -m "alterations"

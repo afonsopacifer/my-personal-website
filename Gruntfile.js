@@ -105,7 +105,7 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask( 'default', ['connect','watch']);
+  grunt.registerTask( 'dev', ['connect','watch']);
   grunt.registerTask( 'deploy', ['gh-pages']);
 
 };
