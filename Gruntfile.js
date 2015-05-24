@@ -6,6 +6,7 @@ module.exports = function( grunt ) {
 
     pkg: grunt.file.readJSON('package.json'),
 
+    //watch and compile all files
     watch: {
 
       html: {
@@ -37,13 +38,15 @@ module.exports = function( grunt ) {
 
     },
 
-    // jade
+    // The jade compile task
     jade: {
+      //compile for production
       compile: {
         files: {
 					"prod/index.html": ["dev/index.jade"]
 				}
       },
+      //compile for validation
       valid: {
         options: {
           pretty: true
@@ -54,13 +57,15 @@ module.exports = function( grunt ) {
       }
     },
 
-    // stylus
+    //The stylus compile task
     stylus: {
+      //compile for production
       compile: {
         files: {
           'prod/assets/styles/style.min.css':'dev/assets/styles/style.styl' // 1:1 compile
         }
-        },
+      },
+      //compile for Lint
       lint: {
         options: {
           compress: false
@@ -71,7 +76,7 @@ module.exports = function( grunt ) {
       }
     },
 
-    //concat JS
+    //concat all JS
     concat: {
 			dist: {
 		      src: 'dev/assets/scripts/*.js',
@@ -79,6 +84,7 @@ module.exports = function( grunt ) {
 		    }
 		},
 
+    //compress all js
     uglify: {
       my_target: {
         files: {
@@ -87,23 +93,25 @@ module.exports = function( grunt ) {
       }
     },
 
+    //validate the HTML with W3C rules
     validation: {
       options: {
         reset: grunt.option('reset') || false,
         stoponerror: false,
-        // relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.']
       },
       files: {
         src: ['temp/index.html']
       }
     },
 
+    //Lint the CSS
     csslint: {
       strict: {
         src: ['temp/style.css']
       }
     },
 
+    //Deploy the production files for gh-pages
     'gh-pages': {
       options: {
         base: 'prod/'
@@ -111,8 +119,8 @@ module.exports = function( grunt ) {
       src: ['**']
     },
 
+    //Starts the static server
     connect: {
-
       server: {
         options: {
           port: 9000,
