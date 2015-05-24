@@ -28,7 +28,7 @@ module.exports = function( grunt ) {
 
       javascript: {
         files: 'dev/assets/scripts/*.js',
-        tasks: ['concat'],
+        tasks: ['uglify'],
       },
 
       options: {
@@ -65,6 +65,14 @@ module.exports = function( grunt ) {
 		      dest: 'prod/assets/scripts/scripts.js'
 		    }
 		},
+
+    uglify: {
+      my_target: {
+        files: {
+        'prod/assets/scripts/scripts.min.js': ['dev/assets/scripts/*.js']
+        }
+      }
+    },
 
     'gh-pages': {
       options: {

@@ -52,7 +52,7 @@
 |   |   ├── styles/
 |   |   |   ├── style.min.css
 |   |   ├── scripts/
-|   |   |   ├── script.js
+|   |   |   ├── script.min.js
 `── .gitignore
 </pre>
 
