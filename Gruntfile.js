@@ -40,11 +40,16 @@ module.exports = function( grunt ) {
     // jade
     jade: {
       compile: {
+        files: {
+					"prod/index.html": ["dev/index.jade"]
+				}
+      },
+      valid: {
         options: {
           pretty: true
         },
         files: {
-					"prod/index.html": ["dev/index.jade"]
+					"temp/index.html": ["dev/index.jade"]
 				}
       }
     },
@@ -89,7 +94,7 @@ module.exports = function( grunt ) {
         // relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.']
       },
       files: {
-        src: ['prod/index.html']
+        src: ['temp/index.html']
       }
     },
 
@@ -133,7 +138,7 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-csslint');
 
   grunt.registerTask( 'dev', ['connect','watch']);
-  grunt.registerTask('quality', ['stylus:lint','validation','csslint']);
+  grunt.registerTask('quality', ['jade:valid','validation','stylus:lint','csslint']);
   grunt.registerTask( 'deploy', ['gh-pages']);
 
 };

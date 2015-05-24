@@ -14,7 +14,7 @@
 
     $ grunt dev
 
-####Test code quality
+####Test quality code
 *W3C html validation and CSS Lint*
 
 *NOTE: For debug the compiled files (no compressed), use the content of the temp/ folder*
@@ -61,6 +61,7 @@
 |   |   |   ├── style.min.css
 |   |   ├── scripts/
 |   |   |   ├── script.min.js
+├── temp/
 `── .gitignore
 </pre>
 
