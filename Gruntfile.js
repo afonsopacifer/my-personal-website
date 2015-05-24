@@ -55,6 +55,14 @@ module.exports = function( grunt ) {
         files: {
           'prod/assets/styles/style.min.css':'dev/assets/styles/style.styl' // 1:1 compile
         }
+        },
+      lint: {
+        options: {
+          compress: false
+        },
+        files: {
+            'temp/style.css':'dev/assets/styles/style.styl' // 1:1 compile
+        }
       }
     },
 
@@ -82,6 +90,12 @@ module.exports = function( grunt ) {
       },
       files: {
         src: ['prod/index.html']
+      }
+    },
+
+    csslint: {
+      strict: {
+        src: ['temp/style.css']
       }
     },
 
@@ -116,9 +130,10 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-html-validation');
+  grunt.loadNpmTasks('grunt-contrib-csslint');
 
   grunt.registerTask( 'dev', ['connect','watch']);
-  grunt.registerTask('quality', ['validation']);
+  grunt.registerTask('quality', ['stylus:lint','validation','csslint']);
   grunt.registerTask( 'deploy', ['gh-pages']);
 
 };

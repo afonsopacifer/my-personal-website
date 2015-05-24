@@ -15,7 +15,9 @@
     $ grunt dev
 
 ####Test code quality
-*W3C html validation*
+*W3C html validation and CSS Lint*
+
+*NOTE: For debug the compiled files (no compressed), use the content of the temp/ folder*
 
     $ grunt quality
 
