@@ -1,20 +1,19 @@
 @charset "UTF-8"
-@import "normalize"
+
+@import "vendors/normalize"
+@import "colors"
+@import "atoms"
 
 *
 	box-sizing border-box
 
 body
-	background-color #2f2f2f
+	background-color dark
 	font-family 'Open Sans', sans-serif
 	font-size 1em
 
-@media (max-width 600px)
-	body
-		font-size 0.7em
-
 .top-bar
-	background-color #1b1b1b
+	background-color over-dark
 	height 10px
 	width 100%
 
@@ -30,25 +29,8 @@ body
 	max-width 250px
 	margin-top 50px
 
-.text-about
+.about
 	margin 50px 0
-
-p
-	margin 10px 0
-	font-size 1.5em
-	color #b6b6b6
-
-strong
-	color #eaeaea
-
-a
-	color #f54900
-	text-decoration none
-	-webkit-transition color .3s
-	transition color .3s
-
-a:hover
-	color #b33500
 
 .icons
 	width 100%
@@ -70,11 +52,13 @@ a:hover
 	-webkit-transform rotate(360deg)
 	transform rotate(360deg)
 
+.title
+	text-align center
+
 .footer
-	background-color #1b1b1b
+	background-color over-dark
 	text-align center
 	width 100%
-	color #b6b6b6
 	padding 10px
 	margin-top 50px
 	position relative
