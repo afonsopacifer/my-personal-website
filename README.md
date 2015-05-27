@@ -9,12 +9,12 @@
 
     $ npm install
 
-####Start the dev mode
+####Start the development ambient 
 *Starts a static server, watch the .jade/.styl for compile, active the livereload and concat/minify all files*
 
     $ grunt dev
 
-####Test quality code
+####Test the code quality
 *W3C html validation and CSS Lint*
 
 *NOTE: For debug the compiled files (no compressed), use the content of the temp/ folder*
