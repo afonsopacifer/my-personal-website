@@ -9,7 +9,7 @@
 
     $ npm install
 
-####Start the development ambient 
+####Start the development ambient
 *Starts a static server, watch the .jade/.styl for compile, active the livereload and concat/minify all files*
 
     $ grunt dev
@@ -20,6 +20,10 @@
 *NOTE: For debug the compiled files (no compressed), use the content of the temp/ folder*
 
     $ grunt quality
+
+####Minify and move the images
+
+    $ grunt img
 
 ####Deploy for gh-pages
 
