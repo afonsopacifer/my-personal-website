@@ -32,6 +32,11 @@ module.exports = function( grunt ) {
         tasks: ['uglify'],
       },
 
+      img: {
+        files: 'dev/assets/img/*.{png,jpg,gif}',
+        tasks: ['imagemin'],
+      },
+
       options: {
         livereload: true
       }
