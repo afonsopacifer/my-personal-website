@@ -47,28 +47,28 @@
 |   ├── index.jade
 |   ├── CNAME
 |   ├── favicon.ico
-|   ├── assets/
-|   |   ├── img/
-|   |   |   `── icons/
-|   |   ├── styles/
-|   |   |   ├── vendors/
-|   |   |   |   `── normalize.styl
-|   |   |   ├── colors.styl
-|   |   |   ├── atoms.styl
-|   |   |   `── style.styl
-|   |   ├── scripts/
-|   |   |   `── script.js
+|   `── assets/
+|       ├── img/
+|       |   `── icons/
+|       ├── styles/
+|       |   ├── vendors/
+|       |   |   `── normalize.styl
+|       |   ├── colors.styl
+|       |   ├── atoms.styl
+|       |   `── style.styl
+|       `── scripts/
+|           `── script.js
 ├── prod/
 |   ├── index.html
 |   ├── CNAME
 |   ├── favicon.ico
-|   ├── assets/
-|   |   ├── img/
-|   |   |   `── icons/
-|   |   ├── styles/
-|   |   |   `── style.min.css
-|   |   ├── scripts/
-|   |   |   `── script.min.js
+|   `── assets/
+|       ├── img/
+|       |   `── icons/
+|       ├── styles/
+|       |   `── style.min.css
+|       `── scripts/
+|           `── script.min.js
 ├── temp/
 `── .gitignore
 </pre>
