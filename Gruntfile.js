@@ -33,8 +33,8 @@ module.exports = function( grunt ) {
       },
 
       img: {
-        files: 'dev/assets/img/*.{png,jpg,gif}',
-        tasks: ['imagemin'],
+        files: ['dev/assets/img/*.{png,jpg,gif}','dev/assets/img/**/*.{png,jpg,gif}'],
+        tasks: ['newer:imagemin'],
       },
 
       options: {
@@ -123,7 +123,7 @@ module.exports = function( grunt ) {
         files: [{
           expand: true,
           cwd: 'dev/',
-          src: ['assets/img/*.{png,jpg,gif}'],
+          src: ['assets/img/*.{png,jpg,gif}','assets/img/**/*.{png,jpg,gif}'],
           dest: 'prod/'
         }]
       }
@@ -163,6 +163,7 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-html-validation');
   grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-newer');
 
   grunt.registerTask( 'dev', ['connect','watch']);
   grunt.registerTask('quality', ['jade:valid','validation','stylus:lint','csslint']);
