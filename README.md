@@ -54,10 +54,12 @@
 |       |   ├── vendors/
 |       |   |   `── normalize.styl
 |       |   ├── colors.styl
+|       |   ├── fonts.styl
 |       |   ├── atoms.styl
 |       |   `── style.styl
-|       `── scripts/
-|           `── script.js
+|       ├── scripts/
+|       |   `── script.js
+|       `── font/
 ├── prod/
 |   ├── index.html
 |   ├── CNAME
@@ -67,8 +69,9 @@
 |       |   `── icons/
 |       ├── styles/
 |       |   `── style.min.css
-|       `── scripts/
-|           `── script.min.js
+|       ├── scripts/
+|       |   `── script.js
+|       `── font/
 ├── temp/
 `── .gitignore
 </pre>
