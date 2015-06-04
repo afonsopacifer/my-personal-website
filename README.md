@@ -21,6 +21,11 @@
 
     $ grunt quality
 
+####Autoprefixer the css with postcss
+**
+
+    $ grunt autoprefixer
+
 ####Deploy for gh-pages
 
     $ grunt deploy

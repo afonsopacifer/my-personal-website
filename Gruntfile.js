@@ -117,6 +117,19 @@ module.exports = function( grunt ) {
       }
     },
 
+    postcss: {
+      options: {
+        cascade: false,
+        map: true,
+        processors: [
+          require('autoprefixer-core')({browsers: 'last 2 version, ie >= 9'})
+        ]
+      },
+      dist: {
+        src: 'prod/assets/styles/*.css'
+      }
+    },
+
     //imagemin
     imagemin: {
       dynamic: {
@@ -164,10 +177,11 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks('grunt-postcss');
 
   grunt.registerTask( 'dev', ['connect','watch']);
   grunt.registerTask('quality', ['jade:valid','validation','stylus:lint','csslint']);
-  grunt.registerTask( 'img', ['imagemin']);
+  grunt.registerTask('autoprefixer', ['postcss']);
   grunt.registerTask( 'deploy', ['gh-pages']);
 
 };
