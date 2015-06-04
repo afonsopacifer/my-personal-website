@@ -22,7 +22,7 @@
     $ grunt quality
 
 ####Autoprefixer the css with postcss
-**
+*last 2 version of all and >= ie 9*
 
     $ grunt autoprefixer
 
@@ -49,23 +49,26 @@
 |   ├── favicon.ico
 |   ├── assets/
 |   |   ├── img/
-|   |   |   ├── icons/
+|   |   |   `── icons/
 |   |   ├── styles/
-|   |   |   ├── normalize.styl
-|   |   |   ├── style.styl
+|   |   |   ├── vendors/
+|   |   |   |   `── normalize.styl
+|   |   |   ├── colors.styl
+|   |   |   ├── atoms.styl
+|   |   |   `── style.styl
 |   |   ├── scripts/
-|   |   |   ├── script.js
+|   |   |   `── script.js
 ├── prod/
 |   ├── index.html
 |   ├── CNAME
 |   ├── favicon.ico
 |   ├── assets/
 |   |   ├── img/
-|   |   |   ├── icons/
+|   |   |   `── icons/
 |   |   ├── styles/
-|   |   |   ├── style.min.css
+|   |   |   `── style.min.css
 |   |   ├── scripts/
-|   |   |   ├── script.min.js
+|   |   |   `── script.min.js
 ├── temp/
 `── .gitignore
 </pre>
