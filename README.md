@@ -1,6 +1,20 @@
 #Afonso Pacifer Personal Website
 
-### Development
+##Grunt Plugins list
+- contrib-watch
+- contrib-connect
+- contrib-jade
+- contrib-stylus
+- gh-pages
+- contrib-concat
+- contrib-uglify
+- html-validation
+- contrib-csslint
+- contrib-imagemin
+- newer
+- postcss
+
+###Development
 ####Clone this repository
 
     $ git clone https://github.com/afonsopacifer/my-personal-website.git
