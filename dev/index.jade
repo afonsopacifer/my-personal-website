@@ -34,7 +34,22 @@ html(lang = "pt-br")
   
 	body
 
-		div.top-bar
+		//- menu
+		div.top-bar-bg
+			div.top-bar
+				nav.menu-container
+					img(src="assets/img/menu.png" class="menu-open" id="btnOpen")
+					ul.menu#menu
+						li.menu-item 
+							a(href="#") Sobre
+						li.menu-item 
+							a(href="#") Projetos
+						li.menu-item 
+							a(href="#") Artigos
+						li.menu-item 
+							a(href="#") Talks
+						li.menu-item 
+							a(href="#") Contato
 
 		main.container
 			

@@ -1,6 +1,7 @@
 @charset "UTF-8"
 
 @import "vendors/normalize"
+@import "vendors/flex-grid-framework"
 @import "colors"
 @import "fonts"
 @import "atoms"
@@ -13,10 +14,61 @@ body
 	font-family 'Open Sans', sans-serif
 	font-size 1em
 
+.top-bar-bg {
+	background-color: over-dark;
+	width: 100%;
+	// animation: show 1s;
+}
+
+// @keyframes show {
+// 	0% {
+// 		transform: translateY(-42px);
+// 	}
+// 	100% {
+// 		transform: translateY(0px);
+// 	}
+//}
+
+// menu
 .top-bar
-	background-color over-dark
-	height 10px
-	width 100%
+	row()
+
+.menu-container
+	col(12)
+	text-align center
+
+.menu
+	padding-left 0
+	margin 0
+
+.menu-item
+	list-style none
+
+.menu-item a
+	color #fff
+	padding 10px
+	display inline-block
+
+@media screen and (min-width 480px)
+	.menu-item
+		display inline-block
+
+@media screen and (max-width 480px)
+	.menu-item
+		background-color over-dark
+		border-top 1px solid dark
+		width 100%
+
+	.menu-item a
+		width 100%
+
+.menu-open
+	display none
+
+@media screen and (max-width 480px)
+	.menu-open
+		display inline-block
+		padding 15px
 
 .container
 	max-width 900px
@@ -24,6 +76,17 @@ body
 	margin 0 auto
 	text-align center
 	padding 20px
+// 	animation showScale 1s ease-out, showOpacity 1s ease-out
+//
+// @keyframes showScale {
+//     0%   {transform: scale(0);}
+//     100% {transform: scale(1);}
+// }
+//
+// @keyframes showOpacity {
+//   0%   { opacity: 0; }
+//   100% { opacity: 1; }
+// }
 
 .photo
 	width 100%
@@ -36,22 +99,6 @@ body
 .icons
 	width 100%
 	text-align center
-
-// .icons img
-// 	margin-bottom -5px
-//
-// .icons a
-// 	text-decoration none
-// 	padding 5px
-// 	-webkit-transition transform 1s
-// 	transition transform 1s
-// 	position relative
-// 	display inline-block
-//
-// .icons a:hover
-// 	-ms-transform rotate(360deg)
-// 	-webkit-transform rotate(360deg)
-// 	transform rotate(360deg)
 
 .title
 	text-align center
