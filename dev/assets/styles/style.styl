@@ -2,9 +2,12 @@
 
 @import "vendors/normalize"
 @import "vendors/flex-grid-framework"
-@import "colors"
-@import "fonts"
-@import "atoms"
+
+over-dark = #ffc600
+dark = #f2f2f2
+gray = #c2c2c2
+pumpkin = #000
+
 
 body
 	background-color dark
@@ -12,16 +15,78 @@ body
 	font-size 1em
 
 .top-bar-bg
-	background-color over-dark
+	background #ffc600
 	width 100%
 
 // menu
+
+//headings
+h1
+	color #fff
+
+h2
+	color #fff
+
+//paragraph
+.text
+	margin 5px 0
+	font-size 1em
+	color gray
+
+.featured-text
+	margin 10px 0
+	font-size 1.5em
+	color #000
+
+@media (max-width 600px)
+	.featured-text
+		font-size 1em
+
+//inline texts
+strong
+	color #000
+	font-weight 700
+
+small
+	color #000
+	font-size 0.8em
+
+//Links
+a
+	color pumpkin
+	text-decoration none
+	-webkit-transition opacity .3s
+	transition opacity .3s
+
+a:hover
+	opacity 0.5
+
+//icons
+.github-icon
+	font-size 35px
+	color #fff
+
+.codepen-icon
+	font-size 35px
+	color #fff
+
+.twitter-icon
+	font-size 35px
+	color #fff
+
+
 .top-bar
 	row()
 
+.logo
+	col(6)
+	font-size 25px
+	font-family 'Architects Daughter', cursive
+	padding 10px 0
+
 .menu-container
-	col(12)
-	text-align center
+	col(6)
+	text-align right
 
 .menu
 	padding-left 0
@@ -31,8 +96,9 @@ body
 	list-style none
 
 .menu-item a
-	color #fff
-	padding 10px
+	font-size 25px
+	font-family 'Architects Daughter', cursive
+	color #000
 	display inline-block
 
 @media screen and (min-width 480px)
