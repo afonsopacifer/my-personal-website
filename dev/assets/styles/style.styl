@@ -1,92 +1,29 @@
 @charset "UTF-8"
 
+// vendors
+// -----------------------------------------
 @import "vendors/normalize"
 @import "vendors/flex-grid-framework"
 
-over-dark = #ffc600
-dark = #f2f2f2
-gray = #c2c2c2
-pumpkin = #000
+// colors
+// -----------------------------------------
+highlight = #62c5de
+complementary = #eeeeee
+font-color-dafault = #8d8d8d
 
-
+// global
+// -----------------------------------------
 body
-	background-color dark
-	font-family 'Open Sans', sans-serif
-	font-size 1em
-
-.top-bar-bg
-	background #ffc600
-	width 100%
+	background-color complementary
+	font-family 'Roboto', sans-serif
+	font-weight 300
 
 // menu
-
-//headings
-h1
-	color #fff
-
-h2
-	color #fff
-
-//paragraph
-.text
-	margin 5px 0
-	font-size 1em
-	color gray
-
-.featured-text
-	margin 10px 0
-	font-size 1.5em
-	color #000
-
-@media (max-width 600px)
-	.featured-text
-		font-size 1em
-
-//inline texts
-strong
-	color #000
-	font-weight 700
-
-small
-	color #000
-	font-size 0.8em
-
-//Links
-a
-	color pumpkin
-	text-decoration none
-	-webkit-transition opacity .3s
-	transition opacity .3s
-
-a:hover
-	opacity 0.5
-
-//icons
-.github-icon
-	font-size 35px
-	color #fff
-
-.codepen-icon
-	font-size 35px
-	color #fff
-
-.twitter-icon
-	font-size 35px
-	color #fff
-
-
+// -----------------------------------------
 .top-bar
-	row()
-
-.logo
-	col(6)
-	font-size 25px
-	font-family 'Architects Daughter', cursive
-	padding 10px 0
-
-.menu-container
-	col(6)
-	text-align right
+	background highlight
+	width 100%
+	text-align center
 
 .menu
 	padding-left 0
@@ -94,25 +31,27 @@ a:hover
 
 .menu-item
 	list-style none
-
-.menu-item a
-	font-size 25px
-	font-family 'Architects Daughter', cursive
-	color #000
 	display inline-block
 
-@media screen and (min-width 480px)
-	.menu-item
-		display inline-block
+.menu-link
+	font-size 18px
+	color #000
+	display inline-block
+	text-decoration none
+	color #fff
+	padding 10px
+
+.menu-link:hover
+	color complementary
 
 @media screen and (max-width 480px)
 	.menu-item
-		background-color over-dark
-		border-top 1px solid dark
-		width 100%
+		display list-item
 
+@media screen and (max-width 480px)
 	.menu-item a
-		width 100%
+		display block
+		border-top 1px solid complementary
 
 .menu-open
 	display none
@@ -120,39 +59,18 @@ a:hover
 @media screen and (max-width 480px)
 	.menu-open
 		display inline-block
-		padding 15px
+		padding 15px 0
 
-.container
-	max-width 900px
-	width 100%
-	margin 0 auto
-	text-align center
-	padding 20px
+.active
+	color complementary
 
-.photo
-	width 100%
-	max-width 250px
-	margin-top 50px
-
-.about
-	margin 50px 0
-
-.icons
-	width 100%
-	text-align center
-
-.title
-	text-align center
-
+// footer
+// -----------------------------------------
 .footer
-	background-color over-dark
+	background-color highlight
 	text-align center
-	width 100%
-	padding 10px
-	margin-top 50px
-	position relative
+	padding 15px 0
 
-@media (min-height 742px)
-	.footer
-		position absolute
-		bottom 0
+.text-footer
+	font-size 16px
+	color #fff
