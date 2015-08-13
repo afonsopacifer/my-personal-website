@@ -1,4 +1,4 @@
-#[Afonso Pacifer Personal Website](http://afonsopacifer.com.br/)
+#[Afonso Pacifer Personal Website](http://afonsopacifer.com/)
 
 ##Grunt Plugins list
 - contrib-watch

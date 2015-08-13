@@ -7,9 +7,9 @@
 
 // colors
 // -----------------------------------------
-highlight = #62c5de
+highlight = #008393
 complementary = #eeeeee
-font-color-dafault = #8d8d8d
+font-color-dafault = #515151
 
 // global
 // -----------------------------------------
@@ -17,6 +17,16 @@ body
 	background-color complementary
 	font-family 'Roboto', sans-serif
 	font-weight 300
+	color font-color-dafault
+
+html,body
+	height 100%
+
+.row
+	row()
+
+div,nav,main,footer
+	border 1px dashed #000
 
 // menu
 // -----------------------------------------
@@ -64,13 +74,41 @@ body
 .active
 	color complementary
 
+// main
+// -----------------------------------------
+.container-default
+	row()
+	justify(center)
+	vertical-align(middle)
+	height 100%
+
+.home-title
+	col(12)
+
+.home-p
+	col(12)
+
+.home-txt
+	font-size 72px
+	font-weight 700
+	margin 40px 0
+	width 100%
+	text-align center
+	display block
+
+.p-default
+	text-align center
+	font-size 24px
+	padding 0 150px
+
 // footer
 // -----------------------------------------
 .footer
 	background-color highlight
 	text-align center
 	padding 10px 0
+	margin-top 40px
 
 .text-footer
-	font-size 16px
+	font-size 14px
 	color #fff
