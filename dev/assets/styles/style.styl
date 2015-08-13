@@ -13,28 +13,30 @@ font-color-dafault = #515151
 
 // global
 // -----------------------------------------
+html,body
+	height 100%
+
 body
 	background-color complementary
 	font-family 'Roboto', sans-serif
 	font-weight 300
 	color font-color-dafault
-
-html,body
 	height 100%
 
-.row
-	row()
-
+// Dev view mode
+// -----------------------------------------
 div,nav,main,footer
 	border 1px dashed #000
 
-// menu
+// Top bar
 // -----------------------------------------
 .top-bar
 	background highlight
 	width 100%
 	text-align center
+	position fixed
 
+//menu
 .menu
 	padding-left 0
 	margin 0
@@ -42,6 +44,10 @@ div,nav,main,footer
 .menu-item
 	list-style none
 	display inline-block
+
+@media screen and (max-width 480px)
+	.menu-item
+		display list-item
 
 .menu-link
 	font-size 16px
@@ -55,14 +61,14 @@ div,nav,main,footer
 	color complementary
 
 @media screen and (max-width 480px)
-	.menu-item
-		display list-item
-
-@media screen and (max-width 480px)
-	.menu-item a
+	.menu-link
 		display block
 		border-top 1px solid complementary
 
+.active
+	color complementary
+
+//menu mobile
 .menu-open
 	display none
 
@@ -71,24 +77,19 @@ div,nav,main,footer
 		display inline-block
 		padding 15px 0
 
-.active
-	color complementary
-
-// main
+// Aboout main
 // -----------------------------------------
-.container-default
+.main-about
 	row()
 	justify(center)
 	vertical-align(middle)
+	align-content center
 	height 100%
 
-.home-title
+.heading-about-container
 	col(12)
 
-.home-p
-	col(12)
-
-.home-txt
+.heading-about
 	font-size 72px
 	font-weight 700
 	margin 40px 0
@@ -96,10 +97,37 @@ div,nav,main,footer
 	text-align center
 	display block
 
-.p-default
+@media screen and (max-width 480px)
+	.heading-about
+		font-size 52px
+
+.paragraph-about
 	text-align center
 	font-size 24px
 	padding 0 150px
+
+@media screen and (max-width 800px)
+	.paragraph-about
+		font-size 20px
+		padding 0 50px
+
+@media screen and (max-width 480px)
+	.paragraph-about
+		font-size 18px
+		padding 0 20px
+
+.paragraph-about strong
+	color highlight
+	font-weight 400
+
+.social-icons-container
+	col(12)
+	text-align center
+	margin 10px 0
+
+.social-icons-container a
+	padding 5px 7px
+	display inline-block
 
 // footer
 // -----------------------------------------
@@ -107,7 +135,12 @@ div,nav,main,footer
 	background-color highlight
 	text-align center
 	padding 10px 0
-	margin-top 40px
+
+@media screen and (min-height 610px)
+	.footer
+		position fixed
+		width 100%
+		bottom 0
 
 .text-footer
 	font-size 14px
