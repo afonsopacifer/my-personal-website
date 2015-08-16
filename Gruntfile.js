@@ -49,7 +49,9 @@ module.exports = function( grunt ) {
       compile: {
         files: {
 					"prod/index.html": ["dev/index.jade"],
-          "prod/style-guide.html": ["dev/style-guide.jade"]
+          "prod/projects.html": ["dev/projects.jade"],
+          "prod/articles.html": ["dev/articles.jade"],
+          "prod/talks.html": ["dev/talks.jade"]
 				}
       },
       //compile for validation
