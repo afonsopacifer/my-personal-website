@@ -35,39 +35,87 @@ div,nav,main,footer
 
 // Componenets
 // -----------------------------------------
+.main
+	row()
+	padding-top 40px
+
 .container
 	col(12)
 
+.container-centered
+	col(12)
+	text-align center
+	margin-top 20px
+	margin-bottom 20px
+
 // headings
 .heading-lv1
-	font-size 72px
+	font-size 52px
 	margin 40px 0
-	text-align center
+	font-weight 400
+	border-left 8px solid highlight
+	padding-left 15px
 
-@media screen and (max-width 480px)
-	.heading-lv1
-		font-size 52px
+// @media screen and (max-width 480px)
+// 	.heading-lv1
+// 		font-size 52px
+
+.heading-lv2
+	color highlight
+	font-weight 400
+	margin 5px
+	padding 0
+	font-size 24px
 
 // paragraph
 .paragraph
-	text-align center
-	font-size 24px
-	padding 0 150px
-
-@media screen and (max-width 800px)
-	.paragraph
-		font-size 20px
-		padding 0 50px
-
-@media screen and (max-width 480px)
-	.paragraph
-		font-size 18px
-		padding 0 20px
+	font-size 16px
+	margin 5px
+	padding 0
+	color font-color-dafault
 
 // strong
 .strong
 	color highlight
 	font-weight 400
+
+//project
+.project
+	col(4)
+	background-color #fff
+	padding 10px
+	margin-top 5px
+	margin-bottom 5px
+	text-decoration none
+	-webkit-transition box-shadow .3s
+	transition box-shadow .3s
+
+.project:hover
+	-webkit-box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
+	-moz-box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
+	box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
+	cursor pointer
+
+@media screen and (max-width 850px)
+	.project
+		col(6)
+
+@media screen and (max-width 560px)
+	.project
+		col(12)
+
+//btn
+.btn
+	background-color highlight
+	color #fff
+	padding 10px 15px
+	display inline-block
+	margin 5px
+	text-decoration none
+	transition background-color .3s
+
+.btn:hover
+	background-color #005e6a
 
 // About only
 // -----------------------------------------
@@ -77,7 +125,7 @@ div,nav,main,footer
 	vertical-align(middle)
 	height 100%
 
-// docial
+// social
 .social-icons-container
 	col(12)
 	text-align center
@@ -86,3 +134,30 @@ div,nav,main,footer
 .social-icon
 	padding 5px 7px
 	display inline-block
+
+// headings
+.heading-about
+	font-size 64px
+	margin 40px 0
+	font-weight 400
+	text-align center
+
+@media screen and (max-width 480px)
+	.heading-about
+		font-size 52px
+
+// paragraph
+.paragraph-about
+	text-align center
+	font-size 24px
+	padding 0 150px
+
+@media screen and (max-width 800px)
+	.paragraph-about
+		font-size 20px
+		padding 0 50px
+
+@media screen and (max-width 480px)
+	.paragraph-about
+		font-size 18px
+		padding 0 20px
