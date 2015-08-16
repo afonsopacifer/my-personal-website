@@ -1,15 +1,20 @@
 @charset "UTF-8"
 
-// vendors
+// base
 // -----------------------------------------
-@import "vendors/normalize"
-@import "vendors/flex-grid-framework"
+@import "base/normalize"
+@import "base/flex-grid-framework"
 
 // colors
 // -----------------------------------------
 highlight = #008393
 complementary = #eeeeee
 font-color-dafault = #515151
+
+// layout
+// -----------------------------------------
+@import "layout/top-bar"
+@import "layout/footer"
 
 // global
 // -----------------------------------------
@@ -28,62 +33,12 @@ body
 div,nav,main,footer
 	border 1px dashed #000
 
-// Top bar
-// -----------------------------------------
-.top-bar
-	background highlight
-	width 100%
-	text-align center
-	position fixed
-
-//menu
-.menu
-	padding-left 0
-	margin 0
-
-.menu-item
-	list-style none
-	display inline-block
-
-@media screen and (max-width 480px)
-	.menu-item
-		display list-item
-
-.menu-link
-	font-size 16px
-	color #000
-	display inline-block
-	text-decoration none
-	color #fff
-	padding 10px
-
-.menu-link:hover
-	color complementary
-
-@media screen and (max-width 480px)
-	.menu-link
-		display block
-		border-top 1px solid complementary
-
-.active
-	color complementary
-
-//menu mobile
-.menu-open
-	display none
-
-@media screen and (max-width 480px)
-	.menu-open
-		display inline-block
-		padding 15px 0
-
 // Aboout main
 // -----------------------------------------
 .main-about
 	row()
 	justify(center)
 	vertical-align(middle)
-	align-content center
 	height 100%
 
 .heading-about-container
@@ -128,20 +83,3 @@ div,nav,main,footer
 .social-icons-container a
 	padding 5px 7px
 	display inline-block
-
-// footer
-// -----------------------------------------
-.footer
-	background-color highlight
-	text-align center
-	padding 10px 0
-
-@media screen and (min-height 610px)
-	.footer
-		position fixed
-		width 100%
-		bottom 0
-
-.text-footer
-	font-size 14px
-	color #fff

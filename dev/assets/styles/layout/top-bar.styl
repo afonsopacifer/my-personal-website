@@ -1,0 +1,48 @@
+// Top bar
+// -----------------------------------------
+.top-bar
+	background highlight
+	width 100%
+	text-align center
+	position fixed
+
+//menu
+.menu
+	padding-left 0
+	margin 0
+
+.menu-item
+	list-style none
+	display inline-block
+
+@media screen and (max-width 480px)
+	.menu-item
+		display list-item
+
+.menu-link
+	font-size 16px
+	color #000
+	display inline-block
+	text-decoration none
+	color #fff
+	padding 10px
+
+.menu-link:hover
+	color complementary
+
+@media screen and (max-width 480px)
+	.menu-link
+		display block
+		border-top 1px solid complementary
+
+.active
+	color complementary
+
+//menu mobile
+.menu-open
+	display none
+
+@media screen and (max-width 480px)
+	.menu-open
+		display inline-block
+		padding 15px 0
