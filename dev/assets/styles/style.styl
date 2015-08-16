@@ -113,6 +113,20 @@ div,nav,main,footer,article,a
 .article:last-child
 	border-bottom 0
 
+@media screen and (max-width 950px)
+	.article
+		col(8)
+		offset(2)
+
+@media screen and (max-width 790px)
+	.article
+		col(10)
+		offset(1)
+
+@media screen and (max-width 630px)
+	.article
+		col(12)
+		offset()
 //talk
 .talk
 	col(4)
@@ -122,6 +136,21 @@ div,nav,main,footer,article,a
 
 .talk:last-child
 	border-bottom 0
+
+@media screen and (max-width 1000px)
+	.talk
+		col(6)
+		offset(3)
+
+@media screen and (max-width 690px)
+	.talk
+		col(10)
+		offset(1)
+
+@media screen and (max-width 450px)
+	.talk
+		col(12)
+		offset()
 
 //btn
 .btn
