@@ -30,8 +30,8 @@ body
 
 // Dev view mode
 // -----------------------------------------
-div,nav,main,footer
-	border 1px dashed #000
+// div,nav,main,footer
+// 	border 1px dashed #000
 
 // Componenets
 // -----------------------------------------
@@ -45,16 +45,14 @@ div,nav,main,footer
 .container-centered
 	col(12)
 	text-align center
-	margin-top 20px
-	margin-bottom 20px
 
 // headings
 .heading-lv1
 	font-size 52px
 	margin 40px 0
 	font-weight 400
-	border-left 8px solid highlight
 	padding-left 15px
+	text-align center
 
 // @media screen and (max-width 480px)
 // 	.heading-lv1
@@ -104,13 +102,19 @@ div,nav,main,footer
 	.project
 		col(12)
 
+//article
+.article
+	col(6)
+	offset(3)
+	padding 10px 0
+	border-bottom 1px solid font-color-dafault
 //btn
 .btn
 	background-color highlight
 	color #fff
 	padding 10px 15px
 	display inline-block
-	margin 5px
+	margin 10px 0
 	text-decoration none
 	transition background-color .3s
 
