@@ -30,8 +30,9 @@ body
 
 // Dev view mode
 // -----------------------------------------
-// div,nav,main,footer
-// 	border 1px dashed #000
+div,nav,main,footer,article,a
+	border 1px dashed
+
 
 // Componenets
 // -----------------------------------------
@@ -74,7 +75,7 @@ body
 
 // strong
 .strong
-	color highlight
+	color font-color-dafault
 	font-weight 400
 
 //project
@@ -109,12 +110,18 @@ body
 	padding 10px 0
 	border-bottom 1px dashed font-color-dafault
 
+.article:last-child
+	border-bottom 0
+
 //talk
 .talk
 	col(4)
 	offset(4)
 	padding 10px 0
 	border-bottom 1px dashed font-color-dafault
+
+.talk:last-child
+	border-bottom 0
 
 //btn
 .btn
