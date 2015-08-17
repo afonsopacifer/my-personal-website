@@ -52,7 +52,10 @@ module.exports = function( grunt ) {
           "prod/projects.html": ["dev/projects.jade"],
           "prod/articles.html": ["dev/articles.jade"],
           "prod/talks.html": ["dev/talks.jade"]
-				}
+				},
+        options: {
+            data: grunt.file.readJSON("projects.json")
+        }
       },
       //compile for validation
       valid: {

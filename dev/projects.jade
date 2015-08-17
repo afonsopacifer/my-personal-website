@@ -23,45 +23,18 @@ html(lang="en")
 		main.main
 			div.container
 				h1.heading-lv1 Projects
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
 				
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
-			
-			a(href="#" class="project")
-				h2.heading-lv2 Write Code Every Day
-				p.paragraph A project to honor those developers who believed in the challenge.
+			// Project 
+			// Get and parse the projects.json file by Grunt
+			- for (var i = 0; i < projects.length; i++)
+				- var nome = projects[i].name
+					a(href="#" class="project")
+						h2.heading-lv2=nome
+						p.paragraph A project to honor those developers who believed in the challenge.
 			
 			div.container-centered
 				a(href="#" class="btn") See all projects
+				
 
 		// footer
 		// -----------------------------------------
