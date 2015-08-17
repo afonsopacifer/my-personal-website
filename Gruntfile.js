@@ -54,7 +54,7 @@ module.exports = function( grunt ) {
           "prod/talks.html": ["dev/talks.jade"]
 				},
         options: {
-            data: grunt.file.readJSON("projects.json")
+            data: grunt.file.readJSON("data.json")
         }
       },
       //compile for validation
