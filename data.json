@@ -18,5 +18,47 @@
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox",
       "url":"https://github.com/afonsopacifer/awesome-flexbox"
     }
+  ],
+  "articles":[
+    {
+      "name":"Commit Wars Episode III: A vingança dos Commits",
+      "date":"Jul 31 2015",
+      "description":"",
+      "url":"",
+      "local":"Medium"
+    },
+    {
+      "name":"Commit Wars Episode II: Guerra dos Clones",
+      "date":"Jun 30 2015",
+      "description":"",
+      "url":"",
+      "local":"Medium"
+    },
+    {
+      "name":"Commit Wars Episode I: A Ameaça Fantasma",
+      "date":"May 31 2015",
+      "description":"",
+      "url":"",
+      "local":"Medium"
+    }
+  ],
+  "talks":[
+    {
+      "event":"BarraJS",
+      "theme":"CSS Grid Layout: De volta para o futuro",
+      "attendees":"≈ 30",
+      "date":"Jul 25 2015",
+      "local":"LEO - Barra da Tijuca, Rio de Janeiro - RJ",
+      "url":""
+    },
+    {
+      "event":"RioJS",
+      "theme":"CSS Flexbox: Estruturando layouts sem gambiarras",
+      "attendees":"≈ 30",
+      "date":"Jul 18 2015",
+      "local":"He:labs - Glória, Rio de Janeiro - RJ",
+      "url":""
+    }
   ]
+
 }

@@ -24,31 +24,32 @@ html(lang="en")
 			div.container
 				h1.heading-lv1 Talks
 				
-			article.talk
-				h2.heading-lv2 BarraJS
-				p.paragraph
-					b.strong Theme: 
-					|CSS Grid Layout: De volta para o futuro <br>
-					b.strong Attendees: 
-					|≈ 30 <br>
-					b.strong Date: 
-					|Jul 25 2015 <br>
-					b.strong Local: 
-					|LEO - Barra da Tijuca, Rio de Janeiro - RJ <br>
-					a(href="#" class="btn") See Slides
+			// Articles
+			// Get and parse the projects.json file by Grunt	
+			- for (var i = 0; i < talks.length; i++)
+				- var event = talks[i].event
+				- var theme = talks[i].theme
+				- var attendees = talks[i].attendees
+				- var date = talks[i].date
+				- var local = talks[i].local
+				- var url = talks[i].url
+					article.talk
+						h2.heading-lv2=event
+						p.paragraph
+							b.strong Theme:
+							span=theme
+							br
+							b.strong Attendees: 
+							span=attendees
+							br
+							b.strong Date: 
+							span=date
+							br
+							b.strong Local: 
+							span=local
+							br
+							a(href=url class="btn") See Slides
 
-			article.talk
-				h2.heading-lv2 RioJS
-				p.paragraph
-					b.strong Theme: 
-					|CSS Flexbox: Estruturando layouts sem gambiarras <br>
-					b.strong Attendees: 
-					|≈ 30 <br>
-					b.strong Date: 
-					|Jul 18 2015 <br>
-					b.strong Local: 
-					|He:labs - Glória, Rio de Janeiro - RJ <br>
-					a(href="#" class="btn") See Slides
 		// footer
 		// -----------------------------------------
 		include ./includes/footer.jade
