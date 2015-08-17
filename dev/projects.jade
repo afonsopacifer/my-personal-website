@@ -24,16 +24,19 @@ html(lang="en")
 			div.container
 				h1.heading-lv1 Projects
 				
-			// Project 
+			// Project
 			// Get and parse the projects.json file by Grunt
 			- for (var i = 0; i < projects.length; i++)
-				- var nome = projects[i].name
-					a(href="#" class="project")
-						h2.heading-lv2=nome
+				- var name = projects[i].name
+				- var description = projects[i].description
+				- var url = projects[i].url
+				- var user = projects[i].user
+					a(href=url class="project")
+						h2.heading-lv2=name
 							div.star-buttom
 								div.star
-								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user=afonsopacifer&repo=flex-grid-framework&type=star&count=true" frameborder="0" scrolling="0")
-						p.paragraph A project to honor those developers who believed in the challenge.
+								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+						p.paragraph=description
 			
 			div.container-centered
 				a(href="#" class="btn") See all projects

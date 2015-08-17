@@ -1,8 +1,22 @@
 {
   "projects":[
-    {"name":"afonsinho 1"},
-    {"name":"afonsinho 2"},
-    {"name":"afonsinho 3"},
-    {"name":"afonsinho 4"}
+    {
+      "name":"write-code-every-day",
+      "user":"raphamorim",
+      "description":"A project to honor those developers who believed in the challenge.",
+      "url":"http://writecodeeveryday.io/"
+    },
+    {
+      "name":"flex-grid-framework",
+      "user":"afonsopacifer",
+      "description":"A grid based in Flexbox and Stylus",
+      "url":"https://afonsopacifer.github.io/flex-grid-framework/"
+    },
+    {
+      "name":"awesome-flexbox",
+      "user":"afonsopacifer",
+      "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox",
+      "url":"https://github.com/afonsopacifer/awesome-flexbox"
+    }
   ]
 }
