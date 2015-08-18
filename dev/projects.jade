@@ -1,5 +1,5 @@
 doctype html
-html(lang="en")
+html(lang="en" prefix="og: http://ogp.me/ns#")
 
 	// head
 	// -----------------------------------------
@@ -13,6 +13,13 @@ html(lang="en")
 		meta(name="robots" content="index,follow")
 		title Projects by Afonso Pacifer
 
+		// Open Graph
+		meta(property="og:type" content="website")
+		meta(property="og:title" content="Projects by Afonso Pacifer")
+		meta(property="og:description" content="A list of open source projects developmented by Afonso Pacifer")
+		meta(property="og:url" content="http://afonsopacifer.com/projects.html")
+		meta(property="og:image" content="http://afonsopacifer.com/assets/img/afonso-pacifer.png")
+		
 	body
 
 		// top bar
