@@ -7,16 +7,20 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// head requests
 		include ./includes/head-requests.jade
 		
+		//Page infos
+		-var title = "Afonso Pacifer - Front-End Developer"
+		-var description = "A Front-End developer ?????"
+		
 		// SEO
 		meta(name="keywords" content="Afonso Pacifer, Front-End, HTML5, CSS, CSS3, Javascript")
-		meta(name="description" content="A Front-End developer ?????")
+		meta(name="description" content=description)
 		meta(name="robots" content="index,follow")
-		title Afonso Pacifer - Front-End Developer
+		title= title
 		
 		// Open Graph
 		meta(property="og:type" content="website")
-		meta(property="og:title" content="Afonso Pacifer - Front-End Developer")
-		meta(property="og:description" content="A Front-End developer ?????")
+		meta(property="og:title" content= title)
+		meta(property="og:description" content=description)
 		meta(property="og:url" content="http://afonsopacifer.com/")
 		meta(property="og:image" content="http://afonsopacifer.com/assets/img/afonso-pacifer.png")
 

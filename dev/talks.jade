@@ -7,16 +7,20 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// head requests
 		include ./includes/head-requests.jade
 		
+		//Page infos
+		-var title = "Talks by Afonso Pacifer"
+		-var description = "A list of talks presenteds by Afonso Pacifer"
+		
 		// SEO
 		meta(name="keywords" content="Afonso Pacifer, Front-End, HTML5, CSS3, Javascript, Talks, Presentations")
-		meta(name="description" content="A list of talks presenteds by Afonso Pacifer")
+		meta(name="description" content=description)
 		meta(name="robots" content="index,follow")
-		title Talks by Afonso Pacifer
+		title= title
 
 		// Open Graph
 		meta(property="og:type" content="website")
-		meta(property="og:title" content="Talks by Afonso Pacifer")
-		meta(property="og:description" content="A list of talks presenteds by Afonso Pacifer")
+		meta(property="og:title" content= title)
+		meta(property="og:description" content=description)
 		meta(property="og:url" content="http://afonsopacifer.com/talks.html")
 		meta(property="og:image" content="http://afonsopacifer.com/assets/img/afonso-pacifer.png")
 		
