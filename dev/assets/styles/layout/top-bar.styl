@@ -21,7 +21,6 @@
 
 .menu-link
 	font-size 16px
-	color #000
 	display inline-block
 	text-decoration none
 	color #fff
@@ -29,15 +28,18 @@
 	transition color .3s
 
 .menu-link:hover
-	color complementary
+	color dark-highlight
 
 @media screen and (max-width 480px)
 	.menu-link
 		display block
-		border-top 1px solid complementary
+		border-top 1px solid dark-highlight
+		padding 20px 0
+		transition background-color .3s
 
-.active
-	color complementary
+	.menu-link:hover
+		color #fff
+		background-color dark-highlight
 
 //menu mobile
 .menu-open
