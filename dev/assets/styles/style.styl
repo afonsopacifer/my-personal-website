@@ -148,6 +148,7 @@ body
 	.article
 		col(12)
 		offset()
+
 //talk
 .talk
 	col(4)
@@ -193,6 +194,15 @@ body
 	justify(center)
 	vertical-align(middle)
 	height 100%
+	padding-top 39px
+
+@media screen and (max-width 480px)
+	.main-about
+		padding-top 58px
+
+@media screen and (max-height 650px)
+	.main-about
+		vertical-align()
 
 // social
 .social-icons-container
@@ -203,6 +213,24 @@ body
 .social-icon
 	padding 5px 7px
 	display inline-block
+
+@media screen and (max-width 600px)
+	.social-icons-container
+		padding 0 20%
+
+	.social-icon
+		width 25%
+
+@media screen and (max-width 390px)
+	.social-icons-container
+		padding 0 10%
+
+@media screen and (max-width 300px)
+	.social-icons-container
+		padding 0 20%
+		
+	.social-icon
+		width 50%
 
 // headings
 .heading-about
