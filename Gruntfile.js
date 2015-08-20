@@ -185,7 +185,8 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-postcss');
 
   grunt.registerTask( 'dev', ['connect','watch']);
-  grunt.registerTask('quality', ['jade:valid','validation','stylus:lint','csslint']);
+  grunt.registerTask('validation', ['jade:valid','validation']);
+  grunt.registerTask('lint', ['stylus:lint','csslint']);
   grunt.registerTask('autoprefixer', ['postcss']);
   grunt.registerTask( 'deploy', ['gh-pages']);
 

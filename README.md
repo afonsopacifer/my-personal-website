@@ -1,94 +1,72 @@
-#[Afonso Pacifer Personal Website](http://afonsopacifer.com/)
+# Afonso Pacifer Personal Website
+> Visit the website in  [afonsopacifer.com](http://afonsopacifer.com/)
 
-##Grunt Plugins list
-- contrib-watch
-- contrib-connect
-- contrib-jade
-- contrib-stylus
-- gh-pages
-- contrib-concat
-- contrib-uglify
-- html-validation
-- contrib-csslint
-- contrib-imagemin
-- newer
-- postcss
+## Run the website
 
-###Development
-####Clone this repository
+### Install all dependencies
 
-    $ git clone https://github.com/afonsopacifer/my-personal-website.git
+```sh
+$ npm install
+```
 
-####Install all dependencies
-
-    $ npm install
-
-####Start the development ambient
+### Start the development ambient
 *Starts a static server, watch the .jade/.styl for compile, minify the images, active the livereload and concat/minify all files*
 
-    $ grunt dev
+```sh
+$ grunt dev
+```
 
-####Test the code quality
-*W3C html validation and CSS Lint*
+## Tasks list
 
-*NOTE: For debug the compiled files (no compressed), use the content of the temp/ folder*
-
-    $ grunt quality
-
-####Autoprefixer the css with postcss
-*last 2 version of all and >= ie 9*
-
-    $ grunt autoprefixer
-
-####Deploy for gh-pages
-
-    $ grunt deploy
-
-####Commit alterations in the master
-
-    $ git add .
-    $ git commit -m "alterations"
-    $ git push origin master
+- Start the development ambient: `$ grunt dev`
+- W3C html validation: `$ grunt validation`
+- Lint the css: `$ grunt lint`
+- Autoprefixer the css: `$ grunt autoprefixer`
+- Deploy for gh-pages: `$ grunt deploy`
 
 ### Folders Structure
 <pre>
 .
 ├── README.md
+├── CONTRIBUTING.md
+├── LICENCE.md
 ├── Gruntfile.js
 ├── package.json
-├── licence.md
 ├── dev/
 |   ├── index.jade
+|   ├── projects.jade
+|   ├── articles.jade
+|   ├── talks.jade
 |   ├── CNAME
 |   ├── favicon.ico
+|   ├── includes/
+|   |   ├── head-requests.jade
+|   |   ├── top-bar.jade
+|   |   ├── footer.jade
+|   |   `── bottom-requests.jade
 |   `── assets/
 |       ├── img/
 |       |   `── icons/
 |       ├── styles/
-|       |   ├── vendors/
-|       |   |   `── normalize.styl
-|       |   ├── colors.styl
-|       |   ├── fonts.styl
-|       |   ├── atoms.styl
+|       |   ├── base/
+|       |   |   ├── normalize.styl
+|       |   |   `── flex-grid-framework.styl
+|       |   ├── layout/
+|       |   |   ├── top-bar.styl
+|       |   |   `── footer.styl
 |       |   `── style.styl
-|       ├── scripts/
-|       |   `── script.js
-|       `── font/
+|       `── scripts/
+|           ├── analytics.js
+|           `── script.js
 ├── prod/
-|   ├── index.html
-|   ├── CNAME
-|   ├── favicon.ico
-|   `── assets/
-|       ├── img/
-|       |   `── icons/
-|       ├── styles/
-|       |   `── style.min.css
-|       ├── scripts/
-|       |   `── script.js
-|       `── font/
 ├── temp/
 `── .gitignore
 </pre>
 
-### Licence
-[MIT Licence](licence.md) © Afonso Pacifer
+## Contributing
+
+Want to contribute? [Follow these recommendations](https://github.com/afonsopacifer/my-personal-website/blob/master/CONTRIBUTING.md).
+
+## Licence
+
+[MIT Licence]((https://github.com/afonsopacifer/my-personal-website/blob/master/LICENCE.md) © Afonso Pacifer
