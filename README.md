@@ -32,8 +32,18 @@ $ npm install
 $ grunt dev
 ```
 
+## Insert new content
+1 - Edit the data.json file and add the new content.
+
+2 - Run the grunt task for build the static pages.
+
+```sh
+$ grunt build
+```
+
 ## Tasks list
 
+- Compile, concat and minify all files: `$ grunt build`
 - Start the development ambient: `$ grunt dev`
 - W3C html validation: `$ grunt validation`
 - Lint the css: `$ grunt lint`
