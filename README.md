@@ -1,15 +1,31 @@
 # Afonso Pacifer Personal Website
 > Visit the website in  [afonsopacifer.com](http://afonsopacifer.com/)
 
+## Project Stack (nodejs)
+- **HTML template engine:** Jade
+- **CSS preprocessor:** Stylus
+- **Task runner:** Grunt
+- **CSS reset:** normalize
+- **Grid:** flex-grid-framework
+
 ## Run the website
 
-### Install all dependencies
+### 0 - Install the nodejs
+Go to [nodejs website](https://nodejs.org/).
+
+### 1 - Install the grunt-cli
+
+```sh
+$ npm install -g grunt-cli
+```
+
+### 2 - Install all dependencies
 
 ```sh
 $ npm install
 ```
 
-### Start the development ambient
+### 3 - Start the development ambient
 *Starts a static server, watch the .jade/.styl for compile, minify the images, active the livereload and concat/minify all files*
 
 ```sh
@@ -32,6 +48,7 @@ $ grunt dev
 ├── LICENCE.md
 ├── Gruntfile.js
 ├── package.json
+├── data.json
 ├── dev/
 |   ├── index.jade
 |   ├── projects.jade
@@ -69,4 +86,4 @@ Want to contribute? [Follow these recommendations](https://github.com/afonsopaci
 
 ## Licence
 
-[MIT Licence]((https://github.com/afonsopacifer/my-personal-website/blob/master/LICENCE.md) © Afonso Pacifer
+[MIT Licence](https://github.com/afonsopacifer/my-personal-website/blob/master/LICENCE.md) © Afonso Pacifer

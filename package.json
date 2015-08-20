@@ -1,6 +1,7 @@
 {
   "name": "afonsopacifer.com",
   "author": "Afonso Pacifer",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer-core": "^5.2.0",
     "grunt": "^0.4.5",
