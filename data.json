@@ -15,8 +15,32 @@
     {
       "name":"awesome-flexbox",
       "user":"afonsopacifer",
-      "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox",
+      "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox"
+    },
+    {
+      "name":"commit-wars",
+      "user":"afonsopacifer",
+      "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
+      "url":"https://github.com/afonsopacifer/commit-wars"
+    },
+    {
+      "name":"learning-css-grid-layout",
+      "user":"afonsopacifer",
+      "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
+      "url":"https://github.com/afonsopacifer/learning-css-grid-layout"
+    },
+    {
+      "name":"pumpkin",
+      "user":"afonsopacifer",
+      "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
+      "url":"https://github.com/afonsopacifer/pumpkin"
+    },
+    {
+      "name":"my-personal-website",
+      "user":"afonsopacifer",
+      "description":"My personal website.",
+      "url":"https://github.com/afonsopacifer/my-personal-website"
     }
   ],
   "articles":[
