@@ -40,27 +40,42 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// main
 		// -----------------------------------------
 		main.main
-			div.container
-				h1.heading-lv1 Projects
-				
-			// Project =
+
+			section.container
+				h1.heading-lv1 Personal
+
 			// Get and parse the projects.json file by Grunt
-			- for (var i = 0; i < projects.length; i++)
-				- var name = projects[i].name
-				- var description = projects[i].description
-				- var url = projects[i].url
-				- var user = projects[i].user
+			- for (var i = 0; i < personal_projects.length; i++)
+				- var name = personal_projects[i].name
+				- var description = personal_projects[i].description
+				- var url = personal_projects[i].url
+				- var user = personal_projects[i].user
 					a(href=url class="project")
 						h2.heading-lv2=name
 							div.star-buttom
 								div.star
 								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
 						p.paragraph=description
+
+			section.container
+				h1.heading-lv1 Core Team Member
+
+			// Get and parse the projects.json file by Grunt
+			- for (var y = 0; i < core_projects.length; y++)
+			- var name = core_projects[y].name
+			- var description = core_projects[y].description
+			- var url = core_projects[y].url
+			- var user = core_projects[y].user
+				a(href=url class="project")
+					h2.heading-lv2=name
+						div.star-buttom
+							div.star
+							iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+					p.paragraph=description
 			
 			div.container-centered
 				a(href="https://github.com/afonsopacifer?tab=repositories" class="btn") See all projects
 				
-
 		// footer
 		// -----------------------------------------
 		include ./includes/footer.jade

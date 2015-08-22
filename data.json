@@ -1,11 +1,5 @@
 {
-  "projects":[
-    {
-      "name":"write-code-every-day",
-      "user":"raphamorim",
-      "description":"A project to honor those developers who believed in the challenge.",
-      "url":"http://writecodeeveryday.io/"
-    },
+  "personal_projects":[
     {
       "name":"flex-grid-framework",
       "user":"afonsopacifer",
@@ -41,6 +35,14 @@
       "user":"afonsopacifer",
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website"
+    }
+  ],
+  "core_projects":[
+    {
+      "name":"write-code-every-day",
+      "user":"raphamorim",
+      "description":"A project to honor those developers who believed in the challenge.",
+      "url":"http://writecodeeveryday.io/"
     }
   ],
   "articles":[
