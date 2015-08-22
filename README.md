@@ -2,11 +2,11 @@
 > Visit the website in  [afonsopacifer.com](http://afonsopacifer.com/)
 
 ## Project Stack (nodejs)
-- **HTML template engine:** Jade
-- **CSS preprocessor:** Stylus
-- **Task runner:** Grunt
-- **CSS reset:** normalize
-- **Grid:** flex-grid-framework
+- **HTML template engine:** [Jade](http://jade-lang.com/)
+- **CSS preprocessor:** [Stylus](https://learnboost.github.io/stylus/)
+- **Task runner:** [Grunt](http://gruntjs.com/)
+- **CSS reset:** [normalize](https://necolas.github.io/normalize.css/)
+- **Grid:** [flex-grid-framework](https://afonsopacifer.github.io/flex-grid-framework/)
 
 ## Run the website
 
