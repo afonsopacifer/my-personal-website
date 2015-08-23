@@ -40,10 +40,16 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// main
 		// -----------------------------------------
 		main.main-about
-			div.container
+			div(class="container" itemscope itemtype="http://schema.org/Person")
 				h1.heading-about
-					img(src="assets/img/afonso-pacifer.png" srcset="assets/img/afonso-pacifer.png 1x, assets/img/afonso-pacifer@2x.png 2x" alt="Afonso Pacifer")
-				p.paragraph-about Hello, my name is <strong class="strong">Afonso pacifer</strong> and I live in Rio de Janeiro - Brazil. I am a <strong class="strong">Front-End Developer who love CSS</strong> and also am addicted to <strong class="strong">Open Source</strong>. <br>I believe that taking an <strong class="strong">open web</strong> for everyone <strong class="strong">we can change everything</strong>.
+					img(src="assets/img/afonso-pacifer.png" srcset="assets/img/afonso-pacifer.png 1x, assets/img/afonso-pacifer@2x.png 2x" itemprop="image" alt="Afonso Pacifer")
+				p.paragraph-about
+					|Hello, my name is <strong class="strong" itemprop="name">Afonso pacifer</strong> 
+					|and I live in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Rio de Janeiro - Brazil.</span></span> 
+					|I am a <strong class="strong" itemprop="jobTitle">Front-End Developer</strong> who <span itemprop="description"><strong class="strong">love CSS</strong>
+					|and also am addicted to <strong class="strong">Open Source</strong>. <br>
+					|I believe that taking an <strong class="strong">open web</strong> for everyone <strong class="strong">we can change everything</strong>.</span>
+			
 			div.social-icons-container
 				a(href="https://github.com/afonsopacifer" class="social-icon")
 					img(src="assets/img/github-icon.png" alt="Github icon")
