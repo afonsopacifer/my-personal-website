@@ -74,7 +74,9 @@
       "theme":"CSS Grid Layout: De volta para o futuro",
       "attendees":"≈ 30",
       "date":"Jul 25 2015",
-      "local":"LEO - Barra da Tijuca, Rio de Janeiro - RJ",
+      "dateschema":"2015-07-25",
+      "local":"LEO - ",
+      "address":"Barra da Tijuca, Rio de Janeiro - RJ",
       "url":"https://speakerdeck.com/afonsopacifer/css-grid-layout"
     },
     {
@@ -82,7 +84,9 @@
       "theme":"CSS Flexbox: Estruturando layouts sem gambiarras",
       "attendees":"≈ 30",
       "date":"Jul 18 2015",
-      "local":"He:labs - Glória, Rio de Janeiro - RJ",
+      "dateschema":"2015-07-18",
+      "local":"He:labs - ",
+      "address":"Glória, Rio de Janeiro - RJ",
       "url":"https://speakerdeck.com/afonsopacifer/flexbox"
     }
   ]

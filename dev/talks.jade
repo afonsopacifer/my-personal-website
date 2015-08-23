@@ -51,23 +51,28 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 				- var attendees = talks[i].attendees
 				- var date = talks[i].date
 				- var local = talks[i].local
+				- var address = talks[i].address
 				- var url = talks[i].url
-					article.talk
-						h2.heading-lv2=event
+				- var dateschema = talks[i].dateschema
+					article(class="talk" itemscope itemtype="http://schema.org/Event")
+						h2(class="heading-lv2" itemprop="name")=event
 						p.paragraph
 							b.strong Theme:
-							span=theme
+							span(itemprop="description")=theme
 							br
-							b.strong Attendees: 
+							b.strong Attendees:
 							span=attendees
 							br
-							b.strong Date: 
-							span=date
+							b.strong Date:
+							span(itemprop="startDate" content=dateschema)=date
 							br
 							b.strong Local: 
-							span=local
+							span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+								span(itemprop="name")=local
+								Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+									span(itemprop="addressLocality")=address
 							br
-							a(href=url class="btn") See Slides
+							a(href=url class="btn" itemprop="url") See Slides
 
 		// footer
 		// -----------------------------------------
