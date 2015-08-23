@@ -47,23 +47,29 @@
   ],
   "articles":[
     {
+      "img":"a-vinganca-dos-commits.jpg",
+      "alt":"A Vingança dos Commits",
       "name":"Commit Wars Episode III: A vingança dos Commits",
       "date":"Jul 31 2015",
-      "description":"",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue dolor non faucibus aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
       "url":"https://medium.com/@afonsopacifer/commit-wars-880d05f61831",
       "local":"Medium"
     },
     {
+      "img":"guerra-dos-clones.jpg",
+      "alt":"Guerra dos Clones",
       "name":"Commit Wars Episode II: Guerra dos Clones",
       "date":"Jun 30 2015",
-      "description":"",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue dolor non faucibus aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
       "url":"https://medium.com/@afonsopacifer/commit-wars-a6cd5372b46",
       "local":"Medium"
     },
     {
+      "img":"a-ameaca-fantasma.jpg",
+      "alt":"A Ameaça Fantasma",
       "name":"Commit Wars Episode I: A Ameaça Fantasma",
       "date":"May 31 2015",
-      "description":"",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue dolor non faucibus aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
       "url":"https://medium.com/@afonsopacifer/commit-wars-5c51ddd837cd",
       "local":"Medium"
     }

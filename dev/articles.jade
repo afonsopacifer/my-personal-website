@@ -46,19 +46,22 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 			// Articles
 			// Get and parse the projects.json file by Grunt	
 			- for (var i = 0; i < articles.length; i++)
+				- var img = articles[i].img
+				- var alt = articles[i].alt
 				- var name = articles[i].name
 				- var description = articles[i].description
 				- var url = articles[i].url
 				- var date = articles[i].date
 				- var local = articles[i].local
-					article.article 
-						h2.heading-lv2=name
-						p.paragraph 
-							b.strong Published: 
-							span=date
-						p.paragraph=description
+					article(class="article" itemscope itemtype="http://schema.org/Article")
+						img(src="assets/img/"+img alt=alt itemprop="image")
+						h2(class="heading-lv2" itemprop="headline")=name
 						p.paragraph
-							a(href=url class="btn") Read on 
+							b.strong Published: 
+							span(itemprop="datePublished")=date
+						p(class="paragraph")=description
+						p.paragraph
+							a(href=url class="btn" itemprop="url") Read on 
 								span=local
 
 					
