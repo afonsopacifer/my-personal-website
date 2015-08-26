@@ -74,6 +74,16 @@
       "local":"Medium"
     }
   ],
+  "talks_next":[
+    {
+      "event":"Semana acadêmica UFRRJ",
+      "theme":"Front-End no Mundo Real",
+      "date":"Out 22 2015",
+      "dateschema":"2015-10-22",
+      "local":"UFRJ - ",
+      "address":"Rio de Janeiro - RJ"
+    }
+  ],
   "talks":[
     {
       "event":"BarraJS",

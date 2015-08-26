@@ -40,20 +40,47 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// main
 		// -----------------------------------------
 		main.main
-			div.container
-				h1.heading-lv1 Talks
+			section.container
+				h1.heading-lv1 Coming next
 				
 			// Articles
 			// Get and parse the projects.json file by Grunt	
-			- for (var i = 0; i < talks.length; i++)
-				- var event = talks[i].event
-				- var theme = talks[i].theme
-				- var attendees = talks[i].attendees
-				- var date = talks[i].date
-				- var local = talks[i].local
-				- var address = talks[i].address
-				- var url = talks[i].url
-				- var dateschema = talks[i].dateschema
+			- for (var i = 0; i < talks_next.length; i++)
+				- var event = talks_next[i].event
+				- var theme = talks_next[i].theme
+				- var date = talks_next[i].date
+				- var local = talks_next[i].local
+				- var address = talks_next[i].address
+				- var dateschema = talks_next[i].dateschema
+					article(class="talk" itemscope itemtype="http://schema.org/Event")
+						h2(class="heading-lv2" itemprop="name")=event
+						p.paragraph
+							b.strong Theme: 
+							span(itemprop="description")=theme
+							br
+							b.strong Date: 
+							span(itemprop="startDate" content=dateschema)=date
+							br
+							b.strong Local: 
+							span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+								span(itemprop="name")=local
+								Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+									span(itemprop="addressLocality")=address
+
+			section.container
+				h1.heading-lv1 Talks presented
+				
+			// Articles
+			// Get and parse the projects.json file by Grunt	
+			- for (var y = 0; y < talks.length; y++)
+				- var event = talks[y].event
+				- var theme = talks[y].theme
+				- var attendees = talks[y].attendees
+				- var date = talks[y].date
+				- var local = talks[y].local
+				- var address = talks[y].address
+				- var url = talks[y].url
+				- var dateschema = talks[y].dateschema
 					article(class="talk" itemscope itemtype="http://schema.org/Event")
 						h2(class="heading-lv2" itemprop="name")=event
 						p.paragraph
