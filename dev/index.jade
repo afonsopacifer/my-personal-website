@@ -45,29 +45,47 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 					img(src="assets/img/afonso-pacifer.png" srcset="assets/img/afonso-pacifer.png 1x, assets/img/afonso-pacifer@2x.png 2x" itemprop="image" alt="Afonso Pacifer")
 				p.paragraph-about
 					|Hello, my name is <strong class="strong" itemprop="name">Afonso Pacifer</strong> 
-					|and I live in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Rio de Janeiro - Brazil.</span></span><br> 
+					|and I live in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Rio de Janeiro - Brazil.</span></span>
+					br 
 					|I am a <strong class="strong" itemprop="jobTitle">Front-End Developer</strong> <span itemprop="description"><strong class="strong">Passionate for CSS</strong>
-					|am addicted to <strong class="strong">Open Source</strong>. <br>
+					|am addicted to <strong class="strong">Open Source</strong>.
+					br
 					|I believe that taking an <strong class="strong">open web</strong> for everyone <strong class="strong">we can change everything</strong>.</span>
 			
 			div.social-icons-container
+
+				//github icon
 				a(href="https://github.com/afonsopacifer" class="social-icon")
-					img(src="assets/img/github-icon.png" alt="Github icon")
+					include ./includes/icons/github-icon.jade
+
+				//facebook icon
 				a(href="https://www.facebook.com/afonso.pacifer" class="social-icon")
-					img(src="assets/img/facebook-icon.png" alt="Facebook icon")
+					include ./includes/icons/facebook-icon.jade
+
+				//twitter icon
 				a(href="https://twitter.com/afonsopacifer" class="social-icon")
-					img(src="assets/img/twitter-icon.png" alt="Twitter icon")
+					include ./includes/icons/twitter-icon.jade
+
+				//google plus icon
 				a(href="https://plus.google.com/+AfonsoPacifer/" class="social-icon")
-					img(src="assets/img/google-plus-icon.png" alt="Google Plus icon")
+					include ./includes/icons/google-plus-icon.jade
+
+				//linkedin icon
 				a(href="https://br.linkedin.com/in/afonsopacifer" class="social-icon")
-					img(src="assets/img/linkedin-icon.png" alt="Linkedin icon")
+					include ./includes/icons/linkedin-icon.jade
+
+				//medium icon
 				a(href="https://medium.com/@afonsopacifer" class="social-icon")
-					img(src="assets/img/medium-icon.png" alt="Medium icon")
+					include ./includes/icons/medium-icon.jade
+
+				//codepen icon
 				a(href="http://codepen.io/afonsopacifer/" class="social-icon")
-					img(src="assets/img/codepen-icon.png" alt="Codepen icon")
+					include ./includes/icons/codepen-icon.jade
+
+				//stackOverflow icon
 				a(href="http://pt.stackoverflow.com/users/21079/afonso-pacifer" class="social-icon")
-					img(src="assets/img/stackoverflow-icon.png" alt="StackOverflow icon")
-					
+					include ./includes/icons/stackOverflow-icon.jade
+
 		// footer
 		// -----------------------------------------
 		include ./includes/footer.jade
