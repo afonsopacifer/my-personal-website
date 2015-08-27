@@ -7,8 +7,8 @@
 
 // colors
 // -----------------------------------------
-highlight = #008393 // #45022c
-dark-highlight = #005e6a
+highlight = #532b74 // #008393 // #45022c
+dark-highlight = #381158
 complementary = #eeeeee
 font-color-dafault = #515151
 
@@ -23,11 +23,15 @@ html,body
 	height 100%
 
 body
-	background-color complementary
 	font-family 'Roboto', sans-serif
 	font-weight 300
 	color font-color-dafault
 	height 100%
+	background url('../img/bg.jpg')
+	background-repeat no-repeat
+	background-attachment fixed
+	background-position center
+	background-size 100%
 
 // Dev view mode
 // -----------------------------------------
@@ -54,6 +58,7 @@ body
 	font-weight 300
 	padding-left 15px
 	text-align center
+	color #fff
 
 @media screen and (max-width 520px)
 	.heading-lv1
@@ -88,6 +93,10 @@ body
 	text-decoration none
 	-webkit-transition box-shadow .3s
 	transition box-shadow .3s
+	position relative
+
+.project h2
+	padding-right 90px
 
 .project:hover
 	-webkit-box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
@@ -102,16 +111,17 @@ body
 @media screen and (max-width 560px)
 	.project
 		col(12)
+		margin 5px 10px
 
 //star buttom
 .star-buttom
-		float right
-		position relative
+	position absolute
+	right 0
+	top 10px
 
 .star-count
 	width 100px
 	height 20px
-	background #fff
 
 .star
 	width 51.5px
@@ -128,11 +138,10 @@ body
 .article
 	col(6)
 	offset(3)
-	padding 10px 0
-	border-bottom 1px dashed font-color-dafault
-
-.article:last-child
-	border-bottom 0
+	padding 10px
+	background #fff
+	margin-top 10px
+	margin-bottom 10px
 
 @media screen and (max-width 950px)
 	.article
@@ -148,37 +157,11 @@ body
 	.article
 		col(12)
 		offset()
-		padding 0 10px
+		margin 5px 10px
 
 .article img
 	width 100%
-	margin 10px 0
-
-//talk
-.talk
-	col(4)
-	offset(4)
-	padding 10px 0
-	border-bottom 1px dashed font-color-dafault
-
-.talk:last-child
-	border-bottom 0
-
-@media screen and (max-width 1000px)
-	.talk
-		col(6)
-		offset(3)
-
-@media screen and (max-width 690px)
-	.talk
-		col(10)
-		offset(1)
-
-@media screen and (max-width 450px)
-	.talk
-		col(12)
-		offset()
-		padding 0 10px
+	margin-bottom 10px
 
 //btn
 .btn
@@ -215,10 +198,20 @@ body
 	col(12)
 	text-align center
 	margin 10px 0
+	height 60px
 
 .social-icon
-	padding 5px 7px
+	margin 0 5px
 	display inline-block
+	background highlight
+	border-radius 50%
+	transition padding .3s, background .3s, transform .6s
+	padding 8px 11px
+
+.social-icon:hover
+	background dark-highlight
+	padding 12px 15px
+	transform rotate(360deg)
 
 @media screen and (max-width 600px)
 	.social-icons-container
@@ -240,9 +233,7 @@ body
 
 // headings
 .heading-about
-	font-size 64px
 	margin 40px 0
-	font-weight 400
 	text-align center
 
 @media screen and (max-width 480px)
@@ -254,6 +245,11 @@ body
 	text-align center
 	font-size 24px
 	padding 0 130px
+	color #e7e7e7
+
+.paragraph-about .strong
+	color #fff
+	font-weight 400
 
 @media screen and (max-width 800px)
 	.paragraph-about

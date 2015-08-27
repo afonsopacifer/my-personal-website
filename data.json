@@ -76,12 +76,12 @@
   ],
   "talks_next":[
     {
-      "event":"Semana acadêmica UFRRJ",
+      "event":"Semana Acadêmica UFRRJ",
       "theme":"Front-End no Mundo Real",
       "date":"Out 22 2015",
       "dateschema":"2015-10-22",
-      "local":"UFRJ - ",
-      "address":"Rio de Janeiro - RJ"
+      "local":"UFRRJ - ",
+      "address":"Nova Iguaçu - RJ" 
     }
   ],
   "talks":[
