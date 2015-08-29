@@ -73,7 +73,7 @@ $ grunt build
 |   |   `── bottom-requests.jade
 |   `── assets/
 |       ├── img/
-|       |   `── icons/
+|       |   `── favicons/
 |       ├── styles/
 |       |   ├── base/
 |       |   |   ├── normalize.styl
