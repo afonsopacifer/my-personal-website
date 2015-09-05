@@ -1,5 +1,5 @@
 doctype html
-html(lang="en" prefix="og: http://ogp.me/ns#")
+html(lang="en" prefix="og: http://ogp.me/ns#") 
 
 	// head
 	// -----------------------------------------
@@ -61,17 +61,17 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 				h1.heading-lv1 Core Team Member
 
 			// Get and parse the projects.json file by Grunt
-			- for (var y = 0; i < core_projects.length; y++)
-			- var name = core_projects[y].name
-			- var description = core_projects[y].description
-			- var url = core_projects[y].url
-			- var user = core_projects[y].user
-				a(href=url class="project" itemscope itemtype="http://schema.org/CreativeWork")
-					h2(class="heading-lv2" itemprop="name")=name
-						div.star-buttom
-							div.star
-							iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
-					p(class="paragraph" itemprop="description")=description
+			- for (var x = 0; x < core_projects.length; x++)
+				- var name = core_projects[x].name
+				- var description = core_projects[x].description
+				- var url = core_projects[x].url
+				- var user = core_projects[x].user
+					a(href=url class="project" itemscope itemtype="http://schema.org/CreativeWork")
+						h2(class="heading-lv2" itemprop="name")=name
+							div.star-buttom
+								div.star
+								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+						p(class="paragraph" itemprop="description")=description
 			
 			div.container-centered
 				a(href="https://github.com/afonsopacifer?tab=repositories" class="btn") See all projects
