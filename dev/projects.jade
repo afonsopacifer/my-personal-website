@@ -45,11 +45,11 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 				h1.heading-lv1 Personal Projects
 
 			// Get and parse the projects.json file by Grunt
-			- for (var i = 0; i < personal_projects.length; i++)
-				- var name = personal_projects[i].name
-				- var description = personal_projects[i].description
-				- var url = personal_projects[i].url
-				- var user = personal_projects[i].user
+			- for personal_project in personal_projects
+				- var name = personal_project.name
+				- var description = personal_project.description
+				- var url = personal_project.url
+				- var user = personal_project.user
 					a(href=url class="project" itemscope itemtype="http://schema.org/CreativeWork")
 						h2(class="heading-lv2" itemprop="name")=name
 							div.star-buttom
@@ -61,11 +61,11 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 				h1.heading-lv1 Core Team Member
 
 			// Get and parse the projects.json file by Grunt
-			- for (var x = 0; x < core_projects.length; x++)
-				- var name = core_projects[x].name
-				- var description = core_projects[x].description
-				- var url = core_projects[x].url
-				- var user = core_projects[x].user
+			- for core_project in core_projects
+				- var name = core_project.name
+				- var description = core_project.description
+				- var url = core_project.url
+				- var user = core_project.user
 					a(href=url class="project" itemscope itemtype="http://schema.org/CreativeWork")
 						h2(class="heading-lv2" itemprop="name")=name
 							div.star-buttom
