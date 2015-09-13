@@ -45,14 +45,14 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		
 			// Articles
 			// Get and parse the projects.json file by Grunt	
-			- for (var i = 0; i < articles.length; i++)
-				- var img = articles[i].img
-				- var alt = articles[i].alt
-				- var name = articles[i].name
-				- var description = articles[i].description
-				- var url = articles[i].url
-				- var date = articles[i].date
-				- var local = articles[i].local
+			- for article in articles
+				- var img = article.img
+				- var alt = article.alt
+				- var name = article.name
+				- var description = article.description
+				- var url = article.url
+				- var date = article.date
+				- var local = article.local
 					article(class="article" itemscope itemtype="http://schema.org/Article")
 						img(src="assets/img/articles-covers/"+img alt=alt itemprop="image")
 						h2(class="heading-lv2" itemprop="headline")=name
