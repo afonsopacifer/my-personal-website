@@ -75,7 +75,6 @@
       "alt":"A Ameaça Fantasma",
       "name":"Commit Wars Episode I: A Ameaça Fantasma",
       "date":"May 31 2015",
-      "description":"Assim que postei o último artigo, o Raphael Amorim me parabenizou pelo repositório commit-wars, e me confessou que já tinha pensando em fazer algo do gênero, porém, um pouco diferente e bem mais completo, etc...",
       "description":"Tudo começou no último Meetup RioJS de 2014, quando o @raphamorim deu uma talk intitulada Confissões de um contribuidor, basicamente ele apresentou os benefícios de aderir ao movimento Write Code Every Day, etc...",
       "local":"Medium"
     }
@@ -110,6 +109,15 @@
       "local":"He:labs - ",
       "address":"Glória, Rio de Janeiro - RJ",
       "url":"https://speakerdeck.com/afonsopacifer/flexbox"
+    }
+  ],
+  "demos":[
+    {
+      "name":"",
+      "project":"",
+      "version":"",
+      "url":"",
+      "description":""
     }
   ]
 
