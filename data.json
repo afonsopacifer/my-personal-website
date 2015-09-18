@@ -113,10 +113,10 @@
   ],
   "demos":[
     {
-      "name":"",
-      "project":"",
-      "version":"",
-      "url":"",
+      "name":"microscope",
+      "project":"microscope",
+      "version":"0.1.0",
+      "url":"https://afonsopacifer.com.br/demos/microscope/",
       "description":""
     }
   ]
