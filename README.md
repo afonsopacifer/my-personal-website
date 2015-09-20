@@ -8,7 +8,7 @@
 - **CSS reset:** [normalize](https://necolas.github.io/normalize.css/)
 - **Grid:** [flex-grid-framework](https://afonsopacifer.github.io/flex-grid-framework/)
 
-## Run the website
+## Run the website locally
 
 ### 0 - Install the nodejs
 Go to [nodejs website](https://nodejs.org/).
@@ -32,6 +32,14 @@ $ npm install
 $ grunt dev
 ```
 
+## Contents
+- [About](http://afonsopacifer.com/index.html) - About me :)
+- [Projects](http://afonsopacifer.com/projects.html) - The list of open source projects developed.
+- [Articles](http://afonsopacifer.com/articles.html) - The list of articles written.
+- [Talks](http://afonsopacifer.com/talks.html) - The list of talks presented.
+- [Demos](http://afonsopacifer.com/demos.html) - Demonstrations using some frameworks or tools.
+- [Fun with CSS](http://afonsopacifer.com/fun-with-css.html) - Generally useless experiments , however great fun and generate great learning.
+
 ## Insert new content
 1 - Edit the data.json file and add the new content.
 
@@ -49,46 +57,6 @@ $ grunt build
 - Lint the css: `$ grunt lint`
 - Autoprefixer the css: `$ grunt autoprefixer`
 - Deploy for gh-pages: `$ grunt deploy`
-
-### Folders Structure
-<pre>
-.
-├── README.md
-├── CONTRIBUTING.md
-├── LICENCE.md
-├── Gruntfile.js
-├── package.json
-├── data.json
-├── dev/
-|   ├── index.jade
-|   ├── projects.jade
-|   ├── articles.jade
-|   ├── talks.jade
-|   ├── CNAME
-|   ├── favicon.ico
-|   ├── includes/
-|   |   ├── head-requests.jade
-|   |   ├── top-bar.jade
-|   |   ├── footer.jade
-|   |   `── bottom-requests.jade
-|   `── assets/
-|       ├── img/
-|       |   `── favicons/
-|       ├── styles/
-|       |   ├── base/
-|       |   |   ├── normalize.styl
-|       |   |   `── flex-grid-framework.styl
-|       |   ├── layout/
-|       |   |   ├── top-bar.styl
-|       |   |   `── footer.styl
-|       |   `── style.styl
-|       `── scripts/
-|           ├── analytics.js
-|           `── script.js
-├── prod/
-├── temp/
-`── .gitignore
-</pre>
 
 ## Contributing
 
