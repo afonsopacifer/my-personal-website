@@ -1,0 +1,72 @@
+doctype html
+html(lang="en" prefix="og: http://ogp.me/ns#")
+
+	// head
+	// -----------------------------------------
+	head
+		// head requests
+		include ./includes/head-requests.jade
+		
+		//Page infos
+		-var title = "Generally useless experiments , however great fun and generate great learning. by Afonso Pacifer"
+		-var description = "Generally useless experiments , however great fun and generate great learning.by Alfonso Pacifer"
+		
+		// SEO
+		meta(name="keywords" content="Afonso Pacifer, Fun, CSS, CSS3, experiments")
+		meta(name="description" content=description)
+		meta(name="robots" content="index,follow")
+		title= title
+
+		// Open Graph
+		meta(property="og:type" content="website")
+		meta(property="og:title" content= title)
+		meta(property="og:description" content=description)
+		meta(property="og:url" content="http://afonsopacifer.com/fun-with-css.html")
+		meta(property="og:image" content="http://afonsopacifer.com/assets/img/afonso-pacifer.png")
+
+		// Twitter Cards
+		meta(name="twitter:card" content="summary_large_image")
+		meta(name="twitter:title" content= title)
+		meta(name="twitter:description" content=description)
+		meta(name="twitter:url" content="http://afonsopacifer.com/fun-with-css.html")
+		meta(name="twitter:image" content="http://afonsopacifer.com/assets/img/afonso-pacifer.png")
+		
+	body
+
+		// top bar
+		// -----------------------------------------
+		include ./includes/top-bar.jade
+					
+		// main
+		// -----------------------------------------
+		main.main
+			section.container
+				h1.heading-lv1 Fun with CSS :)
+				
+			//- Only Fun :)
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="LpEPpr" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="yyjqGB" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="YPEmoN" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="RNJwOQ" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="xbzxLw" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="KwewKP" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="VLvVvb" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+			div.codepen-box 
+				p(data-height="356" data-theme-id="15974" data-slug-hash="WbdjBq" data-default-tab="result" data-user="afonsopacifer" class='codepen')
+
+		script(async src="//assets.codepen.io/assets/embed/ei.js")
+
+		// footer
+		// -----------------------------------------
+		include ./includes/footer.jade
+			
+		// bottom requests
+		// -----------------------------------------
+		include ./includes/bottom-requests.jade

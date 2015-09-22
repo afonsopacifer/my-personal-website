@@ -35,6 +35,12 @@
       "user":"afonsopacifer",
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website"
+    },
+    {
+      "name":"css-grid-layout-manual",
+      "user":"afonsopacifer",
+      "description":"Uma referência em pt-br sobre o CSS3 Grid Layout Module.",
+      "url":"https://github.com/afonsopacifer/css-grid-layout-manual"
     }
   ],
   "core_projects":[

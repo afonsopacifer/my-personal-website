@@ -52,7 +52,8 @@ module.exports = function( grunt ) {
           "prod/projects.html": ["dev/projects.jade"],
           "prod/articles.html": ["dev/articles.jade"],
           "prod/talks.html": ["dev/talks.jade"],
-          "prod/demos.html": ["dev/demos.jade"]
+          "prod/demos.html": ["dev/demos.jade"],
+          "prod/fun-with-css.html": ["dev/fun-with-css.jade"]
 				},
         options: {
             data: grunt.file.readJSON("data.json")
