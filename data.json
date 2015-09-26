@@ -93,6 +93,14 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ"
+    },
+    {
+      "event":"XV FEUCTEC",
+      "theme":"Front-End no Mundo Real",
+      "date":"Out ?? 2015",
+      "dateschema":"2015-10-??",
+      "local":"FEUC - ",
+      "address":"Rio de Janeiro - RJ"
     }
   ],
   "talks":[
