@@ -87,6 +87,14 @@
   ],
   "talks_next":[
     {
+      "event":"FEMUG RJ",
+      "theme":"?????",
+      "date":"Out 10 2015",
+      "dateschema":"2015-10-10",
+      "local":"Web Radar - ",
+      "address":"Rio de Janeiro - RJ"
+    },
+    {
       "event":"Semana Acadêmica UFRRJ",
       "theme":"Front-End no Mundo Real",
       "date":"Out 22 2015",
