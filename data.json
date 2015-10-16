@@ -3,7 +3,7 @@
     {
       "name":"flex-grid-framework",
       "user":"afonsopacifer",
-      "description":"A grid based in Flexbox and Stylus",
+      "description":"A grid based in Flexbox and Stylus.",
       "url":"https://afonsopacifer.github.io/flex-grid-framework/"
     },
     {
@@ -31,16 +31,22 @@
       "url":"https://github.com/afonsopacifer/pumpkin"
     },
     {
+      "name":"post-apocalypse-flexbox",
+      "user":"afonsopacifer",
+      "description":"List of tricks to help implement the flexbox features in a world where it does not exist.",
+      "url":"https://github.com/afonsopacifer/post-apocalypse-flexbox"
+    },
+    {
+      "name":"the-collection",
+      "user":"afonsopacifer",
+      "description":"My private projects made ​​on agencies :)",
+      "url":"http://afonsopacifer.github.io/the-collection/"
+    },
+    {
       "name":"my-personal-website",
       "user":"afonsopacifer",
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website"
-    },
-    {
-      "name":"css-grid-layout-manual",
-      "user":"afonsopacifer",
-      "description":"Uma referência em pt-br sobre o CSS3 Grid Layout Module.",
-      "url":"https://github.com/afonsopacifer/css-grid-layout-manual"
     }
   ],
   "core_projects":[
