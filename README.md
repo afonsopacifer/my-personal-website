@@ -24,12 +24,12 @@ $ grunt build
 
 ## Tasks list
 
-- Compile, concat and minify all files: `$ grunt build`
-- Start the development ambient: `$ grunt serve`
-- W3C html validation: `$ grunt validation`
-- Lint the css: `$ grunt lint`
-- Autoprefixer the css: `$ grunt autoprefixer`
-- Deploy for gh-pages: `$ grunt deploy`
+- `$ grunt build`: Compile, concat and minify all files
+- `$ grunt serve`: Start the development ambient
+- `$ grunt validation`: W3C html validation
+- `$ grunt lint`: Lint the css
+- `$ grunt autoprefixer`: Autoprefixer the css
+- `$ grunt deploy`: Deploy for gh-pages
 
 ## Contributing
 
