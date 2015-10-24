@@ -93,22 +93,6 @@
   ],
   "talks_next":[
     {
-      "event":"Semana Acadêmica UFRRJ",
-      "theme":"Front-End no Mundo Real",
-      "date":"Out 22 2015",
-      "dateschema":"2015-10-22",
-      "local":"UFRRJ - ",
-      "address":"Nova Iguaçu - RJ"
-    },
-    {
-      "event":"Semana Acadêmica UFRRJ",
-      "theme":"Software Livre: Preto no Branco",
-      "date":"Out 22 2015",
-      "dateschema":"2015-10-22",
-      "local":"UFRRJ - ",
-      "address":"Nova Iguaçu - RJ"
-    },
-    {
       "event":"XV FEUCTEC",
       "theme":"Front-End no Mundo Real",
       "date":"Out 28 2015",
@@ -118,6 +102,26 @@
     }
   ],
   "talks":[
+    {
+      "event":"Semana Acadêmica UFRRJ",
+      "theme":"Software Livre: Preto no Branco",
+      "attendees":"≈ 50",
+      "date":"Out 22 2015",
+      "dateschema":"2015-10-22",
+      "local":"UFRRJ - ",
+      "address":"Nova Iguaçu - RJ",
+      "url":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco"
+    },
+    {
+      "event":"Semana Acadêmica UFRRJ",
+      "theme":"Front-End no Mundo Real",
+      "attendees":"≈ 50",
+      "date":"Out 22 2015",
+      "dateschema":"2015-10-22",
+      "local":"UFRRJ - ",
+      "address":"Nova Iguaçu - RJ",
+      "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+    },
     {
       "event":"FEMUG RJ",
       "theme":"CSS Variables",
