@@ -13,6 +13,12 @@
       "url":"https://github.com/afonsopacifer/awesome-flexbox"
     },
     {
+      "name":"microscope",
+      "user":"afonsopacifer",
+      "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
+      "url":"https://github.com/afonsopacifer/microscope"
+    },
+    {
       "name":"commit-wars",
       "user":"afonsopacifer",
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
@@ -105,7 +111,7 @@
     {
       "event":"Semana Acadêmica UFRRJ",
       "theme":"Software Livre: Preto no Branco",
-      "attendees":"≈ 50",
+      "attendees":"≈ 40",
       "date":"Out 22 2015",
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
@@ -115,7 +121,7 @@
     {
       "event":"Semana Acadêmica UFRRJ",
       "theme":"Front-End no Mundo Real",
-      "attendees":"≈ 50",
+      "attendees":"≈ 40",
       "date":"Out 22 2015",
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
