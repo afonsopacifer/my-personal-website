@@ -98,16 +98,18 @@
     }
   ],
   "talks_next":[
+  ],
+  "talks":[
     {
       "event":"XV FEUCTEC",
       "theme":"Front-End no Mundo Real",
+      "attendees":"≈ 45",
       "date":"Out 28 2015",
       "dateschema":"2015-10-28",
       "local":"FEUC - ",
-      "address":"Rio de Janeiro - RJ"
-    }
-  ],
-  "talks":[
+      "address":"Campo Grande, Rio de Janeiro - RJ",
+      "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+    },
     {
       "event":"Semana Acadêmica UFRRJ",
       "theme":"Software Livre: Preto no Branco",

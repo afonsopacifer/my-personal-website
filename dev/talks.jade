@@ -41,9 +41,9 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// -----------------------------------------
 		main.main
 			section.container
-				h1.heading-lv1 Coming next
+				//- h1.heading-lv1 Coming next
 				
-			// Articles
+			// Talks Coming next
 			// Get and parse the projects.json file by Grunt	
 			- for talks_nex in talks_next
 				- var event = talks_nex.event
@@ -70,7 +70,7 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 			section.container
 				h1.heading-lv1 Talks presented
 				
-			// Articles
+			// Talks presented
 			// Get and parse the projects.json file by Grunt	
 			- for talk in talks
 				- var event = talk.event
