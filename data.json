@@ -98,6 +98,14 @@
     }
   ],
   "talks_next":[
+    {
+      "event":"Semana Acadêmica UFF",
+      "theme":"Software Livre: Eu escolho você!",
+      "date":"Nov 26 2015",
+      "dateschema":"2015-11-26",
+      "local":"UFF - ",
+      "address":"Niterói - RJ"
+    }
   ],
   "talks":[
     {
@@ -131,7 +139,7 @@
       "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
     },
     {
-      "event":"FEMUG RJ",
+      "event":"#1 FEMUG RJ",
       "theme":"CSS Variables",
       "attendees":"≈ 20",
       "date":"Out 17 2015",
@@ -141,7 +149,7 @@
       "url":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk"
     },
     {
-      "event":"BarraJS",
+      "event":"#3 BarraJS",
       "theme":"CSS Grid Layout: De volta para o futuro",
       "attendees":"≈ 30",
       "date":"Jul 25 2015",
@@ -151,7 +159,7 @@
       "url":"https://speakerdeck.com/afonsopacifer/css-grid-layout"
     },
     {
-      "event":"RioJS",
+      "event":"#15 RioJS",
       "theme":"CSS Flexbox: Estruturando layouts sem gambiarras",
       "attendees":"≈ 30",
       "date":"Jul 18 2015",
