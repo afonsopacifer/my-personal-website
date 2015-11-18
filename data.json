@@ -1,16 +1,16 @@
 {
   "personal_projects":[
     {
-      "name":"flex-grid-framework",
-      "user":"afonsopacifer",
-      "description":"A grid based in Flexbox and Stylus.",
-      "url":"https://afonsopacifer.github.io/flex-grid-framework/"
-    },
-    {
       "name":"awesome-flexbox",
       "user":"afonsopacifer",
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox"
+    },
+    {
+      "name":"flex-grid-framework",
+      "user":"afonsopacifer",
+      "description":"A grid based in Flexbox and Stylus.",
+      "url":"https://afonsopacifer.github.io/flex-grid-framework/"
     },
     {
       "name":"microscope",
@@ -53,6 +53,12 @@
       "user":"afonsopacifer",
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website"
+    },
+    {
+      "name":"pacificator",
+      "user":"afonsopacifer",
+      "description":"Adds a standard syntax and indentation to css.",
+      "url":"https://github.com/afonsopacifer/pacificator"
     }
   ],
   "core_projects":[
@@ -70,6 +76,15 @@
     }
   ],
   "articles":[
+    {
+      "img":"variaveis-css.jpg",
+      "alt":"Como utilizar o conceito de variáveis nativas do CSS3.",
+      "name":"Como usar variáveis no CSS de forma nativa",
+      "date":"nov 17 2015",
+      "description":"Olá pessoal, neste artigo irei abordar o básico sobre variáveis nativas com CSS, e como você pode usar essa tecnologia hoje e sem medo de ser feliz.",
+      "url":"http://tableless.com.br/como-usar-variaveis-no-css-de-forma-nativa/",
+      "local":"Tableless"
+    },
     {
       "img":"a-vinganca-dos-commits.jpg",
       "alt":"A Vingança dos Commits",
