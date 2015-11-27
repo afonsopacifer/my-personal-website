@@ -112,17 +112,20 @@
       "local":"Medium"
     }
   ],
-  "talks_next":[
-    {
+
+  "talks_next":[],
+
+  "talks":[
+     {
       "event":"Semana Acadêmica UFF",
       "theme":"Software Livre: Eu escolho você!",
+      "attendees":"≈ 20",
       "date":"Nov 26 2015",
       "dateschema":"2015-11-26",
       "local":"UFF - ",
-      "address":"Niterói - RJ"
-    }
-  ],
-  "talks":[
+      "address":"Niterói - RJ",
+      "url":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce"
+    },
     {
       "event":"XV FEUCTEC",
       "theme":"Front-End no Mundo Real",
