@@ -59,6 +59,12 @@
       "user":"afonsopacifer",
       "description":"Adds a standard syntax and indentation to css.",
       "url":"https://github.com/afonsopacifer/pacificator"
+    },
+    {
+      "name":"afonsoconfigs",
+      "user":"afonsopacifer",
+      "description":"My packages, configs, dotfiles, plugins, etc...",
+      "url":"https://github.com/afonsopacifer/afonsoconfigsr"
     }
   ],
   "core_projects":[
