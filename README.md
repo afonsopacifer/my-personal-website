@@ -9,7 +9,6 @@
 - [Projects](http://afonsopacifer.com/projects.html) - The list of open source projects developed.
 - [Articles](http://afonsopacifer.com/articles.html) - The list of articles written.
 - [Talks](http://afonsopacifer.com/talks.html) - The list of talks presented.
-- [Demos](http://afonsopacifer.com/demos.html) - Demonstrations using some frameworks or tools.
 - [Fun with CSS](http://afonsopacifer.com/fun-with-css.html) - Generally useless experiments , however great fun and generate great learning.
 
 ## Insert a new content
