@@ -1,0 +1,35 @@
+// social
+.social-icons-container
+	col(12)
+	text-align center
+	margin 10px 0
+	height 60px
+
+.social-icon
+	margin 5px
+	display inline-block
+	background highlight
+	border-radius 50%
+	transition padding .3s, background .3s, transform .6s
+	padding 8px 11px
+
+.social-icon:hover
+	background dark-highlight
+	padding 12px 15px
+	transform rotate(360deg)
+
+@media screen and (max-width 600px)
+	.social-icons-container
+		padding 0 20%
+
+
+@media screen and (max-width 390px)
+	.social-icons-container
+		padding 0 10px
+
+@media screen and (max-width 300px)
+	.social-icons-container
+		padding 0 20%
+
+	.social-icon
+		width 50%

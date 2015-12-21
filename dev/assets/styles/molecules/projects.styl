@@ -1,0 +1,50 @@
+//project
+.project
+	col(4)
+	background-color #fff
+	padding 10px
+	margin-top 5px
+	margin-bottom 5px
+	text-decoration none
+	-webkit-transition box-shadow .3s
+	transition box-shadow .3s
+	position relative
+
+.project h2
+	padding-right 90px
+
+.project:hover
+	-webkit-box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
+	-moz-box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
+	box-shadow 0px 0px 14px 0px rgba(50, 50, 50, 0.6)
+	cursor pointer
+
+@media screen and (max-width 850px)
+	.project
+		col(6)
+
+@media screen and (max-width 560px)
+	.project
+		col(12)
+		margin 5px 10px
+
+//star buttom
+.star-buttom
+	position absolute
+	right 0
+	top 10px
+
+.star-count
+	width 100px
+	height 20px
+
+.star
+	width 51.5px
+	height 28px
+	position absolute
+	top 0
+	left 0
+	background-color #fff
+	background-image url('../img/star.png')
+	background-repeat no-repeat
+	background-position 28px 0px
