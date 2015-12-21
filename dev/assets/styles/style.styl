@@ -1,28 +1,51 @@
 @charset "UTF-8"
 
+// global
+// -----------------------------------------
+html,body
+	height 100%
+
+body
+	height 100%
+	background url('../img/bg.jpg')
+	background-repeat no-repeat
+	background-attachment fixed
+	background-position center
+	background-size 100% 100%
+
 // vendors
 // -----------------------------------------
 @import "vendors/normalize"
 @import "vendors/flex-grid-framework"
 
-// bósons (global)
+// bósons
 // -----------------------------------------
 @import "bosons/colors.styl"
 @import "bosons/fonts.styl"
-@import "bosons/mixins.styl"
+// @import "bosons/mixins.styl"
 
 // Atoms
+// -----------------------------------------
 @import "atoms/btn"
-@import "atoms/texts"
+@import "atoms/heading-lv1"
+@import "atoms/heading-lv2"
+@import "atoms/strong"
+@import "atoms/paragraph"
+@import "atoms/paragraph-about"
 
-// Molecules (components)
-@import "molecules/projects"
-@import "molecules/articles"
+// Molecules
+// -----------------------------------------
+@import "molecules/box-default" // Articles and Talks
+@import "molecules/box-projects"
 
 // Organisms (Layouts)
-@import "layouts/layouts.styl"
+// -----------------------------------------
+@import "layouts/main.styl"
+@import "layouts/main-about.styl"
+@import "layouts/containers.styl"
 
 // No repeat
+// -----------------------------------------
 @import "no-repeat/top-bar"
 @import "no-repeat/codepen-box"
 @import "no-repeat/social"

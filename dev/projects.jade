@@ -50,7 +50,7 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 				- var description = personal_project.description
 				- var url = personal_project.url
 				- var user = personal_project.user
-					a(href=url class="project" itemscope itemtype="http://schema.org/CreativeWork")
+					a(href=url class="box-project" itemscope itemtype="http://schema.org/CreativeWork")
 						h2(class="heading-lv2" itemprop="name")=name
 							div.star-buttom
 								div.star
@@ -66,7 +66,7 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 				- var description = core_project.description
 				- var url = core_project.url
 				- var user = core_project.user
-					a(href=url class="project" itemscope itemtype="http://schema.org/CreativeWork")
+					a(href=url class="box-project" itemscope itemtype="http://schema.org/CreativeWork")
 						h2(class="heading-lv2" itemprop="name")=name
 							div.star-buttom
 								div.star
