@@ -41,8 +41,8 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		// -----------------------------------------
 		main.main
 
-			section.container
-				h1.heading-lv1 Personal Projects
+			section.container-centered
+				h1.heading-lv1.projects-icon Personal Projects
 
 			// Get and parse the projects.json file by Grunt
 			- for personal_project in personal_projects
@@ -57,8 +57,8 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
 						p(class="paragraph" itemprop="description")=description
 
-			section.container
-				h1.heading-lv1 Core Team Member
+			section.container-centered
+				h1.heading-lv1.core-projects-icon Core Team Member
 
 			// Get and parse the projects.json file by Grunt
 			- for core_project in core_projects
