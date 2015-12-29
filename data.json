@@ -2,66 +2,77 @@
   "personal_projects":[
     {
       "name":"awesome-flexbox",
+      "emoji":"metal.png",
       "user":"afonsopacifer",
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox"
     },
     {
       "name":"flex-grid-framework",
+      "emoji":"star2.png",
       "user":"afonsopacifer",
       "description":"A grid based in Flexbox and Stylus.",
       "url":"https://afonsopacifer.github.io/flex-grid-framework/"
     },
     {
       "name":"microscope",
+      "emoji":"microscope.png",
       "user":"afonsopacifer",
       "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
       "url":"https://github.com/afonsopacifer/microscope"
     },
     {
       "name":"commit-wars",
+      "emoji":"octocat.png",
       "user":"afonsopacifer",
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
       "url":"https://github.com/afonsopacifer/commit-wars"
     },
     {
       "name":"learning-css-grid-layout",
+      "emoji":"blue_book.png",
       "user":"afonsopacifer",
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
       "url":"https://github.com/afonsopacifer/learning-css-grid-layout"
     },
     {
       "name":"pumpkin",
+      "emoji":"jack_o_lantern.png",
       "user":"afonsopacifer",
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
       "url":"https://github.com/afonsopacifer/pumpkin"
     },
     {
       "name":"post-apocalypse-flexbox",
+      "emoji":"skull.png",
       "user":"afonsopacifer",
       "description":"List of tricks to help implement the flexbox features in a world where it does not exist.",
       "url":"https://github.com/afonsopacifer/post-apocalypse-flexbox"
     },
     {
       "name":"the-collection",
+      "emoji":"muscle.png",
       "user":"afonsopacifer",
       "description":"My private projects made ​​on agencies :)",
       "url":"http://afonsopacifer.github.io/the-collection/"
     },
     {
       "name":"my-personal-website",
+      "emoji":"coffee.png",
       "user":"afonsopacifer",
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website"
     },
     {
       "name":"pacificator",
+      "emoji":"cop.png",
       "user":"afonsopacifer",
       "description":"Adds a standard syntax and indentation to css.",
       "url":"https://github.com/afonsopacifer/pacificator"
     },
     {
       "name":"afonsoconfigs",
+      "emoji":"rocket.png",
       "user":"afonsopacifer",
       "description":"My packages, configs, dotfiles, plugins, etc...",
       "url":"https://github.com/afonsopacifer/afonsoconfigs"
