@@ -11,8 +11,15 @@
       "name":"flex-grid-framework",
       "emoji":"star2.png",
       "user":"afonsopacifer",
-      "description":"A grid based in Flexbox and Stylus.",
+      "description":"The Flex Semantic Grid focusing on performance.",
       "url":"https://afonsopacifer.github.io/flex-grid-framework/"
+    },
+    {
+      "name":"open-source-checklist",
+      "emoji":"ballot_box_with_check.png",
+      "user":"afonsopacifer",
+      "description":"A guide to help you remember important things when creating an open source project ;D",
+      "url":"http://afonsopacifer.github.io/open-source-checklist/"
     },
     {
       "name":"microscope",
@@ -41,6 +48,13 @@
       "user":"afonsopacifer",
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
       "url":"https://github.com/afonsopacifer/pumpkin"
+    },
+    {
+      "name":"open-source-boilerplate",
+      "emoji":"rocket.png",
+      "user":"afonsopacifer",
+      "description":"A template to help you create open source projects more organized.",
+      "url":"https://github.com/afonsopacifer/open-source-boilerplate"
     },
     {
       "name":"post-apocalypse-flexbox",
