@@ -90,6 +90,13 @@
       "user":"afonsopacifer",
       "description":"My packages, configs, dotfiles, plugins, etc...",
       "url":"https://github.com/afonsopacifer/afonsoconfigs"
+    },
+    {
+      "name":"new-game",
+      "emoji":"video_game.png",
+      "user":"afonsopacifer",
+      "description":"The Front-End boilerplate using Jade + PostCSS + Babel + GulpJS",
+      "url":"https://github.com/afonsopacifer/new-game"
     }
   ],
   "core_projects":[
