@@ -34,6 +34,6 @@ $ grunt build
 
 Want to contribute? [Follow these recommendations](https://github.com/afonsopacifer/my-personal-website/blob/master/CONTRIBUTING.md).
 
-## Licence
+## License
 
-[MIT Licence](https://github.com/afonsopacifer/my-personal-website/blob/master/LICENCE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[MIT License](https://github.com/afonsopacifer/my-personal-website/blob/master/LICENCE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
