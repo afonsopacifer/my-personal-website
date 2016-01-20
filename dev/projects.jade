@@ -60,21 +60,21 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
 						p(class="paragraph" itemprop="description")=description
 
-			section.container-centered
-				h1.heading-lv1.core-projects-icon Core Team Member
-
-			// Get and parse the projects.json file by Grunt
-			- for core_project in core_projects
-				- var name = core_project.name
-				- var description = core_project.description
-				- var url = core_project.url
-				- var user = core_project.user
-					a(href=url class="box-project" itemscope itemtype="http://schema.org/CreativeWork")
-						h2(class="heading-lv2" itemprop="name")=name
-							div.star-buttom
-								div.star
-								iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
-						p(class="paragraph" itemprop="description")=description
+			//- section.container-centered
+			//- 	h1.heading-lv1.core-projects-icon Core Team Member
+			//- 
+			//- // Get and parse the projects.json file by Grunt
+			//- - for core_project in core_projects
+			//- 	- var name = core_project.name
+			//- 	- var description = core_project.description
+			//- 	- var url = core_project.url
+			//- 	- var user = core_project.user
+			//- 		a(href=url class="box-project" itemscope itemtype="http://schema.org/CreativeWork")
+			//- 			h2(class="heading-lv2" itemprop="name")=name
+			//- 				div.star-buttom
+			//- 					div.star
+			//- 					iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+			//- 			p(class="paragraph" itemprop="description")=description
 			
 			div.container-centered
 				a(href="https://github.com/afonsopacifer?tab=repositories" class="btn") See all projects
