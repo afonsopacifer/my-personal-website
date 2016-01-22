@@ -68,9 +68,43 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 									span(itemprop="addressLocality")=address
 
 			section.container-centered
-				h1.heading-lv1.talks-icon Talks presented
+				h1.heading-lv1.talks-icon Talks presented in 2016
+
+			// Talks presented 2016
+			// Get and parse the projects.json file by Grunt	
+			- for talk in talks_2016
+				- var event = talk.event
+				- var theme = talk.theme
+				- var attendees = talk.attendees
+				- var date = talk.date
+				- var local = talk.local
+				- var address = talk.address
+				- var url = talk.url
+				- var dateschema = talk.dateschema
+					article(class="box" itemscope itemtype="http://schema.org/Event")
+						h2(class="heading-lv2" itemprop="name")=event
+						p.paragraph
+							b.strong Theme: 
+							span(itemprop="description")=theme
+							br
+							b.strong Attendance: 
+							span=attendees
+							br
+							b.strong Date: 
+							span(itemprop="startDate" content=dateschema)=date
+							br
+							b.strong Local: 
+							span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+								span(itemprop="name")=local
+								Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+									span(itemprop="addressLocality")=address
+							br
+							a(href=url class="btn" itemprop="url") See Slides
+
+			section.container-centered
+				h1.heading-lv1.talks-icon Talks presented in 2015
 				
-			// Talks presented
+			// Talks presented 2015
 			// Get and parse the projects.json file by Grunt	
 			- for talk in talks
 				- var event = talk.event
