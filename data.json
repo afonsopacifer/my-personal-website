@@ -154,7 +154,18 @@
 
   "talks_next":[],
 
-  "talks_2016":[],
+  "talks_2016":[
+     {
+      "event":"#3 FEMUG RJ",
+      "theme":"CSS as a programing language",
+      "attendees":"≈ 40",
+      "date":"Jan 23 2016",
+      "dateschema":"2015-01-23",
+      "local":"Estácio - ",
+      "address":"Nova Iguaçu - RJ",
+      "url":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language"
+    }
+  ],
 
   "talks":[
      {
