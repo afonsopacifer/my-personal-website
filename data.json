@@ -97,6 +97,13 @@
       "user":"afonsopacifer",
       "description":"The Front-End boilerplate using Jade + PostCSS + Babel + GulpJS",
       "url":"https://github.com/afonsopacifer/new-game"
+    },
+    {
+      "name":"egg-emergency",
+      "emoji":"",
+      "user":"afonsopacifer",
+      "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
+      "url":"https://github.com/afonsopacifer/egg-emergency"
     }
   ],
   "core_projects":[
