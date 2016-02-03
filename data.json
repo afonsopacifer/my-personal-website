@@ -22,6 +22,13 @@
       "url":"http://afonsopacifer.github.io/open-source-checklist/"
     },
     {
+      "name":"egg-emergency",
+      "emoji":"sparkling_heart.png",
+      "user":"afonsopacifer",
+      "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
+      "url":"http://afonsopacifer.github.io/egg-emergency/"
+    },
+    {
       "name":"microscope",
       "emoji":"microscope.png",
       "user":"afonsopacifer",
@@ -97,13 +104,6 @@
       "user":"afonsopacifer",
       "description":"The Front-End boilerplate using Jade + PostCSS + Babel + GulpJS",
       "url":"https://github.com/afonsopacifer/new-game"
-    },
-    {
-      "name":"egg-emergency",
-      "emoji":"",
-      "user":"afonsopacifer",
-      "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
-      "url":"https://github.com/afonsopacifer/egg-emergency"
     }
   ],
   "core_projects":[
