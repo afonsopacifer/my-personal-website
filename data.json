@@ -122,10 +122,64 @@
   ],
   "articles":[
     {
+      "img":"sombras.jpg",
+      "alt":"Hora de aventura com CSS #6 - Sombras",
+      "name":"Hora de aventura com CSS #6 - Sombras",
+      "date":"Mar 11 2016",
+      "description":"Sombras com CSS são bem fáceis de criar e entender, tão fáceis, que a partir de hoje você meu caro leitor, nunca mais vai precisar de nenhum box-shadow generator em sua vida ;)",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-6-sombras",
+      "local":"Codepen"
+    },
+    {
+      "img":"animacoes-pt1.jpg",
+      "alt":"Hora de aventura com CSS #5 - Animações (parte 1)",
+      "name":"Hora de aventura com CSS #5 - Animações (parte 1)",
+      "date":"Mar 11 2016",
+      "description":"Chegou a hora de falar sobre umas das coisas mais divertidas da vida! Vamos aprender um pouco sobre animações com CSS3, que é algo tão simples quanto poderoso!",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes",
+      "local":"Codepen"
+    },
+    {
+      "img":"amor.jpg",
+      "alt":"Hora de aventura com CSS #4 - Desenhando com amor",
+      "name":"Hora de aventura com CSS #4 - Desenhando com amor",
+      "date":"Mar 08 2016",
+      "description":"Agora que tal juntarmos tudo para desenhar algo que represente o motivo desta série de posts existir? Vamos la!",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-4-desenhando-com-amor",
+      "local":"Codepen"
+    },
+    {
+      "img":"transformacao.jpg",
+      "alt":"Hora de aventura com CSS #3 - Transformações",
+      "name":"Hora de aventura com CSS #3 - Transformações ",
+      "date":"Mar 07 2016",
+      "description":"Agora sim! Vamos conhecer umas das melhores features do CSS3, o que vai literalmente transformar sua percepção da linguagem :D",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-3-transformacoes",
+      "local":"Codepen"
+    },
+    {
+      "img":"pocisionamento.jpg",
+      "alt":"Hora de aventura com CSS #2 - Posicionamento",
+      "name":"Hora de aventura com CSS #2 - Posicionamento",
+      "date":"Mar 06 2016",
+      "description":"Agora que sabemos como criar formas básicas, podemos dar o próximo passo e preparar nossa folha de papel em branco para posicionarmos nossas formas e montar nosso desenho, a princípio usaremos apenas o bom e velho position, mas nos próximos artigos veremos flexbox e outras coisinhas legais sobre posicionamento.",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-2-posicionamento",
+      "local":"Codepen"
+    },
+    {
+      "img":"formas.jpg",
+      "alt":"Hora de aventura com CSS #1 - Formas básicas",
+      "name":"Hora de aventura com CSS #1 - Formas básicas",
+      "date":"Mar 05 2016",
+      "description":"Depois de muito tempo sem fazer nada legal, resolvi pegar uma noite e fazer algo para me distrair e acabei criando o Jake apenas com CSS, depois de mostrar para a galera no facebook recebi alguns pedidos para ensinar os macetes para fazer essas coisas fofas com CSS.",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-1-formas-basicas",
+      "local":"Codepen"
+    },
+    {
       "img":"variaveis-css.jpg",
       "alt":"Como utilizar o conceito de variáveis nativas do CSS3.",
       "name":"Como usar variáveis no CSS de forma nativa",
-      "date":"nov 17 2015",
+      "date":"Nov 17 2015",
       "description":"Olá pessoal, neste artigo irei abordar o básico sobre variáveis nativas com CSS, e como você pode usar essa tecnologia hoje e sem medo de ser feliz.",
       "url":"http://tableless.com.br/como-usar-variaveis-no-css-de-forma-nativa/",
       "local":"Tableless"
