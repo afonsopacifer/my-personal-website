@@ -122,6 +122,15 @@
   ],
   "articles":[
     {
+      "img":"pseudo-elementos.jpg",
+      "alt":"Hora de aventura com CSS #7 - Pseudo-elementos",
+      "name":"Hora de aventura com CSS #7 - Pseudo-elementos",
+      "date":"Mar 11 2016",
+      "description":"Abordaremos basicamente os pseudo-elementos ::after e ::before, hoje aprenderemos que esses caras são muito importantes para a qualidade de nossos desenhos.",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-7-pseudo-elementos",
+      "local":"Codepen"
+    },
+    {
       "img":"sombras.jpg",
       "alt":"Hora de aventura com CSS #6 - Sombras",
       "name":"Hora de aventura com CSS #6 - Sombras",
