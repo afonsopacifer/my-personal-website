@@ -122,6 +122,15 @@
   ],
   "articles":[
     {
+      "img":"flexbox.jpg",
+      "alt":"Hora de aventura com CSS #9 - Flexbox básico",
+      "name":"Hora de aventura com CSS #9 - Flexbox básico",
+      "date":"Mar 13 2016",
+      "description":"Flexbox é um modulo da CSS3 que define um novo box model otimizado para interfaces, ou seja, agora temos uma especificação focada em interfaces, nada de floats ou tabelas aqui.",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-9-flexbox",
+      "local":"Codepen"
+    },
+    {
       "img":"animacoes-pt2.jpg",
       "alt":"Hora de aventura com CSS #8 - Animações (parte 2)",
       "name":"Hora de aventura com CSS #8 - Animações (parte 2)",
