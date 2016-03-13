@@ -122,6 +122,15 @@
   ],
   "articles":[
     {
+      "img":"animacoes-pt2.jpg",
+      "alt":"Hora de aventura com CSS #8 - Animações (parte 2)",
+      "name":"Hora de aventura com CSS #8 - Animações (parte 2)",
+      "date":"Mar 12 2016",
+      "description":"Na parte 1 aprendemos a configurar nossas animações, hoje iremos focar nas animações de fato, em cada movimento e conbinações de movimentos. Vamos nessa <3",
+      "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes-parte-2",
+      "local":"Codepen"
+    },
+    {
       "img":"pseudo-elementos.jpg",
       "alt":"Hora de aventura com CSS #7 - Pseudo-elementos",
       "name":"Hora de aventura com CSS #7 - Pseudo-elementos",
