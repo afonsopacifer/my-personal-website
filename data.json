@@ -106,20 +106,6 @@
       "url":"https://github.com/afonsopacifer/new-game"
     }
   ],
-  "core_projects":[
-    {
-      "name":"write-code-every-day",
-      "user":"raphamorim",
-      "description":"A project to honor those developers who believed in the challenge.",
-      "url":"http://writecodeeveryday.io/"
-    },
-    {
-      "name":"blog",
-      "user":"riojs-org",
-      "description":"Este repositório tem o objetivo de concentrar todas as informações sobre o desenvolvimento, formato e organização do blog Rio.JS",
-      "url":"https://github.com/riojs-org/blog"
-    }
-  ],
   "articles":[
     {
       "img":"urls.jpg",
