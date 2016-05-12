@@ -1,6 +1,6 @@
 {
   "name": "afonsopacifercom",
-"description": "My personal website",
+  "description": "My personal website",
   "version": "3.0.0",
   "author": {
     "name": "Afonso Pacifer",
@@ -25,6 +25,7 @@
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.3",
     "phantomjs": "^1.9.19",
-    "postcss": "^5.0.13"
+    "postcss": "^5.0.13",
+    "postcss-apply": "^0.2.0"
   }
 }

@@ -1,4 +1,9 @@
 :root {
-  --bgColor: #000;
-  --mainBg: #ccc;
+  --highlight-background: #333;
+  --highlight-color: #fff;
+  --complementary-background: #ededed;
+  --complementary-color: #313131;
+  --posts-color: #ff0066;
+  --screencasts-color: #029494;
+  --miscs-color: #d8c316;
 }
