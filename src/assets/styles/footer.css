@@ -1,0 +1,25 @@
+/* footer
+=========================================== */
+
+.footer {
+
+}
+
+.footer-up {
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-up .text-link {
+  padding: 10px;
+  font-size: .9em;
+}
+
+.footer-down {
+  background-color: var(--highlight-background);
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-weight: 300;
+  font-size: .9em;
+}

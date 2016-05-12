@@ -1,0 +1,71 @@
+/* header
+=========================================== */
+
+.header {
+  background-color: var(--highlight-background);
+  color: var(--highlight-color);
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* logo
+=========== */
+.logotipo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.heading-lv1 {
+  color: #dedddd;
+  font-size: 24px;
+  display: block;
+  font-weight: 400;
+}
+
+.sub-heading {
+  color: #dedddd;
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+}
+
+/* menu
+=========== */
+.nav {
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-open {display: none;}
+}
+
+.menu {
+  padding-left: 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.iten-menu {list-style: none;}
+
+@media screen and (min-width: 768px) {
+  .iten-menu {display: inline-block;}
+}
+
+.link-menu {
+  color: #dedddd;
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* link to Cast Show
+=========== */
+.css-cast-show {
+  padding: 5px 10px;
+  margin-left: 10px;
+}

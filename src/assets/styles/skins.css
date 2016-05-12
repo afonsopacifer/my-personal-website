@@ -1,0 +1,47 @@
+/* skins
+=========================================== */
+
+/* posts
+=========== */
+.post .heading-lv2 {
+  border-bottom: 4px solid var(--posts-color);
+}
+
+.post .heading-lv3 {
+  color: var(--posts-color);
+}
+
+.post .btn {
+  border: 2px solid var(--posts-color);
+  color: var(--posts-color);
+}
+
+/* screencasts
+=========== */
+.screencast .heading-lv2 {
+  border-bottom: 4px solid var(--screencasts-color);
+}
+
+.screencast .heading-lv3 {
+  color: var(--screencasts-color);
+}
+
+.screencast .btn {
+  border: 2px solid var(--screencasts-color);
+  color: var(--screencasts-color);
+}
+
+/* miscs
+=========== */
+.misc .heading-lv2 {
+  border-bottom: 4px solid var(--miscs-color);
+}
+
+.misc .heading-lv3 {
+  color: var(--miscs-color);
+}
+
+.misc .btn {
+  border: 2px solid var(--miscs-color);
+  color: var(--miscs-color);
+}
