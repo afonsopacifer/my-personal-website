@@ -4,6 +4,7 @@
 .header {
   background-color: var(--highlight-background);
   color: var(--highlight-color);
+  border-bottom: 4px solid #262626;
 }
 
 .top-bar {
@@ -17,6 +18,11 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  order: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .logotipo {flex: 1;}
 }
 
 .heading-lv1 {
@@ -35,8 +41,14 @@
 
 /* menu
 =========== */
+@media screen and (min-width: 768px) {
+  .nav {
+    flex: 1;
+  }
+}
+
 .nav {
-  flex: 1;
+  order: 2;
 }
 
 @media screen and (min-width: 768px) {
@@ -49,6 +61,14 @@
   text-align: right;
 }
 
+@media screen and (max-width: 768px) {
+  .menu {
+    position: absolute;
+    background-color: var(--highlight-background);
+    text-align: left;
+  }
+}
+
 .iten-menu {list-style: none;}
 
 @media screen and (min-width: 768px) {
@@ -59,8 +79,12 @@
   color: #dedddd;
   text-decoration: none;
   font-weight: 400;
-  display: inline-block;
+  display: block;
   padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .link-menu {background: #262626;}
 }
 
 /* link to Cast Show
@@ -68,4 +92,21 @@
 .css-cast-show {
   padding: 5px 10px;
   margin-left: 10px;
+  order: 3;
+}
+
+@media screen and (max-width: 768px) {
+
+  .logotipo {
+    order: 2;
+  }
+
+  .nav {
+    order: 1;
+  }
+
+  .css-cast-show {
+    order: 3;
+  }
+
 }

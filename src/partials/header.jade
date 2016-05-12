@@ -2,11 +2,14 @@ header.header
   div.container.top-bar
 
     h1.logotipo
-      span.heading-lv1 Afonso Pacifer
-      span.sub-heading UI Engeneer / CSS Evangelist
+      a(href="index.html" class="article-link")
+        span.heading-lv1 Afonso Pacifer
+        span.sub-heading UI Engeneer / CSS Evangelist
 
     nav.nav
-      button(class="btn-open" id="btnOpen") menu
+      div(class="btn-open" id="btnOpen")
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 40 40"><path fill="#dedddd" d="M39.878 10.03H0V3.385h39.878v6.647m0 6.647H0v6.646h39.878v-6.646m0 13.292H0v6.645h39.878V29.97z"/></svg>
+
       ul(class="menu" id="menu")
         li.iten-menu
           a(href="#" class="link-menu") Home

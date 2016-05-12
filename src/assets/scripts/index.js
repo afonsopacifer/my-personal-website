@@ -2,6 +2,35 @@
 
 "use strict";
 
-let show = text => console.log(text)
+(() => {
 
-show("OK")
+  const btnOpen = document.getElementById("btnOpen");
+  const menu = document.getElementById("menu");
+
+  let toggleMenu = () => {
+    if(menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  };
+
+  btnOpen.addEventListener("click",toggleMenu);
+
+  const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+  if (mediaQuery.matches) {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+
+  mediaQuery.addListener((changed) => {
+    if(changed.matches) {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  });
+
+})();
