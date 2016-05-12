@@ -1,0 +1,112 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Speaking"
+	-var description = ""
+	-var keywords = ""
+
+block content
+
+	//- Updates
+	//- ===========================================
+	main.main
+
+		div.container
+
+			//- Talks Next
+			section.section.talk
+				h2.heading-lv2 Talks next
+
+				div.list-articles
+
+					- for talks_nex in talks_next
+						- var event = talks_nex.event
+						- var theme = talks_nex.theme
+						- var date = talks_nex.date
+						- var local = talks_nex.local
+						- var address = talks_nex.address
+						- var dateschema = talks_nex.dateschema
+
+							article.article
+								h3.heading-lv3
+									span(class="heading-lv3-text")=theme
+									span(class="date")=date
+								p dsd
+
+			//- Talks 2016
+			section.section.talk
+				h2.heading-lv2 Talks presented in 2016
+
+				div.list-articles
+
+					- for talk in talks_2016
+						- var event = talk.event
+						- var theme = talk.theme
+						- var attendees = talk.attendees
+						- var date = talk.date
+						- var local = talk.local
+						- var address = talk.address
+						- var url = talk.url
+						- var dateschema = talk.dateschema
+
+							article.article
+								h3.heading-lv3
+									span(class="heading-lv3-text")=event
+									span(class="date")=date
+
+								p.paragraph
+									b.strong Theme: 
+									span(itemprop="description")=theme
+									br
+									b.strong Attendance: 
+									span=attendees
+									br
+									b.strong Date: 
+									span(itemprop="startDate" content=dateschema)=date
+									br
+									b.strong Local: 
+									span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+										span(itemprop="name")=local
+										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+											span(itemprop="addressLocality")=address
+									br
+									a(href=url class="btn" itemprop="url") See Slides
+
+			//- Talks 2015
+			section.section.talk
+				h2.heading-lv2 Talks presented in 2015
+
+				div.list-articles
+
+					- for talk in talks
+						- var event = talk.event
+						- var theme = talk.theme
+						- var attendees = talk.attendees
+						- var date = talk.date
+						- var local = talk.local
+						- var address = talk.address
+						- var url = talk.url
+						- var dateschema = talk.dateschema
+
+							article.article
+								h3.heading-lv3
+									span(class="heading-lv3-text")=event
+									span(class="date")=date
+
+								p.paragraph
+									b.strong Theme: 
+									span(itemprop="description")=theme
+									br
+									b.strong Attendance: 
+									span=attendees
+									br
+									b.strong Date: 
+									span(itemprop="startDate" content=dateschema)=date
+									br
+									b.strong Local: 
+									span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+										span(itemprop="name")=local
+										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+											span(itemprop="addressLocality")=address
+									br
+									a(href=url class="btn" itemprop="url") See Slides

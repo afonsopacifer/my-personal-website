@@ -8,6 +8,7 @@ var gulp     = require('gulp'),
     jshint   = require('gulp-jshint'),
     imagemin = require('gulp-imagemin'),
     connect  = require('gulp-connect'),
+    imagemin = require('gulp-imagemin'),
     ghPages  = require('gulp-gh-pages');
 
 // Compile Jade
@@ -15,6 +16,7 @@ var gulp     = require('gulp'),
 gulp.task('jade', () => {
 	gulp.src('src/**.jade')
 		  .pipe(data(file => require('./config.json')))
+		  .pipe(data(file => require('./data.json')))
     	.pipe(jade())
     	.pipe(gulp.dest('out'))
     	.pipe(connect.reload());
@@ -56,11 +58,9 @@ gulp.task('hint', () => {
 gulp.task('imagemin', () => {
   gulp.src('src/assets/img/**/**')
     .pipe(imagemin({
-      progressive: true,
-      svgoPlugins: [{removeViewBox: false}]
+      progressive: true
     }))
-    .pipe(gulp.dest('out/assets/img/'))
-    .pipe(connect.reload());
+    .pipe(gulp.dest('out/assets/img/'));
 });
 
 // Watch

@@ -45,3 +45,18 @@
   border: 2px solid var(--miscs-color);
   color: var(--miscs-color);
 }
+
+/* talks
+=========== */
+.talk .heading-lv2 {
+  border-bottom: 4px solid var(--talks-color);
+}
+
+.talk .heading-lv3 {
+  color: var(--talks-color);
+}
+
+.talk .btn {
+  border: 2px solid var(--talks-color);
+  color: var(--talks-color);
+}

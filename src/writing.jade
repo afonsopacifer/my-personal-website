@@ -1,0 +1,37 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Writing"
+	-var description = ""
+	-var keywords = ""
+
+block content
+
+	//- Updates
+	//- ===========================================
+	main.main
+
+		div.container
+			//- Articles list 2016
+			section.section.post
+				h2.heading-lv2 Articles
+
+				div.list-articles
+
+					- for article in articles
+						- var img = article.img
+						- var alt = article.alt
+						- var name = article.name
+						- var description = article.description
+						- var url = article.url
+						- var date = article.date
+						- var local = article.local
+
+							article.article
+								h3.heading-lv3
+									span(class="heading-lv3-text")=name
+									span(class="date")=date
+								img(src="assets/img/articles-covers/"+img alt=alt class="img")
+								p.paraghaph=description
+								a(href=url class="btn") Read on 
+									span=local

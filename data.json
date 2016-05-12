@@ -258,7 +258,16 @@
     }
   ],
 
-  "talks_next":[],
+  "talks_next":[
+     {
+      "event":"Front in Rio",
+      "theme":"Hmtml",
+      "date":"Jan 23 2016",
+      "dateschema":"2015-01-23",
+      "local":"Estácio - ",
+      "address":"Nova Iguaçu - RJ"
+    }
+  ],
 
   "talks_2016":[
      {
