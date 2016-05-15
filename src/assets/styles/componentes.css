@@ -24,6 +24,7 @@
   font-weight: 400;
   margin: 0 0 10px 0;
   display: flex;
+  min-height: 40px;
 }
 
 .heading-lv3-text {

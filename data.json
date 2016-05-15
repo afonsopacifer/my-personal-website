@@ -258,19 +258,20 @@
     }
   ],
 
-  "talks_next":[
-     {
-      "event":"Front in Rio",
-      "theme":"Hmtml",
-      "date":"Jan 23 2016",
-      "dateschema":"2015-01-23",
-      "local":"Estácio - ",
-      "address":"Nova Iguaçu - RJ"
-    }
-  ],
+  "talks_next":[],
 
   "talks_2016":[
-     {
+    {
+      "event":"Front in Rio HTML Edition",
+      "theme":"O que há de novo no HTML5.1?",
+      "attendees":"≈ 100",
+      "date":"May 14 2016",
+      "dateschema":"2015-05-14",
+      "local":"Unirio - ",
+      "address":"Urca, Rio de Janeiro - RJ",
+      "url":"5c10b859485045a7a1b833e6a1051448"
+    },
+    {
       "event":"#3 FEMUG RJ",
       "theme":"CSS as a programing language",
       "attendees":"≈ 40",
@@ -278,7 +279,7 @@
       "dateschema":"2015-01-23",
       "local":"Estácio - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language"
+      "url":"a00934b237c342c3b79d4e09e1ebb927"
     }
   ],
 
@@ -291,7 +292,7 @@
       "dateschema":"2015-11-26",
       "local":"UFF - ",
       "address":"Niterói - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce"
+      "url":"59db3f89140e4a3f9e990426b23f8a34"
     },
     {
       "event":"XV FEUCTEC",
@@ -301,7 +302,7 @@
       "dateschema":"2015-10-28",
       "local":"FEUC - ",
       "address":"Campo Grande, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+      "url":"0e42fc349ba74f069272778c378c6121"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -311,7 +312,7 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco"
+      "url":"87885d11f3ff4925a671e162b851a280"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -321,7 +322,7 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+      "url":"0e42fc349ba74f069272778c378c6121"
     },
     {
       "event":"#1 FEMUG RJ",
@@ -331,7 +332,7 @@
       "dateschema":"2015-10-10",
       "local":"Web Radar - ",
       "address":"Botafogo, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk"
+      "url":"aa2e8c52404a4508b31bfed4bac0cfcf"
     },
     {
       "event":"#3 BarraJS",
@@ -341,7 +342,7 @@
       "dateschema":"2015-07-25",
       "local":"LEO - ",
       "address":"Barra da Tijuca, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/css-grid-layout"
+      "url":"9de50ebecb9749a78ff7f62bd67634f9"
     },
     {
       "event":"#15 RioJS",
@@ -351,7 +352,7 @@
       "dateschema":"2015-07-18",
       "local":"He:labs - ",
       "address":"Glória, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/flexbox"
+      "url":"227ecc9635aa47a1b304ad566fea11d6"
     }
   ]
 

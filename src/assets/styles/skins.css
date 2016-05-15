@@ -60,3 +60,8 @@
   border: 2px solid var(--talks-color);
   color: var(--talks-color);
 }
+
+.talk .strong {
+  color: var(--talks-color);
+  font-weight: 400;
+}

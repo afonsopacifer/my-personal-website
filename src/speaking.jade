@@ -13,26 +13,6 @@ block content
 
 		div.container
 
-			//- Talks Next
-			section.section.talk
-				h2.heading-lv2 Talks next
-
-				div.list-articles
-
-					- for talks_nex in talks_next
-						- var event = talks_nex.event
-						- var theme = talks_nex.theme
-						- var date = talks_nex.date
-						- var local = talks_nex.local
-						- var address = talks_nex.address
-						- var dateschema = talks_nex.dateschema
-
-							article.article
-								h3.heading-lv3
-									span(class="heading-lv3-text")=theme
-									span(class="date")=date
-								p dsd
-
 			//- Talks 2016
 			section.section.talk
 				h2.heading-lv2 Talks presented in 2016
@@ -53,7 +33,7 @@ block content
 								h3.heading-lv3
 									span(class="heading-lv3-text")=event
 									span(class="date")=date
-
+								script(async class="speakerdeck-embed" data-id=url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
 								p.paragraph
 									b.strong Theme: 
 									span(itemprop="description")=theme
@@ -69,8 +49,6 @@ block content
 										span(itemprop="name")=local
 										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
 											span(itemprop="addressLocality")=address
-									br
-									a(href=url class="btn" itemprop="url") See Slides
 
 			//- Talks 2015
 			section.section.talk
@@ -92,7 +70,7 @@ block content
 								h3.heading-lv3
 									span(class="heading-lv3-text")=event
 									span(class="date")=date
-
+								script(async class="speakerdeck-embed" data-id=url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
 								p.paragraph
 									b.strong Theme: 
 									span(itemprop="description")=theme
@@ -108,5 +86,3 @@ block content
 										span(itemprop="name")=local
 										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
 											span(itemprop="addressLocality")=address
-									br
-									a(href=url class="btn" itemprop="url") See Slides

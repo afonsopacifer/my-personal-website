@@ -27,6 +27,7 @@
   background: #fff;
   padding: 10px;
   margin: 10px 0;
+  box-shadow: 2px 2px 6px #ccc;
 }
 
 .article-link {
@@ -37,10 +38,18 @@
 .list-articles {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .list-articles > .article {
-  width: 50%;
+  width: 32%;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .list-articles > .article {
+    width: 49%;
+  }
 }
 
 @media screen and (max-width: 768px) {
