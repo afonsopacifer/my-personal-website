@@ -4,7 +4,7 @@
 .header {
   background-color: var(--highlight-background);
   color: var(--highlight-color);
-  border-bottom: 4px solid #262626;
+  /*border-bottom: 4px solid #262626;*/
 }
 
 .top-bar {
@@ -26,7 +26,7 @@
 }
 
 .heading-lv1 {
-  color: #dedddd;
+  color: #fff;
   font-size: 24px;
   display: block;
   font-weight: 400;
@@ -81,6 +81,10 @@
   font-weight: 400;
   display: block;
   padding: 10px;
+}
+
+.active-link-menu {
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
