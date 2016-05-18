@@ -12,7 +12,12 @@
 }
 
 .post .btn {
-  border: 2px solid var(--posts-color);
+  background-color: var(--posts-color);
+  color: #fff;
+}
+
+.post .tag {
+  border: 1px solid var(--posts-color);
   color: var(--posts-color);
 }
 
@@ -27,7 +32,12 @@
 }
 
 .screencast .btn {
-  border: 2px solid var(--screencasts-color);
+  background-color: var(--screencasts-color);
+  color: #fff;
+}
+
+.screencast .tag {
+  border: 1px solid var(--screencasts-color);
   color: var(--screencasts-color);
 }
 
@@ -42,7 +52,12 @@
 }
 
 .misc .btn {
-  border: 2px solid var(--miscs-color);
+  background-color: var(--miscs-color);
+  color: #fff;
+}
+
+.misc .tag {
+  border: 1px solid var(--miscs-color);
   color: var(--miscs-color);
 }
 
@@ -57,8 +72,8 @@
 }
 
 .talk .btn {
-  border: 2px solid var(--talks-color);
-  color: var(--talks-color);
+  background-color: var(--talks-color);
+  color: #fff;
 }
 
 .talk .strong {

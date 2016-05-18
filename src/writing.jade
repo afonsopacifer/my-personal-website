@@ -14,7 +14,7 @@ block content
 		div.container
 			//- Articles list 2016
 			section.section.post
-				h2.heading-lv2 Articles
+				h2.heading-lv2 Writing
 
 				div.list-articles
 
@@ -28,10 +28,13 @@ block content
 						- var local = article.local
 
 							article.article
-								h3.heading-lv3
-									span(class="heading-lv3-text")=name
-									span(class="date")=date
-								img(src="assets/img/articles-covers/"+img alt=alt class="img")
+								a(href=url target="_blank" class="article-link")
+									h3.heading-lv3
+										span.heading-lv3-text=name
+										span.date=date
+									div.img-container
+										img(src="assets/img/articles-covers/"+img alt=alt class="img")
 								p.paraghaph=description
-								a(href=url class="btn") Read on 
-									span=local
+								div.tags-container
+									- each tag in article.tags
+										a(href="tags/"+tag+".html" class="tag")=tag

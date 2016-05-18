@@ -24,6 +24,7 @@
   font-weight: 400;
   margin: 0 0 10px 0;
   display: flex;
+  min-height: 40px;
 }
 
 .heading-lv3-text {
@@ -36,6 +37,7 @@
   font-weight: 300;
   width: 70px;
   text-align: right;
+  margin-left: auto;
 }
 
 .paraghaph {
@@ -48,13 +50,34 @@
 .btn {
   text-decoration: none;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 1em;
 }
 
 .text-link {
   display: inline-block;
   color: var(--complementary-color);
+  text-decoration: none;
+}
+
+.img {
+  width: 100%;
+}
+
+.img-dutarion {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+.tag {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 3px 7px;
+  margin-right: 8px;
+  margin-top: 8px;
+  display: inline-block;
   text-decoration: none;
 }
 

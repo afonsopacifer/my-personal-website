@@ -128,7 +128,8 @@
       "date":"May 08 2016",
       "description":"Vamos testar um componente simples, que escreve hello na página. Como somos descolados vamos usar ES6 e um bundler para organizar nossas dependências e componentes.",
       "url":"https://medium.com/@afonsopacifer/iniciando-seus-testes-unit%C3%A1rios-em-componentes-reactjs-de-forma-moderna-c711977d7143#.cq0htj66o",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["javascript","reactjs","tests","es2015"]
     },
     {
       "img":"urls.jpg",
@@ -137,7 +138,8 @@
       "date":"Mar 19 2016",
       "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando, e sem falar que podem existir links quebrados em seus projetos e você nem estar sabendo. Nesse artigo irei demonstrar algumas dessas situações e como resolve-las.",
       "url":"https://medium.com/@afonsopacifer/pensando-em-urls-no-github-3517d97249d0#.un4beit6n",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source"]
     },
     {
       "img":"finn.jpg",
@@ -146,7 +148,8 @@
       "date":"Mar 15 2016",
       "description":"Foi realmente incrível passar esses últimos dias com vocês, recebi tantos feedbacks positivos, vi tantos desenhos irados e conheci muita gente boa. Só tenho a agracer o carinho de todos!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-10-hora-do-finn",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"flexbox.jpg",
@@ -155,7 +158,8 @@
       "date":"Mar 13 2016",
       "description":"Flexbox é um modulo da CSS3 que define um novo box model otimizado para interfaces, ou seja, agora temos uma especificação focada em interfaces, nada de floats ou tabelas aqui.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-9-flexbox",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time","css-layouts"]
     },
     {
       "img":"animacoes-pt2.jpg",
@@ -164,7 +168,8 @@
       "date":"Mar 12 2016",
       "description":"Na parte 1 aprendemos a configurar nossas animações, hoje iremos focar nas animações de fato, em cada movimento e conbinações de movimentos. Vamos nessa <3",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-8-animacoes-parte-2",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time","animations"]
     },
     {
       "img":"pseudo-elementos.jpg",
@@ -173,7 +178,8 @@
       "date":"Mar 11 2016",
       "description":"Abordaremos basicamente os pseudo-elementos ::after e ::before, hoje aprenderemos que esses caras são muito importantes para a qualidade de nossos desenhos.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-7-pseudo-elementos",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"sombras.jpg",
@@ -182,7 +188,8 @@
       "date":"Mar 11 2016",
       "description":"Sombras com CSS são bem fáceis de criar e entender, tão fáceis, que a partir de hoje você meu caro leitor, nunca mais vai precisar de nenhum box-shadow generator em sua vida ;)",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-6-sombras",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"animacoes-pt1.jpg",
@@ -191,7 +198,8 @@
       "date":"Mar 11 2016",
       "description":"Chegou a hora de falar sobre umas das coisas mais divertidas da vida! Vamos aprender um pouco sobre animações com CSS3, que é algo tão simples quanto poderoso!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time","animations"]
     },
     {
       "img":"amor.jpg",
@@ -200,7 +208,8 @@
       "date":"Mar 08 2016",
       "description":"Agora que tal juntarmos tudo para desenhar algo que represente o motivo desta série de posts existir? Vamos la!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-4-desenhando-com-amor",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"transformacao.jpg",
@@ -209,7 +218,8 @@
       "date":"Mar 07 2016",
       "description":"Agora sim! Vamos conhecer umas das melhores features do CSS3, o que vai literalmente transformar sua percepção da linguagem :D",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-3-transformacoes",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"pocisionamento.jpg",
@@ -218,7 +228,8 @@
       "date":"Mar 06 2016",
       "description":"Agora que sabemos como criar formas básicas, podemos dar o próximo passo e preparar nossa folha de papel em branco para posicionarmos nossas formas e montar nosso desenho, a princípio usaremos apenas o bom e velho position, mas nos próximos artigos veremos flexbox e outras coisinhas legais sobre posicionamento.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-2-posicionamento",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"formas.jpg",
@@ -227,7 +238,8 @@
       "date":"Mar 05 2016",
       "description":"Depois de muito tempo sem fazer nada legal, resolvi pegar uma noite e fazer algo para me distrair e acabei criando o Jake apenas com CSS, depois de mostrar para a galera no facebook recebi alguns pedidos para ensinar os macetes para fazer essas coisas fofas com CSS.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-1-formas-basicas",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"variaveis-css.jpg",
@@ -236,7 +248,8 @@
       "date":"Nov 17 2015",
       "description":"Olá pessoal, neste artigo irei abordar o básico sobre variáveis nativas com CSS, e como você pode usar essa tecnologia hoje e sem medo de ser feliz.",
       "url":"http://tableless.com.br/como-usar-variaveis-no-css-de-forma-nativa/",
-      "local":"Tableless"
+      "local":"Tableless",
+      "tags":["css"]
     },
     {
       "img":"a-vinganca-dos-commits.jpg",
@@ -245,7 +258,8 @@
       "date":"Jul 31 2015",
       "description":"Assim que postei o último artigo, o Raphael Amorim me parabenizou pelo repositório commit-wars, e me confessou que já tinha pensando em fazer algo do gênero, porém, um pouco diferente e bem mais completo, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-880d05f61831",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source"]
     },
     {
       "img":"guerra-dos-clones.jpg",
@@ -254,7 +268,8 @@
       "date":"Jun 30 2015",
       "description":"É pessoal, depois de receber tantos feedbacks positivos sobre o primeiro post, eu não poderia deixar de comentar que escrever sem duvidas é tão importante quando contribuir em projetos. etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-a6cd5372b46",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source"]
     },
     {
       "img":"a-ameaca-fantasma.jpg",
@@ -263,11 +278,51 @@
       "date":"May 31 2015",
       "description":"Tudo começou no último Meetup RioJS de 2014, quando o @raphamorim deu uma talk intitulada Confissões de um contribuidor, basicamente ele apresentou os benefícios de aderir ao movimento Write Code Every Day, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-5c51ddd837cd#.nq1xp6z0w",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source"]
     }
   ],
 
   "talks_next":[],
+
+  "screencasts":[
+    {
+      "ep":"#000 ",
+      "img":"episodio-piloto.jpg",
+      "alt":"Episódio piloto + Propriedades customizadas e variáveis.",
+      "theme":"Episódio piloto + Propriedades customizadas e variáveis.",
+      "time":"15:17",
+      "date":"Mar 19 2016",
+      "dateschema":"2016-03-19",
+      "url":"https://www.youtube.com/watch?v=TkEdCWshqag",
+      "tags":["css"]
+    }
+  ],
+
+  "misc":[
+    {
+      "name":"Entrevista para o PodTech #1",
+      "img":"demo.jpg",
+      "alt":"Entrevista para o PodTech #1",
+      "time":"1:03:30",
+      "date":"May 14 2016",
+      "dateschema":"2016-05-14",
+      "description":"Trocamos ideia sobre: Atomic Design, FlexBox, Bootstrap, Inline Style, Componentização, Testes de regressão visual, PostCSS e o atual cenário FrontEnd :)",
+      "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
+      "tags":["css","reactjs","css-layouts","tests","css-patterns"]
+    },
+    {
+      "name":"Escrever Código Todo Dia - Vale a pena?",
+      "img":"demo.jpg",
+      "alt":"Escrever Código Todo Dia - Vale a pena?",
+      "time":"24:59",
+      "date":"May 11 2016",
+      "dateschema":"2016-05-11",
+      "description":"Um bate-pao entre Raphael Amorim e Afonso Pacifer, onde eles conversam um pouco sobre o desafio de Escrever Código Todo Dia, relatando experiências de vida e suas opiniões.",
+      "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
+      "tags":["open-source"]
+    }
+  ],
 
   "talks_2016":[
     {
@@ -278,7 +333,8 @@
       "dateschema":"2015-05-14",
       "local":"Unirio - ",
       "address":"Urca, Rio de Janeiro - RJ",
-      "url":"5c10b859485045a7a1b833e6a1051448"
+      "url":"5c10b859485045a7a1b833e6a1051448",
+      "tags":["html","open-source"]
     },
     {
       "event":"#3 FEMUG RJ",
@@ -288,7 +344,8 @@
       "dateschema":"2015-01-23",
       "local":"Estácio - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"a00934b237c342c3b79d4e09e1ebb927"
+      "url":"a00934b237c342c3b79d4e09e1ebb927",
+      "tags":["css"]
     }
   ],
 
@@ -301,7 +358,8 @@
       "dateschema":"2015-11-26",
       "local":"UFF - ",
       "address":"Niterói - RJ",
-      "url":"59db3f89140e4a3f9e990426b23f8a34"
+      "url":"59db3f89140e4a3f9e990426b23f8a34",
+      "tags":["open-source"]
     },
     {
       "event":"XV FEUCTEC",
@@ -311,7 +369,8 @@
       "dateschema":"2015-10-28",
       "local":"FEUC - ",
       "address":"Campo Grande, Rio de Janeiro - RJ",
-      "url":"0e42fc349ba74f069272778c378c6121"
+      "url":"0e42fc349ba74f069272778c378c6121",
+      "tags":["html","css","javascript"]
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -321,7 +380,8 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"87885d11f3ff4925a671e162b851a280"
+      "url":"87885d11f3ff4925a671e162b851a280",
+      "tags":["open-source"]
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -331,7 +391,8 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"0e42fc349ba74f069272778c378c6121"
+      "url":"0e42fc349ba74f069272778c378c6121",
+      "tags":["html","css","javascript"]
     },
     {
       "event":"#1 FEMUG RJ",
@@ -341,7 +402,8 @@
       "dateschema":"2015-10-10",
       "local":"Web Radar - ",
       "address":"Botafogo, Rio de Janeiro - RJ",
-      "url":"aa2e8c52404a4508b31bfed4bac0cfcf"
+      "url":"aa2e8c52404a4508b31bfed4bac0cfcf",
+      "tags":["css"]
     },
     {
       "event":"#3 BarraJS",
@@ -351,7 +413,8 @@
       "dateschema":"2015-07-25",
       "local":"LEO - ",
       "address":"Barra da Tijuca, Rio de Janeiro - RJ",
-      "url":"9de50ebecb9749a78ff7f62bd67634f9"
+      "url":"9de50ebecb9749a78ff7f62bd67634f9",
+      "tags":["css","css-layouts"]
     },
     {
       "event":"#15 RioJS",
@@ -361,7 +424,8 @@
       "dateschema":"2015-07-18",
       "local":"He:labs - ",
       "address":"Glória, Rio de Janeiro - RJ",
-      "url":"227ecc9635aa47a1b304ad566fea11d6"
+      "url":"227ecc9635aa47a1b304ad566fea11d6",
+      "tags":["css","css-layouts"]
     }
   ]
 
