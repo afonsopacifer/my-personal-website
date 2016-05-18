@@ -85,3 +85,28 @@
   border: 1px solid var(--talks-color);
   color: var(--talks-color);
 }
+
+/* projects
+=========== */
+.project .heading-lv2 {
+  border-bottom: 4px solid var(--projects-color);
+}
+
+.project .heading-lv3 {
+  color: var(--projects-color);
+}
+
+.project .btn {
+  background-color: var(--projects-color);
+  color: #fff;
+}
+
+.project .strong {
+  color: var(--projects-color);
+  font-weight: 400;
+}
+
+.project .tag {
+  border: 1px solid var(--projects-color);
+  color: var(--projects-color);
+}

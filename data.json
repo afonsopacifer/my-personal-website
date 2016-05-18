@@ -1,123 +1,116 @@
 {
-  "personal_projects":[
+  "projects":[
     {
       "name":"awesome-flexbox",
       "emoji":"metal.png",
       "user":"afonsopacifer",
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
-      "url":"https://github.com/afonsopacifer/awesome-flexbox"
+      "url":"https://github.com/afonsopacifer/awesome-flexbox",
+      "tags":["css","css-layouts"]
     },
     {
       "name":"flex-grid-framework",
       "emoji":"star2.png",
       "user":"afonsopacifer",
       "description":"The Flex Semantic Grid focusing on performance.",
-      "url":"https://afonsopacifer.github.io/flex-grid-framework/"
+      "url":"https://afonsopacifer.github.io/flex-grid-framework/",
+      "tags":["css","css-layouts"]
     },
     {
       "name":"open-source-checklist",
       "emoji":"ballot_box_with_check.png",
       "user":"afonsopacifer",
       "description":"A guide to help you remember important things when creating an open source project ;D",
-      "url":"http://afonsopacifer.github.io/open-source-checklist/"
+      "url":"http://afonsopacifer.github.io/open-source-checklist/",
+      "tags":["open-source","workflow"]
     },
     {
       "name":"slush-react-start",
       "emoji":"package.png",
       "user":"afonsopacifer",
       "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel)",
-      "url":"https://github.com/afonsopacifer/slush-react-start"
+      "url":"https://github.com/afonsopacifer/slush-react-start",
+      "tags":["reactjs","workflow"]
     },
     {
       "name":"slush-tangerine",
       "emoji":"tangerine.png",
       "user":"afonsopacifer",
       "description":"Front-End boilerplate with tangerine flavor.",
-      "url":"https://github.com/afonsopacifer/slush-tangerine"
+      "url":"https://github.com/afonsopacifer/slush-tangerine",
+      "tags":["html","css","javascript","workflow"]
     },
     {
       "name":"da-vinci-css",
       "emoji":"art.png",
       "user":"afonsopacifer",
       "description":"Creating shapes and drawings with CSS.",
-      "url":"https://github.com/afonsopacifer/da-vinci-css"
+      "url":"https://github.com/afonsopacifer/da-vinci-css",
+      "tags":["css"]
     },
     {
       "name":"css-magic",
       "emoji":"card.png",
       "user":"afonsopacifer",
       "description":"An illusion created only with CSS.",
-      "url":"https://github.com/afonsopacifer/css-magic"
+      "url":"https://github.com/afonsopacifer/css-magic",
+      "tags":["css"]
     },
     {
       "name":"egg-emergency",
       "emoji":"sparkling_heart.png",
       "user":"afonsopacifer",
       "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
-      "url":"http://afonsopacifer.github.io/egg-emergency/"
+      "url":"http://afonsopacifer.github.io/egg-emergency/",
+      "tags":["css"]
     },
     {
       "name":"microscope",
       "emoji":"microscope.png",
       "user":"afonsopacifer",
       "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
-      "url":"https://github.com/afonsopacifer/microscope"
+      "url":"https://github.com/afonsopacifer/microscope",
+      "tags":["css","css-patterns"]
     },
     {
       "name":"commit-wars",
       "emoji":"octocat.png",
       "user":"afonsopacifer",
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
-      "url":"https://github.com/afonsopacifer/commit-wars"
+      "url":"https://github.com/afonsopacifer/commit-wars",
+      "tags":["open-source"]
     },
     {
       "name":"learning-css-grid-layout",
       "emoji":"blue_book.png",
       "user":"afonsopacifer",
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
-      "url":"https://github.com/afonsopacifer/learning-css-grid-layout"
+      "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
+      "tags":["css","css-layouts"]
     },
     {
       "name":"pumpkin",
       "emoji":"jack_o_lantern.png",
       "user":"afonsopacifer",
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
-      "url":"https://github.com/afonsopacifer/pumpkin"
+      "url":"https://github.com/afonsopacifer/pumpkin",
+      "tags":["workflow"]
     },
     {
       "name":"open-source-boilerplate",
       "emoji":"rocket.png",
       "user":"afonsopacifer",
       "description":"A template to help you create open source projects more organized.",
-      "url":"https://github.com/afonsopacifer/open-source-boilerplate"
-    },
-    {
-      "name":"my-portfolio",
-      "emoji":"muscle.png",
-      "user":"afonsopacifer",
-      "description":"List of some cool projects :)",
-      "url":"http://afonsopacifer.github.io/my-portfolio/"
-    },
-    {
-      "name":"my-personal-website",
-      "emoji":"coffee.png",
-      "user":"afonsopacifer",
-      "description":"My personal website.",
-      "url":"https://github.com/afonsopacifer/my-personal-website"
+      "url":"https://github.com/afonsopacifer/open-source-boilerplate",
+      "tags":["open-source","workflow"]
     },
     {
       "name":"pacificator",
       "emoji":"cop.png",
       "user":"afonsopacifer",
       "description":"Adds a standard syntax and indentation to css.",
-      "url":"https://github.com/afonsopacifer/pacificator"
-    },
-    {
-      "name":"afonsoconfigs",
-      "emoji":"rocket.png",
-      "user":"afonsopacifer",
-      "description":"My packages, configs, dotfiles, plugins, etc...",
-      "url":"https://github.com/afonsopacifer/afonsoconfigs"
+      "url":"https://github.com/afonsopacifer/pacificator",
+      "tags":["javascript"]
     }
   ],
   "articles":[

@@ -13,39 +13,26 @@ block content
 
 		div.container
 
-			//- Talks 2016
-			section.section.talk
-				h2.heading-lv2 Talks presented in 2016
+			//- Projects
+			section.section.project
+				h2.heading-lv2 Projects
 
 				div.list-articles
 
-					- for talk in talks_2016
-						- var event = talk.event
-						- var theme = talk.theme
-						- var attendees = talk.attendees
-						- var date = talk.date
-						- var local = talk.local
-						- var address = talk.address
-						- var url = talk.url
-						- var dateschema = talk.dateschema
+					- for project in projects
+						- var name = project.name
+						- var user = project.user
+						- var emoji = project.emoji
+						- var url = project.url
+						- var description = project.description
 
 							article.article
 								h3.heading-lv3
-									span(class="heading-lv3-text")=event
-									span(class="date")=date
-								script(async class="speakerdeck-embed" data-id=url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
-								p.paragraph
-									b.strong Theme: 
-									span(itemprop="description")=theme
-									br
-									b.strong Attendance: 
-									span=attendees
-									br
-									b.strong Date: 
-									span(itemprop="startDate" content=dateschema)=date
-									br
-									b.strong Local: 
-									span(itemprop="location" itemscope itemtype="http://schema.org/Place")
-										span(itemprop="name")=local
-										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
-											span(itemprop="addressLocality")=address
+									//- img(src="assets/img/emojis/"+emoji class="emojis")
+									span=name
+										//- div.star
+										//- 	iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+								p.paraghaph=description
+								div.tags-container
+									- each tag in project.tags
+										a(href="tags/"+tag+".html" class="tag")=tag
