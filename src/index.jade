@@ -52,6 +52,7 @@ block content
 				- var ep = screencasts[x].ep
 				- var time = screencasts[x].time
 				- var theme = screencasts[x].theme
+				- var description = screencasts[x].description
 
 					article.article
 						a(href=url target="_blank" class="article-link")
@@ -62,6 +63,7 @@ block content
 							div.img-container
 								img(src="assets/img/screencasts-covers/"+img alt=alt class="img")
 								span.img-dutarion=time
+						p.paraghaph=description
 						div.tags-container
 							- each tag in screencasts[x].tags
 								a(href="tags/"+tag+".html" class="tag")=tag
@@ -71,13 +73,13 @@ block content
 			h2.heading-lv2 Misc
 
 			- for (var y = 0; y < 2; ++y)
-				- var img = misc[y].img
-				- var alt = misc[y].alt
-				- var url = misc[y].url
-				- var date = misc[y].date
-				- var name = misc[y].name
-				- var time = misc[y].time
-				- var description = misc[y].description
+				- var img = miscs[y].img
+				- var alt = miscs[y].alt
+				- var url = miscs[y].url
+				- var date = miscs[y].date
+				- var name = miscs[y].name
+				- var time = miscs[y].time
+				- var description = miscs[y].description
 
 					article.article
 						a(href=url target="_blank" class="article-link")
@@ -89,5 +91,5 @@ block content
 								span.img-dutarion=time
 						p.paraghaph=description
 						div.tags-container
-							- each tag in misc[y].tags
+							- each tag in miscs[y].tags
 								a(href="tags/"+tag+".html" class="tag")=tag

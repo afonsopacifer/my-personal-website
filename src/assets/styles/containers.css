@@ -19,14 +19,15 @@
 
 .section {
   flex: 1;
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .article {
   padding-bottom: 5px;
   background: #fff;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px 5px;
+  /*box-shadow: 3px 3px 5px #ccc;*/
   /*display: flex;
   flex-wrap: wrap;*/
 }
@@ -42,8 +43,6 @@
 
 .list-articles > .article {
   width: calc((100%/3) - 10px);
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .heading-lv3 {

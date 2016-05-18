@@ -49,6 +49,9 @@ block content
 										span(itemprop="name")=local
 										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
 											span(itemprop="addressLocality")=address
+									div.tags-container
+										- each tag in talk.tags
+											a(href="tags/"+tag+".html" class="tag")=tag
 
 			//- Talks 2015
 			section.section.talk
@@ -86,3 +89,6 @@ block content
 										span(itemprop="name")=local
 										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
 											span(itemprop="addressLocality")=address
+									div.tags-container
+										- each tag in talk.tags
+											a(href="tags/"+tag+".html" class="tag")=tag

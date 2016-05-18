@@ -136,7 +136,7 @@
       "alt":"Pensando em URLs no Github",
       "name":"Pensando em URLs no Github",
       "date":"Mar 19 2016",
-      "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando, e sem falar que podem existir links quebrados em seus projetos e você nem estar sabendo. Nesse artigo irei demonstrar algumas dessas situações e como resolve-las.",
+      "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando.",
       "url":"https://medium.com/@afonsopacifer/pensando-em-urls-no-github-3517d97249d0#.un4beit6n",
       "local":"Medium",
       "tags":["open-source"]
@@ -294,12 +294,13 @@
       "time":"15:17",
       "date":"Mar 19 2016",
       "dateschema":"2016-03-19",
+      "description":":)",
       "url":"https://www.youtube.com/watch?v=TkEdCWshqag",
       "tags":["css"]
     }
   ],
 
-  "misc":[
+  "miscs":[
     {
       "name":"Entrevista para o PodTech #1",
       "img":"demo.jpg",

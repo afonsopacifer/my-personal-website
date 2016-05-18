@@ -1,0 +1,42 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Misc"
+	-var description = ""
+	-var keywords = ""
+
+block content
+
+	//- Updates
+	//- ===========================================
+	main.main
+
+		div.container
+
+			//- Misc
+			section.section.misc
+				h2.heading-lv2 Misc
+
+				div.list-articles
+
+					- for misc in miscs
+						- var img = misc.img
+						- var alt = misc.alt
+						- var url = misc.url
+						- var date = misc.date
+						- var name = misc.name
+						- var time = misc.time
+						- var description = misc.description
+
+							article.article
+								a(href=url target="_blank" class="article-link")
+									h3.heading-lv3
+										span.heading-lv3-text=name
+										span.date=date
+									div.img-container
+										img(src="assets/img/misc-covers/"+img alt=alt class="img")
+										span.img-dutarion=time
+								p.paraghaph=description
+								div.tags-container
+									- each tag in misc.tags
+										a(href="tags/"+tag+".html" class="tag")=tag

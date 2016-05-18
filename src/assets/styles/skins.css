@@ -80,3 +80,8 @@
   color: var(--talks-color);
   font-weight: 400;
 }
+
+.talk .tag {
+  border: 1px solid var(--talks-color);
+  color: var(--talks-color);
+}

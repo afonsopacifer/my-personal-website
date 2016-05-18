@@ -1,0 +1,44 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Screecast"
+	-var description = ""
+	-var keywords = ""
+
+block content
+
+	//- Updates
+	//- ===========================================
+	main.main
+
+		div.container
+
+			//- Screencasts list
+			section.section.screencast
+				h2.heading-lv2 Screencasts
+
+				div.list-articles
+
+					- for screencast in screencasts
+						- var img = screencast.img
+						- var alt = screencast.alt
+						- var url = screencast.url
+						- var date = screencast.date
+						- var ep = screencast.ep
+						- var time = screencast.time
+						- var theme = screencast.theme
+						- var description = screencast.description
+
+							article.article
+								a(href=url target="_blank" class="article-link")
+									h3.heading-lv3
+										span.heading-lv3-text=ep
+											span=theme
+										span.date=date
+									div.img-container
+										img(src="assets/img/screencasts-covers/"+img alt=alt class="img")
+										span.img-dutarion=time
+								p.paraghaph=description
+								div.tags-container
+									- each tag in screencast.tags
+										a(href="tags/"+tag+".html" class="tag")=tag
