@@ -1,0 +1,240 @@
+/* global
+=========================================== */
+
+body {
+  background-color: var(--complementary-background);
+  font-size: 16px
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/** {
+  border: 1px dashed #00fd36;
+}*/
+
+/* basic
+=========================================== */
+
+:root {
+  /* colors */
+  --highlight-background: #029494;
+  --highlight-color: #fff;
+  --complementary-background: #ededed;
+  --complementary-color: #313131;
+  --posts-color: #CA006E;
+  --screencasts-color: #029494;
+  --miscs-color: #F16A07;
+  --talks-color: #A168CA;
+  --projects-color: #01A3CA;
+  --default-color: #2D2D2D;
+}
+
+/* flex powers
+=========================================== */
+.bs-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.bs-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+}
+
+/* highligth
+=========================================== */
+.bs-active-link-menu {
+  color: #fff;
+}
+
+.bs-decoration-off {
+  text-decoration: none;
+}
+
+/* skins
+=========================================== */
+
+/* default
+=========== */
+.bs-default .or-header {
+  background-color: var(--default-color);
+}
+
+.bs-default .at-heading-lv2 {
+  border-bottom: 4px solid var(--default-color);
+}
+
+.bs-default .ml-heading-lv3 {
+  color: var(--default-color);
+}
+
+.bs-default .at-btn {
+  background-color: var(--default-color);
+  color: #fff;
+}
+
+.bs-default .at-tag {
+  border: 1px solid var(--default-color);
+  color: var(--default-color);
+}
+
+.bs-default .ml-footer-down {
+  background-color: var(--default-color);
+}
+
+/* posts
+=========== */
+.bs-post .or-header {
+  background-color: var(--posts-color);
+}
+
+.bs-post .at-heading-lv2 {
+  border-bottom: 4px solid var(--posts-color);
+}
+
+.bs-post .ml-heading-lv3 {
+  color: var(--posts-color);
+}
+
+.bs-post .at-btn {
+  background-color: var(--posts-color);
+  color: #fff;
+}
+
+.bs-post .at-tag {
+  border: 1px solid var(--posts-color);
+  color: var(--posts-color);
+}
+
+.bs-post .ml-footer-down {
+  background-color: var(--posts-color);
+}
+
+/* screencasts
+=========== */
+.bs-screencast .or-header {
+  background-color: var(--screencasts-color);
+}
+
+.bs-screencast .at-heading-lv2 {
+  border-bottom: 4px solid var(--screencasts-color);
+}
+
+.bs-screencast .ml-heading-lv3 {
+  color: var(--screencasts-color);
+}
+
+.bs-screencast .at-btn {
+  background-color: var(--screencasts-color);
+  color: #fff;
+}
+
+.bs-screencast .at-tag {
+  border: 1px solid var(--screencasts-color);
+  color: var(--screencasts-color);
+}
+
+.bs-screencast .ml-footer-down {
+  background-color: var(--screencasts-color);
+}
+
+/* miscs
+=========== */
+.bs-misc .or-header {
+  background-color: var(--miscs-color);
+}
+
+.bs-misc .at-heading-lv2 {
+  border-bottom: 4px solid var(--miscs-color);
+}
+
+.bs-misc .ml-heading-lv3 {
+  color: var(--miscs-color);
+}
+
+.bs-misc .at-btn {
+  background-color: var(--miscs-color);
+  color: #fff;
+}
+
+.bs-misc .at-tag {
+  border: 1px solid var(--miscs-color);
+  color: var(--miscs-color);
+}
+
+.bs-misc .ml-footer-down {
+  background-color: var(--miscs-color);
+}
+
+/* talks
+=========== */
+.bs-talk .or-header {
+  background-color: var(--talks-color);
+}
+
+.bs-talk .at-heading-lv2 {
+  border-bottom: 4px solid var(--talks-color);
+}
+
+.bs-talk .ml-heading-lv3 {
+  color: var(--talks-color);
+}
+
+.bs-talk .at-btn {
+  background-color: var(--talks-color);
+  color: #fff;
+}
+
+.bs-talk .at-strong {
+  color: var(--talks-color);
+  font-weight: 400;
+}
+
+.bs-talk .at-tag {
+  border: 1px solid var(--talks-color);
+  color: var(--talks-color);
+}
+
+.bs-talk .ml-footer-down {
+  background-color: var(--talks-color);
+}
+
+/* projects
+=========== */
+.bs-project .or-header {
+  background-color: var(--projects-color);
+}
+
+.bs-project .at-heading-lv2 {
+  border-bottom: 4px solid var(--projects-color);
+}
+
+.bs-project .ml-heading-lv3 {
+  color: var(--projects-color);
+}
+
+.bs-project .at-btn {
+  background-color: var(--projects-color);
+  color: #fff;
+}
+
+.bs-project .at-strong {
+  color: var(--projects-color);
+  font-weight: 400;
+}
+
+.bs-project .at-tag {
+  border: 1px solid var(--projects-color);
+  color: var(--projects-color);
+}
+
+.bs-project .ml-footer-down {
+  background-color: var(--projects-color);
+}

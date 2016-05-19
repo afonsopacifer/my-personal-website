@@ -5,36 +5,31 @@ block page_infos
 	-var description = ""
 	-var keywords = ""
 
+block page_style
+	-var skin = "bs-post"
+
 block content
 
-	//- Updates
-	//- ===========================================
-	main.main
+	main.or-main.or-container
 
-		div.container
-			//- Articles list 2016
-			section.section.post
-				h2.heading-lv2 Writing
+		//- Articles list
+		section.or-section
+			h2.at-heading-lv2 Writing
 
-				div.list-articles
+			div.or-list-article
 
-					- for article in articles
-						- var img = article.img
-						- var alt = article.alt
-						- var name = article.name
-						- var description = article.description
-						- var url = article.url
-						- var date = article.date
-						- var local = article.local
+				- for article in articles
+					article.ml-article
 
-							article.article
-								a(href=url target="_blank" class="article-link")
-									h3.heading-lv3
-										span.heading-lv3-text=name
-										span.date=date
-									div.img-container
-										img(src="assets/img/articles-covers/"+img alt=alt class="img")
-								p.paraghaph=description
-								div.tags-container
-									- each tag in article.tags
-										a(href="tags/"+tag+".html" class="tag")=tag
+						a(href=article.url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=article.name
+								span.at-date=article.date
+							div.img-container
+								img(src="assets/img/articles-covers/"+article.img alt=article.alt class="at-img")
+
+						p.at-paraghaph=article.description
+
+						div.ml-tags-container
+							- each tag in article.tags
+								a(href="tags/"+tag+".html" class="at-tag")=tag

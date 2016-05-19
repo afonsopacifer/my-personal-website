@@ -5,91 +5,75 @@ block page_infos
 	-var description = ""
 	-var keywords = ""
 
+block page_style
+	-var skin = "bs-default"
+
 block content
 
-	//- Featured
-	//- ===========================================
-	// div.featured
+	main.or-main.or-container
 
-	//- Updates
-	//- ===========================================
-	main.main.container
-
-		//- Articles list
-		section.section.post
-			h2.heading-lv2 Writing
+		//- Writing Updates
+		//- ===========================================
+		section.or-section.bs-post
+			h2.at-heading-lv2 Writing
 
 			- for (var i = 0; i < 3; ++i)
-				- var img = articles[i].img
-				- var alt = articles[i].alt
-				- var name = articles[i].name
-				- var description = articles[i].description
-				- var url = articles[i].url
-				- var date = articles[i].date
-				- var local = articles[i].local
+				article.ml-article
 
-					article.article
-						a(href=url target="_blank" class="article-link")
-							h3.heading-lv3
-								span.heading-lv3-text=name
-								span.date=date
-							div.img-container
-								img(src="assets/img/articles-covers/"+img alt=alt class="img")
-						p.paraghaph=description
-						div.tags-container
-							- each tag in articles[i].tags
-								a(href="tags/"+tag+".html" class="tag")=tag
+					a(href=articles[i].url target="_blank" class="bs-decoration-off")
+						h3.ml-heading-lv3
+							span.at-heading-lv3-text=articles[i].name
+							span.at-date=articles[i].date
+						div.img-container
+							img(src="assets/img/articles-covers/"+articles[i].img alt=articles[i].alt class="at-img")
 
-		//- Screencasts list
-		section.section.screencast
-			h2.heading-lv2 Screencasts
+					p.at-paraghaph=articles[i].description
+
+					div.ml-tags-container
+						- each tag in articles[i].tags
+							a(href="tags/"+tag+".html" class="at-tag")=tag
+
+		//- Screencasts Updates
+		//- ===========================================
+		section.or-section.bs-screencast
+			h2.at-heading-lv2 Screencasts
 
 			- for (var x = 0; x < 1; ++x)
-				- var img = screencasts[x].img
-				- var alt = screencasts[x].alt
-				- var url = screencasts[x].url
-				- var date = screencasts[x].date
-				- var ep = screencasts[x].ep
-				- var time = screencasts[x].time
-				- var theme = screencasts[x].theme
-				- var description = screencasts[x].description
+				article.ml-article
 
-					article.article
-						a(href=url target="_blank" class="article-link")
-							h3.heading-lv3
-								span.heading-lv3-text=ep
-									span=theme
-								span.date=date
-							div.img-container
-								img(src="assets/img/screencasts-covers/"+img alt=alt class="img")
-								span.img-dutarion=time
-						p.paraghaph=description
-						div.tags-container
-							- each tag in screencasts[x].tags
-								a(href="tags/"+tag+".html" class="tag")=tag
+					a(href=screencasts[x].url target="_blank" class="bs-decoration-off")
+						h3.ml-heading-lv3
+							span.at-heading-lv3-text=screencasts[x].ep
+								span=screencasts[x].theme
+							span.at-date=screencasts[x].date
+						div.img-container
+							img(src="assets/img/screencasts-covers/"+screencasts[x].img alt=screencasts[x].alt class="at-img")
+							span.at-video-dutarion=screencasts[x].time
 
-		//- Miscs list
-		section.section.misc
-			h2.heading-lv2 Misc
+					p.at-paraghaph=screencasts[x].description
+
+					div.ml-tags-container
+						- each tag in screencasts[x].tags
+							a(href="tags/"+tag+".html" class="at-tag")=tag
+
+		//- Misc Updates
+		//- ===========================================
+		section.or-section.bs-misc
+			h2.at-heading-lv2 Misc
 
 			- for (var y = 0; y < 2; ++y)
-				- var img = miscs[y].img
-				- var alt = miscs[y].alt
-				- var url = miscs[y].url
-				- var date = miscs[y].date
-				- var name = miscs[y].name
-				- var time = miscs[y].time
-				- var description = miscs[y].description
+				article.ml-article
 
-					article.article
-						a(href=url target="_blank" class="article-link")
-							h3.heading-lv3
-								span.heading-lv3-text=name
-								span.date=date
-							div.img-container
-								img(src="assets/img/misc-covers/"+img alt=alt class="img")
-								span.img-dutarion=time
-						p.paraghaph=description
-						div.tags-container
-							- each tag in miscs[y].tags
-								a(href="tags/"+tag+".html" class="tag")=tag
+					a(href=miscs[y].url target="_blank" class="bs-decoration-off")
+						h3.ml-heading-lv3
+							span.at-heading-lv3-text=miscs[y].name
+							span.at-date=miscs[y].date
+						div.img-container
+							img(src="assets/img/misc-covers/"+miscs[y].img alt=miscs[y].alt class="at-img")
+							span.at-video-dutarion=miscs[y].time
+
+					p.at-paraghaph=miscs[y].description
+
+					div.ml-tags-container
+						- each tag in miscs[y].tags
+							a(href="tags/"+tag+".html" class="at-tag")=tag

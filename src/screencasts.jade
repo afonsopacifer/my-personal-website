@@ -5,40 +5,33 @@ block page_infos
 	-var description = ""
 	-var keywords = ""
 
+block page_style
+	-var skin = "bs-screencast"
+
 block content
 
-	//- Updates
-	//- ===========================================
-	main.main
+	main.or-main.or-container
 
-		div.container
+		//- Screencasts list
+		section.or-section
+			h2.at-heading-lv2 Screencasts
 
-			//- Screencasts list
-			section.section.screencast
-				h2.heading-lv2 Screencasts
+			div.or-list-article
 
-				div.list-articles
+				- for screencast in screencasts
+					article.ml-article
 
-					- for screencast in screencasts
-						- var img = screencast.img
-						- var alt = screencast.alt
-						- var url = screencast.url
-						- var date = screencast.date
-						- var ep = screencast.ep
-						- var time = screencast.time
-						- var theme = screencast.theme
-						- var description = screencast.description
+						a(href=screencast.url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=screencast.ep
+									span=screencast.theme
+								span.at-date=screencast.date
+							div.img-container
+								img(src="assets/img/screencasts-covers/"+screencast.img alt=screencast.alt class="at-img")
+								span.at-video-dutarion=screencast.time
 
-							article.article
-								a(href=url target="_blank" class="article-link")
-									h3.heading-lv3
-										span.heading-lv3-text=ep
-											span=theme
-										span.date=date
-									div.img-container
-										img(src="assets/img/screencasts-covers/"+img alt=alt class="img")
-										span.img-dutarion=time
-								p.paraghaph=description
-								div.tags-container
-									- each tag in screencast.tags
-										a(href="tags/"+tag+".html" class="tag")=tag
+						p.at-paraghaph=screencast.description
+
+						div.ml-tags-container
+							- each tag in screencast.tags
+								a(href="tags/"+tag+".html" class="at-tag")=tag

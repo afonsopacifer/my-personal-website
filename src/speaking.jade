@@ -5,90 +5,82 @@ block page_infos
 	-var description = ""
 	-var keywords = ""
 
+block page_style
+	-var skin = "bs-talk"
+
 block content
 
-	//- Updates
-	//- ===========================================
-	main.main
+	main.or-main.or-container
 
-		div.container
+		div.or-container
 
 			//- Talks 2016
-			section.section.talk
-				h2.heading-lv2 Talks presented in 2016
+			section.or-section
+				h2.at-heading-lv2 Talks presented in 2016
 
-				div.list-articles
+				div.or-list-article
 
 					- for talk in talks_2016
-						- var event = talk.event
-						- var theme = talk.theme
-						- var attendees = talk.attendees
-						- var date = talk.date
-						- var local = talk.local
-						- var address = talk.address
-						- var url = talk.url
-						- var dateschema = talk.dateschema
+						article.ml-article
 
-							article.article
-								h3.heading-lv3
-									span(class="heading-lv3-text")=event
-									span(class="date")=date
-								script(async class="speakerdeck-embed" data-id=url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
-								p.paragraph
-									b.strong Theme: 
-									span(itemprop="description")=theme
-									br
-									b.strong Attendance: 
-									span=attendees
-									br
-									b.strong Date: 
-									span(itemprop="startDate" content=dateschema)=date
-									br
-									b.strong Local: 
-									span(itemprop="location" itemscope itemtype="http://schema.org/Place")
-										span(itemprop="name")=local
-										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
-											span(itemprop="addressLocality")=address
-									div.tags-container
-										- each tag in talk.tags
-											a(href="tags/"+tag+".html" class="tag")=tag
+							h3.ml-heading-lv3
+								span(class="at-heading-lv3-text")=talk.event
+								span(class="at-date")=talk.date
 
-			//- Talks 2015
-			section.section.talk
-				h2.heading-lv2 Talks presented in 2015
+							script(async class="speakerdeck-embed" data-id=talk.url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
 
-				div.list-articles
+							p.at-paragraph
+								b.at-strong Theme: 
+								span(itemprop="description")=talk.theme
+								br
+								b.at-strong Attendance:
+								span=talk.attendees
+								br
+								b.at-strong Date: 
+								span(itemprop="startDate" content=dateschema)=talk.date
+								br
+								b.at-strong Local: 
+								span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+									span(itemprop="name")=talk.local
+									Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+										span(itemprop="addressLocality")=talk.address
 
-					- for talk in talks
-						- var event = talk.event
-						- var theme = talk.theme
-						- var attendees = talk.attendees
-						- var date = talk.date
-						- var local = talk.local
-						- var address = talk.address
-						- var url = talk.url
-						- var dateschema = talk.dateschema
+							div.ml-tags-container
+								- each tag in talk.tags
+									a(href="tags/"+tag+".html" class="at-tag")=tag
 
-							article.article
-								h3.heading-lv3
-									span(class="heading-lv3-text")=event
-									span(class="date")=date
-								script(async class="speakerdeck-embed" data-id=url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
-								p.paragraph
-									b.strong Theme: 
-									span(itemprop="description")=theme
-									br
-									b.strong Attendance: 
-									span=attendees
-									br
-									b.strong Date: 
-									span(itemprop="startDate" content=dateschema)=date
-									br
-									b.strong Local: 
-									span(itemprop="location" itemscope itemtype="http://schema.org/Place")
-										span(itemprop="name")=local
-										Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
-											span(itemprop="addressLocality")=address
-									div.tags-container
-										- each tag in talk.tags
-											a(href="tags/"+tag+".html" class="tag")=tag
+		//- Talks 2015
+		div.or-container
+			section.or-section
+				h2.at-heading-lv2 Talks presented in 2015
+
+				div.or-list-article
+
+					- for talk in talks_2015
+						article.ml-article
+
+							h3.ml-heading-lv3
+								span(class="at-heading-lv3-text")=talk.event
+								span(class="at-date")=talk.date
+
+							script(async class="speakerdeck-embed" data-id=talk.url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
+
+							p.at-paragraph
+								b.at-strong Theme: 
+								span(itemprop="description")=talk.theme
+								br
+								b.at-strong Attendance:
+								span=talk.attendees
+								br
+								b.at-strong Date: 
+								span(itemprop="startDate" content=dateschema)=talk.date
+								br
+								b.at-strong Local: 
+								span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+									span(itemprop="name")=talk.local
+									Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+										span(itemprop="addressLocality")=talk.address
+
+							div.ml-tags-container
+								- each tag in talk.tags
+									a(href="tags/"+tag+".html" class="at-tag")=tag

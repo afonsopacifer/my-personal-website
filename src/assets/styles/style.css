@@ -1,7 +1,4 @@
-@import "variables.css";
-@import "global.css";
-@import "header.css";
-@import "containers.css";
-@import "componentes.css";
-@import "skins.css";
-@import "footer.css";
+@import "bosons.css";
+@import "atoms.css";
+@import "molecules.css";
+@import "organisms.css";

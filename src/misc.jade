@@ -5,38 +5,32 @@ block page_infos
 	-var description = ""
 	-var keywords = ""
 
+block page_style
+	-var skin = "bs-misc"
+
 block content
 
-	//- Updates
-	//- ===========================================
-	main.main
+	main.or-main.or-container
 
-		div.container
+		//- Misc list
+		section.or-section
+			h2.at-heading-lv2 Misc
 
-			//- Misc
-			section.section.misc
-				h2.heading-lv2 Misc
+			div.or-list-article
 
-				div.list-articles
+				- for misc in miscs
+					article.ml-article
 
-					- for misc in miscs
-						- var img = misc.img
-						- var alt = misc.alt
-						- var url = misc.url
-						- var date = misc.date
-						- var name = misc.name
-						- var time = misc.time
-						- var description = misc.description
+						a(href=misc.url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=misc.name
+								span.at-date=misc.date
+							div.img-container
+								img(src="assets/img/misc-covers/"+misc.img alt=misc.alt class="at-img")
+								span.at-video-dutarion=misc.time
 
-							article.article
-								a(href=url target="_blank" class="article-link")
-									h3.heading-lv3
-										span.heading-lv3-text=name
-										span.date=date
-									div.img-container
-										img(src="assets/img/misc-covers/"+img alt=alt class="img")
-										span.img-dutarion=time
-								p.paraghaph=description
-								div.tags-container
-									- each tag in misc.tags
-										a(href="tags/"+tag+".html" class="tag")=tag
+						p.at-paraghaph=misc.description
+
+						div.ml-tags-container
+							- each tag in misc.tags
+								a(href="tags/"+tag+".html" class="at-tag")=tag

@@ -1,17 +1,20 @@
-/* components
+/* text
 =========================================== */
-
-/* features
-=========== */
-.featured {
-  background-color: black;
-  width: 100%;
-  height: 400px;
+.at-heading-lv1 {
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  font-weight: 400;
 }
 
-/* basic
-=========== */
-.heading-lv2 {
+.at-sub-heading {
+  color: #dedddd;
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+}
+
+.at-heading-lv2 {
   color: var(--complementary-color);
   font-size: 1.4em;
   font-weight: 400;
@@ -19,19 +22,11 @@
   padding: 10px 0;
 }
 
-.heading-lv3 {
-  font-size: 1.1em;
-  font-weight: 400;
-  margin: 0 0 10px 0;
-  display: flex;
-  min-height: 40px;
-}
-
-.heading-lv3-text {
+.at-heading-lv3-text {
   flex: 1;
 }
 
-.date {
+.at-date {
   color: #ccc;
   font-size: .6em;
   font-weight: 300;
@@ -40,38 +35,79 @@
   margin-left: auto;
 }
 
-.paraghaph {
+.at-paraghaph {
   color: var(--complementary-color);
   margin: 10px 0;
   font-size: 1em;
   font-weight: 300;
 }
 
-.btn {
+/* menu
+=========================================== */
+
+@media screen and (min-width: 768px) {
+  .at-btn-open {display: none;}
+}
+
+.at-link-menu {
+  color: #dedddd;
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .at-link-menu {background: #262626;}
+}
+
+/* link to Cast Show
+=========================================== */
+.at-css-cast-show {
+  padding: 5px 10px;
+  margin-left: 10px;
+  order: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .at-css-cast-show {
+    order: 3;
+  }
+}
+
+/* links
+=========================================== */
+.at-btn {
   text-decoration: none;
   display: inline-block;
   padding: 10px 15px;
   font-size: 1em;
 }
 
-.text-link {
+.at-text-link {
   display: inline-block;
   color: var(--complementary-color);
   text-decoration: none;
 }
 
-.img {
+/* images
+=========================================== */
+.at-img {
   width: 100%;
 }
 
-.img-dutarion {
+/* videos
+=========================================== */
+.at-video-dutarion {
   position: absolute;
   bottom: 10px;
   right: 10px;
   color: #fff;
 }
 
-.tag {
+/* tag
+=========================================== */
+.at-tag {
   font-weight: 400;
   font-size: 14px;
   padding: 3px 7px;
@@ -81,7 +117,9 @@
   text-decoration: none;
 }
 
-.heart {
+/* heart
+=========================================== */
+.at-heart {
   margin: 0 5px;
   width: 10px;
   height: 10px;
@@ -91,7 +129,7 @@
   animation: pulse .5s infinite alternate ease-in;
 }
 
-.heart:before {
+.at-heart:before {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -102,7 +140,7 @@
   content: "";
 }
 
-.heart:after {
+.at-heart:after {
   width: 10px;
   height: 10px;
   border-radius: 50%;
