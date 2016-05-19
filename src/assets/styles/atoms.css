@@ -131,6 +131,27 @@
   text-decoration: none;
 }
 
+/* emojis
+=========================================== */
+.at-emojis {
+  margin-right: 8px;
+  width: 25px;
+  height: 25px;
+}
+
+/* start
+=========================================== */
+.at-github-star {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.at-star-count {
+  width: 86px;
+  height: 22px;
+}
+
 /* heart
 =========================================== */
 .at-heart {

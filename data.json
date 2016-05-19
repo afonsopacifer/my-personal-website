@@ -122,7 +122,7 @@
       "description":"Vamos testar um componente simples, que escreve hello na página. Como somos descolados vamos usar ES6 e um bundler para organizar nossas dependências e componentes.",
       "url":"https://medium.com/@afonsopacifer/iniciando-seus-testes-unit%C3%A1rios-em-componentes-reactjs-de-forma-moderna-c711977d7143#.cq0htj66o",
       "local":"Medium",
-      "tags":["javascript","reactjs","tests","es2015"]
+      "tags":["javascript","reactjs","tests"]
     },
     {
       "img":"urls.jpg",
@@ -162,7 +162,7 @@
       "description":"Na parte 1 aprendemos a configurar nossas animações, hoje iremos focar nas animações de fato, em cada movimento e conbinações de movimentos. Vamos nessa <3",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-8-animacoes-parte-2",
       "local":"Codepen",
-      "tags":["css","adventure-time","animations"]
+      "tags":["css","adventure-time"]
     },
     {
       "img":"pseudo-elementos.jpg",
@@ -192,7 +192,7 @@
       "description":"Chegou a hora de falar sobre umas das coisas mais divertidas da vida! Vamos aprender um pouco sobre animações com CSS3, que é algo tão simples quanto poderoso!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes",
       "local":"Codepen",
-      "tags":["css","adventure-time","animations"]
+      "tags":["css","adventure-time"]
     },
     {
       "img":"amor.jpg",

@@ -27,12 +27,14 @@ block content
 					- var description = project.description
 
 						article.ml-article
-							h3.ml-heading-lv3
-								//- img(src="assets/img/emojis/"+emoji class="emojis")
-								span=name
-									//- div.star
-									//- 	iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
-							p.at-paraghaph=description
-							div.ml-tags-container
-								- each tag in project.tags
-									a(href=tag+".html" class="at-tag")=tag
+							a(href=project.url target="_blank" class="bs-decoration-off")
+								h3.ml-heading-lv3
+									img(src="assets/img/emojis/"+emoji class="at-emojis")
+									span=name
+									div.at-github-star
+										iframe(class="at-star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+
+								p.at-paraghaph=description
+								div.ml-tags-container
+									- each tag in project.tags
+										a(href=tag+".html" class="at-tag")=tag
