@@ -22,6 +22,20 @@
   padding: 10px 0;
 }
 
+.at-total-value {
+  color: #B1B0B0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.at-total-value:before {
+  content:" (";
+}
+
+.at-total-value:after {
+  content:")";
+}
+
 .at-heading-lv3-text {
   flex: 1;
 }
