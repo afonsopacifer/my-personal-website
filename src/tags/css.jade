@@ -1,0 +1,197 @@
+extends ./../layouts/default.jade
+
+block page_infos
+	-var title = "CSS"
+	-var description = ""
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-default"
+
+block content
+
+	//- Define the page content here
+	//- ==============================
+	-var page = "css"
+
+	main.or-main.or-container
+
+		//- Articles list
+		div.or-container
+			section.or-section.bs-post
+				h2.at-heading-lv2 Writing - 
+					span=page
+
+				div.or-list-article
+
+					- for article in articles
+						- each tag in article.tags
+							if tag == page
+								article.ml-article
+
+									a(href=article.url target="_blank" class="bs-decoration-off")
+										h3.ml-heading-lv3
+											span.at-heading-lv3-text=article.name
+											span.at-date=article.date
+									//- 	div.img-container
+									//- 		img(src="assets/img/articles-covers/"+article.img alt=article.alt class="at-img")
+									//- 
+									//- p.at-paraghaph=article.description
+
+									div.ml-tags-container
+										- each tag in article.tags
+											a(href=tag+".html" class="at-tag")=tag
+
+		//- Screencasts list
+		div.or-container
+			section.or-section.bs-screencast
+				h2.at-heading-lv2 Screencasts - 
+					span=page
+
+				div.or-list-article
+
+					- for screencast in screencasts
+						- each tag in screencast.tags
+							if tag == page
+								article.ml-article
+
+									a(href=screencast.url target="_blank" class="bs-decoration-off")
+										h3.ml-heading-lv3
+											span.at-heading-lv3-text=screencast.ep
+												span=screencast.theme
+											span.at-date=screencast.date
+									//- 	div.img-container
+									//- 		img(src="assets/img/screencasts-covers/"+screencast.img alt=screencast.alt class="at-img")
+									//- 		span.at-video-dutarion=screencast.time
+									//- 
+									//- p.at-paraghaph=screencast.description
+
+									div.ml-tags-container
+										- each tag in screencast.tags
+											a(href=tag+".html" class="at-tag")=tag
+
+		//- Misc list
+		div.or-container
+			section.or-section.bs-misc
+				h2.at-heading-lv2 Misc - 
+					span=page
+
+				div.or-list-article
+
+					div.or-list-article
+
+						- for misc in miscs
+							- each tag in misc.tags
+								if tag == page
+									article.ml-article
+
+										a(href=misc.url target="_blank" class="bs-decoration-off")
+											h3.ml-heading-lv3
+												span.at-heading-lv3-text=misc.name
+												span.at-date=misc.date
+											//- div.img-container
+											//- 	img(src="assets/img/misc-covers/"+misc.img alt=misc.alt class="at-img")
+											//- 	span.at-video-dutarion=misc.time
+										
+										//- p.at-paraghaph=misc.description
+
+										div.ml-tags-container
+											- each tag in misc.tags
+												a(href=tag+".html" class="at-tag")=tag
+
+		//- Talks
+		div.or-container
+			section.or-section.bs-talk
+				h2.at-heading-lv2 Talks presented - 
+					span=page
+
+				div.or-list-article
+
+					- for talk in talks_2016
+						- each tag in talk.tags
+							if tag == page
+								article.ml-article
+
+									h3.ml-heading-lv3
+										span(class="at-heading-lv3-text")=talk.event
+										span(class="at-date")=talk.date
+
+									//- script(async class="speakerdeck-embed" data-id=talk.url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
+
+									p.at-paragraph
+										b.at-strong Theme: 
+										span(itemprop="description")=talk.theme
+										//- br
+										//- b.at-strong Attendance:
+										//- span=talk.attendees
+										//- br
+										//- b.at-strong Date: 
+										//- span(itemprop="startDate" content=dateschema)=talk.date
+										//- br
+										//- b.at-strong Local: 
+										//- span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+										//- 	span(itemprop="name")=talk.local
+										//- 	Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+										//- 		span(itemprop="addressLocality")=talk.address
+
+									div.ml-tags-container
+										- each tag in talk.tags
+											a(href=tag+".html" class="at-tag")=tag
+
+					- for talk in talks_2015
+						- each tag in talk.tags
+							if tag == page
+								article.ml-article
+
+									h3.ml-heading-lv3
+										span(class="at-heading-lv3-text")=talk.event
+										span(class="at-date")=talk.date
+
+									//- script(async class="speakerdeck-embed" data-id=talk.url data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js")
+
+									p.at-paragraph
+										b.at-strong Theme: 
+										span(itemprop="description")=talk.theme
+										//- br
+										//- b.at-strong Attendance:
+										//- span=talk.attendees
+										//- br
+										//- b.at-strong Date: 
+										//- span(itemprop="startDate" content=dateschema)=talk.date
+										//- br
+										//- b.at-strong Local: 
+										//- span(itemprop="location" itemscope itemtype="http://schema.org/Place")
+										//- 	span(itemprop="name")=talk.local
+										//- 	Span(itemprop="address" itemscope itemtype="http://schema.org/PostalAddress")
+										//- 		span(itemprop="addressLocality")=talk.address
+
+									div.ml-tags-container
+										- each tag in talk.tags
+											a(href=tag+".html" class="at-tag")=tag
+
+		//- Projects
+		div.or-container
+			section.or-section.bs-project
+				h2.at-heading-lv2 Projects - 
+					span=page
+
+				div.or-list-article
+					- for project in projects
+						- each tag in project.tags
+							if tag == page
+								- var name = project.name
+								- var user = project.user
+								- var emoji = project.emoji
+								- var url = project.url
+								- var description = project.description
+
+									article.ml-article
+										h3.ml-heading-lv3
+											//- img(src="assets/img/emojis/"+emoji class="emojis")
+											span=name
+												//- div.star
+												//- 	iframe(class="star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+										p.at-paraghaph=description
+										div.ml-tags-container
+											- each tag in project.tags
+												a(href=tag+".html" class="at-tag")=tag

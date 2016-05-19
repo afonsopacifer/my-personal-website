@@ -31,7 +31,7 @@ block content
 
 					div.ml-tags-container
 						- each tag in articles[i].tags
-							a(href="tags/"+tag+".html" class="at-tag")=tag
+							a(href=tag+".html" class="at-tag")=tag
 
 		//- Screencasts Updates
 		//- ===========================================
@@ -54,7 +54,7 @@ block content
 
 					div.ml-tags-container
 						- each tag in screencasts[x].tags
-							a(href="tags/"+tag+".html" class="at-tag")=tag
+							a(href=tag+".html" class="at-tag")=tag
 
 		//- Misc Updates
 		//- ===========================================
@@ -76,4 +76,4 @@ block content
 
 					div.ml-tags-container
 						- each tag in miscs[y].tags
-							a(href="tags/"+tag+".html" class="at-tag")=tag
+							a(href=tag+".html" class="at-tag")=tag
