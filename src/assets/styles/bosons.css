@@ -49,6 +49,12 @@ body {
   position: relative;
 }
 
+/* adjustment
+=========================================== */
+.bs-margin {
+  margin: 0 5px;
+}
+
 /* highligth
 =========================================== */
 .bs-active-link-menu {
@@ -86,6 +92,14 @@ body {
   color: var(--default-color);
 }
 
+.bs-default .at-label {
+  color: var(--default-color);
+}
+
+.bs-default .at-social-icon {
+  fill: var(--default-color);
+}
+
 .bs-default .ml-footer-down {
   background-color: var(--default-color);
 }
@@ -112,6 +126,14 @@ body {
 .bs-post .at-tag {
   border: 1px solid var(--posts-color);
   color: var(--posts-color);
+}
+
+.bs-post .at-label {
+  color: var(--posts-color);
+}
+
+.bs-post .at-social-icon {
+  fill: var(--posts-color);
 }
 
 .bs-post .ml-footer-down {
@@ -142,6 +164,15 @@ body {
   color: var(--screencasts-color);
 }
 
+.bs-screencast .at-label {
+  color: var(--screencasts-color);
+}
+
+
+.bs-screencast .at-social-icon {
+  fill: var(--screencasts-color);
+}
+
 .bs-screencast .ml-footer-down {
   background-color: var(--screencasts-color);
 }
@@ -168,6 +199,14 @@ body {
 .bs-misc .at-tag {
   border: 1px solid var(--miscs-color);
   color: var(--miscs-color);
+}
+
+.bs-misc .at-label {
+  color: var(--miscs-color);
+}
+
+.bs-misc .at-social-icon {
+  fill: var(--miscs-color);
 }
 
 .bs-misc .ml-footer-down {
@@ -203,6 +242,15 @@ body {
   color: var(--talks-color);
 }
 
+.bs-talk .at-label {
+  color: var(--talks-color);
+}
+
+
+.bs-talk .at-social-icon {
+  fill: var(--talks-color);
+}
+
 .bs-talk .ml-footer-down {
   background-color: var(--talks-color);
 }
@@ -234,6 +282,15 @@ body {
 .bs-project .at-tag {
   border: 1px solid var(--projects-color);
   color: var(--projects-color);
+}
+
+.bs-project .at-label {
+  color: var(--projects-color);
+}
+
+
+.bs-project .at-social-icon {
+  fill: var(--projects-color);
 }
 
 .bs-project .ml-footer-down {

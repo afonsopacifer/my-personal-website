@@ -95,13 +95,38 @@
   text-decoration: none;
   display: inline-block;
   padding: 10px 15px;
-  font-size: 1em;
+  font-size: 14px;
+  border: 0;
 }
 
 .at-text-link {
   display: inline-block;
   color: var(--complementary-color);
   text-decoration: none;
+}
+
+/* social icons
+=========================================== */
+.at-social-icon {
+  margin: 0 5px;
+}
+
+/* forms
+=========================================== */
+.at-label {
+  margin: 0 5px 6px 5px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+
+.at-input {
+  width: 100%;
+  max-width: 200px;
+  height: 37px;
+  margin: 0;
+  font-size: 12px;
+  padding: 10px;
 }
 
 /* images
