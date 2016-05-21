@@ -32,8 +32,9 @@
 @media screen and (max-width: 768px) {
   .ml-menu {
     position: absolute;
-    background-color: var(--highlight-background);
+    background-color: #262626;
     text-align: left;
+    z-index: 2;
   }
 }
 
@@ -70,7 +71,7 @@
   font-weight: 400;
   margin: 0 0 10px 0;
   display: flex;
-  /*min-height: 40px;*/
+  min-height: 40px;
 }
 
 /* forms

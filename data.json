@@ -116,8 +116,8 @@
   "articles":[
     {
       "img":"react-test.jpg",
-      "alt":"Iniciando seus testes unitários em componentes ReactJS de forma moderna!",
-      "name":"Iniciando seus testes unitários em componentes ReactJS de forma moderna!",
+      "alt":"Iniciando seus testes unitários em componentes ReactJS",
+      "name":"Iniciando seus testes unitários em componentes ReactJS",
       "date":"May 08 2016",
       "description":"Vamos testar um componente simples, que escreve hello na página. Como somos descolados vamos usar ES6 e um bundler para organizar nossas dependências e componentes.",
       "url":"https://medium.com/@afonsopacifer/iniciando-seus-testes-unit%C3%A1rios-em-componentes-reactjs-de-forma-moderna-c711977d7143#.cq0htj66o",
