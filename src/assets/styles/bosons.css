@@ -63,6 +63,24 @@ body {
 
 .bs-decoration-off {
   text-decoration: none;
+  transition: opacity .3s;
+}
+
+.bs-decoration-off:hover {
+  opacity: .7;
+}
+
+/* current page
+=========================================== */
+.home        .ml-iten-menu:nth-child(1) .at-link-menu,
+.writing     .ml-iten-menu:nth-child(2) .at-link-menu,
+.screencasts .ml-iten-menu:nth-child(3) .at-link-menu,
+.misc        .ml-iten-menu:nth-child(4) .at-link-menu,
+.speaking    .ml-iten-menu:nth-child(5) .at-link-menu,
+.projects    .ml-iten-menu:nth-child(6) .at-link-menu {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.2);;
 }
 
 /* skins
@@ -168,7 +186,6 @@ body {
   color: var(--screencasts-color);
 }
 
-
 .bs-screencast .at-social-icon {
   fill: var(--screencasts-color);
 }
@@ -246,7 +263,6 @@ body {
   color: var(--talks-color);
 }
 
-
 .bs-talk .at-social-icon {
   fill: var(--talks-color);
 }
@@ -287,7 +303,6 @@ body {
 .bs-project .at-label {
   color: var(--projects-color);
 }
-
 
 .bs-project .at-social-icon {
   fill: var(--projects-color);

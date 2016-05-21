@@ -38,7 +38,13 @@
 
 .at-heading-lv3-text {
   flex: 1;
+  transition: opacity .3s;
 }
+
+.at-heading-lv3-text:hover {
+  opacity: .7;
+}
+
 
 .at-date {
   color: #ccc;
@@ -69,6 +75,11 @@
   font-weight: 400;
   display: block;
   padding: 10px;
+  transition: color .2s;
+}
+
+.at-link-menu:hover {
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -97,18 +108,34 @@
   padding: 10px 15px;
   font-size: 14px;
   border: 0;
+  transition: opacity .3s;
+}
+
+.at-btn:hover {
+  opacity: .7;
 }
 
 .at-text-link {
   display: inline-block;
   color: var(--complementary-color);
   text-decoration: none;
+  transition: opacity .3s;
 }
+
+.at-text-link:hover {
+  opacity: .7;
+}
+
 
 /* social icons
 =========================================== */
 .at-social-icon {
   margin: 0 5px;
+  transition: opacity .3s;
+}
+
+.at-social-icon:hover {
+  opacity: .7;
 }
 
 /* forms
@@ -127,6 +154,12 @@
   margin: 0;
   font-size: 12px;
   padding: 10px;
+  border: 1px solid #ccc;
+  border-right: 0;
+}
+.at-input:focus {
+  outline:0;
+  border-color: #000;
 }
 
 /* images
@@ -147,13 +180,18 @@
 /* tag
 =========================================== */
 .at-tag {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   padding: 3px 7px;
   margin-right: 8px;
   margin-top: 8px;
   display: inline-block;
   text-decoration: none;
+  transition: opacity .3s;
+}
+
+.at-tag:hover {
+  opacity: .7;
 }
 
 /* emojis
