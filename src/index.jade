@@ -11,76 +11,99 @@ block page_style
 
 block content
 
-	main.or-main.or-container.bs-section-col
+	//- Hello and About me
+	//- ===========================================
+	div.or-background-img
+		div.ml-hello
+			div
+				span.at-hello.bs-highligth-misc Hello,
+			div
+				span.bs-highligth-default My name is 
+				span.bs-highligth-screencasts Afonso Pacifer 
+				span.bs-highligth-default and I live in Rio de Janeiro - Brazil.
+			div
+				span.bs-highligth-default I am a 
+				span.bs-highligth-posts UI Engeneer 
+				span.bs-highligth-default and 
+				span.bs-highligth-talks CSS Evangelist
+				span.bs-highligth-default addicted to 
+				span.bs-highligth-projects Open Source.
 
-		//- Writing Updates
+	main.or-main.or-container
+		
+
+		//- Update
 		//- ===========================================
-		section.or-section.bs-post
-			h2.at-heading-lv2 Writing
+		div.bs-flex-wrap.bs-section-col
 
-			- for (var i = 0; i < 3; ++i)
-				article.ml-article
+			//- Writing Updates
+			//- ===========================================
+			section.or-section.bs-post
+				h2.at-heading-lv2 Writing
 
-					a(href=articles[i].url target="_blank" class="bs-decoration-off")
-						h3.ml-heading-lv3
-							span.at-heading-lv3-text=articles[i].name
-							span.at-date=articles[i].date
-						div.img-container
-							img(src="assets/img/articles-covers/"+articles[i].img alt=articles[i].alt class="at-img")
+				- for (var i = 0; i < 3; ++i)
+					article.ml-article
 
-					p.at-paraghaph=articles[i].description
+						a(href=articles[i].url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=articles[i].name
+								span.at-date=articles[i].date
+							div.img-container
+								img(src="assets/img/articles-covers/"+articles[i].img alt=articles[i].alt class="at-img")
 
-					div.ml-tags-container
-						- each tag in articles[i].tags
-							a(href=tag+".html" class="at-tag")=tag
+						p.at-paraghaph=articles[i].description
 
-			a(href="writing.html" class="at-btn bs-margin") See all
+						div.ml-tags-container
+							- each tag in articles[i].tags
+								a(href=tag+".html" class="at-tag")=tag
 
-		//- Screencasts Updates
-		//- ===========================================
-		section.or-section.bs-screencast
-			h2.at-heading-lv2 Screencasts
+				a(href="writing.html" class="at-btn bs-margin") See all
 
-			- for (var x = 0; x < 1; ++x)
-				article.ml-article
+			//- Screencasts Updates
+			//- ===========================================
+			section.or-section.bs-screencast
+				h2.at-heading-lv2 Screencasts
 
-					a(href=screencasts[x].url target="_blank" class="bs-decoration-off")
-						h3.ml-heading-lv3
-							span.at-heading-lv3-text=screencasts[x].ep
-								span=screencasts[x].theme
-							span.at-date=screencasts[x].date
-						div.img-container
-							img(src="assets/img/screencasts-covers/"+screencasts[x].img alt=screencasts[x].alt class="at-img")
-							span.at-video-dutarion=screencasts[x].time
+				- for (var x = 0; x < 1; ++x)
+					article.ml-article
 
-					p.at-paraghaph=screencasts[x].description
+						a(href=screencasts[x].url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=screencasts[x].ep
+									span=screencasts[x].theme
+								span.at-date=screencasts[x].date
+							div.img-container
+								img(src="assets/img/screencasts-covers/"+screencasts[x].img alt=screencasts[x].alt class="at-img")
+								span.at-video-dutarion=screencasts[x].time
 
-					div.ml-tags-container
-						- each tag in screencasts[x].tags
-							a(href=tag+".html" class="at-tag")=tag
+						p.at-paraghaph=screencasts[x].description
 
-			a(href="screencasts.html" class="at-btn bs-margin") See all
+						div.ml-tags-container
+							- each tag in screencasts[x].tags
+								a(href=tag+".html" class="at-tag")=tag
 
-		//- Misc Updates
-		//- ===========================================
-		section.or-section.bs-misc
-			h2.at-heading-lv2 Misc
+				a(href="screencasts.html" class="at-btn bs-margin") See all
 
-			- for (var y = 0; y < 2; ++y)
-				article.ml-article
+			//- Misc Updates
+			//- ===========================================
+			section.or-section.bs-misc
+				h2.at-heading-lv2 Misc
 
-					a(href=miscs[y].url target="_blank" class="bs-decoration-off")
-						h3.ml-heading-lv3
-							span.at-heading-lv3-text=miscs[y].name
-							span.at-date=miscs[y].date
-						div.img-container
-							img(src="assets/img/misc-covers/"+miscs[y].img alt=miscs[y].alt class="at-img")
-							span.at-video-dutarion=miscs[y].time
+				- for (var y = 0; y < 2; ++y)
+					article.ml-article
 
-					p.at-paraghaph=miscs[y].description
+						a(href=miscs[y].url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=miscs[y].name
+								span.at-date=miscs[y].date
+							div.img-container
+								img(src="assets/img/misc-covers/"+miscs[y].img alt=miscs[y].alt class="at-img")
+								span.at-video-dutarion=miscs[y].time
 
-					div.ml-tags-container
-						- each tag in miscs[y].tags
-							a(href=tag+".html" class="at-tag")=tag
+						p.at-paraghaph=miscs[y].description
 
-			a(href="misc.html" class="at-btn bs-margin") See all
+						div.ml-tags-container
+							- each tag in miscs[y].tags
+								a(href=tag+".html" class="at-tag")=tag
+
+				a(href="misc.html" class="at-btn bs-margin") See all

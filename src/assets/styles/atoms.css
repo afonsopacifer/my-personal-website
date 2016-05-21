@@ -45,7 +45,6 @@
   opacity: .7;
 }
 
-
 .at-date {
   color: #ccc;
   font-size: .6em;
@@ -62,6 +61,9 @@
   font-weight: 300;
 }
 
+.at-hello {
+  font-size: 30px;
+}
 /* menu
 =========================================== */
 

@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  order: 1;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,7 +20,6 @@
 }
 
 .ml-nav {
-  order: 2;
 }
 
 .ml-menu {
@@ -62,6 +61,18 @@
   background: #fff;
   padding: 10px;
   margin: 10px 5px;
+}
+
+/* article
+=========================================== */
+.ml-hello {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 20px 10px;
+  color: #dedddd;
+  bottom: 0;
 }
 
 /* heading-lv3

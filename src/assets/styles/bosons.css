@@ -93,6 +93,55 @@ body {
   opacity: .7;
 }
 
+.bs-highligth-default {
+  background: var(--default-color);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bs-highligth-posts {
+  background: var(--posts-color);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bs-highligth-misc {
+  background: var(--miscs-color);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bs-highligth-screencasts {
+  background: var(--screencasts-color);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bs-highligth-talks {
+  background: var(--talks-color);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bs-highligth-projects {
+  background: var(--projects-color);
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+  /*--posts-color: #CA006E;
+  --screencasts-color: #029494;
+  --miscs-color: #C77335;
+  --talks-color: #A168CA;
+  --projects-color: #01A3CA;
+  --default-color: #2D2D2D;*/
+
 /* current page
 =========================================== */
 .home        .ml-iten-menu:nth-child(1) .at-link-menu,

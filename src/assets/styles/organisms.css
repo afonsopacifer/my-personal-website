@@ -3,11 +3,21 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
+  position: relative;
 }
 
 .or-header {
   background-color: var(--highlight-background);
   color: var(--highlight-color);
+}
+
+.or-background-img {
+  background: #0d0d0d;
+  /*background-image: url('../img/afonso.jpg');*/
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  border-top: 2px solid #ccc;
 }
 
 .or-main {
