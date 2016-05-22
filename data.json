@@ -295,13 +295,24 @@
 
   "miscs":[
     {
-      "name":"Entrevista para o PodTech #1",
+      "name":"PodTech #2 - Participação na entrevista com Suissa",
       "img":"demo.jpg",
-      "alt":"Entrevista para o PodTech #1",
+      "alt":"PodTech #2 - Participação na entrevista com Suissa",
+      "time":"1:29:06",
+      "date":"May 21 2016",
+      "dateschema":"2016-05-21",
+      "description":"Trocamos ideia sobre: Projetos, Programação Funcional, Educação, JavaScript, Atomic Design e muito mais.",
+      "url":"https://www.youtube.com/watch?v=V2-g2JE7b9M",
+      "tags":["css","css-patterns","javascript","open-source"]
+    },
+    {
+      "name":"PodTech #1 - Entrevista comigo :)",
+      "img":"demo.jpg",
+      "alt":"PodTech #1 - Entrevista comigo :)",
       "time":"1:03:30",
       "date":"May 14 2016",
       "dateschema":"2016-05-14",
-      "description":"Trocamos ideia sobre: Atomic Design, FlexBox, Bootstrap, Inline Style, Componentização, Testes de regressão visual, PostCSS e o atual cenário FrontEnd :)",
+      "description":"Trocamos ideia sobre: Atomic Design, FlexBox, Bootstrap, Inline Style, Componentização, Testes de regressão visual, PostCSS e o atual cenário FrontEnd.",
       "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
       "tags":["css","reactjs","css-layouts","tests","css-patterns"]
     },
