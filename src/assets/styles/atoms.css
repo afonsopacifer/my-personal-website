@@ -64,9 +64,9 @@
 .at-hello {
   font-size: 30px;
 }
+
 /* menu
 =========================================== */
-
 @media screen and (min-width: 768px) {
   .at-btn-open {display: none;}
 }
@@ -128,7 +128,6 @@
   opacity: .7;
 }
 
-
 /* social icons
 =========================================== */
 .at-social-icon {
@@ -159,6 +158,7 @@
   border: 1px solid #ccc;
   border-right: 0;
 }
+
 .at-input:focus {
   outline:0;
   border-color: #000;

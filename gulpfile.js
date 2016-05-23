@@ -27,7 +27,7 @@ gulp.task('jade', () => {
 gulp.task('cssnext', () => {
   gulp.src('src/assets/styles/style.css')
     .pipe(cssnext({
-      compress: false
+      compress: true
     }))
     .pipe(gulp.dest('out/assets/styles/'))
     .pipe(connect.reload());
