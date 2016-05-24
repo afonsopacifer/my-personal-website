@@ -17,6 +17,22 @@
       "tags":["css","css-layouts"]
     },
     {
+      "name":"microscope",
+      "emoji":"microscope.png",
+      "user":"afonsopacifer",
+      "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
+      "url":"https://github.com/afonsopacifer/microscope",
+      "tags":["css","css-patterns"]
+    },
+    {
+      "name":"react-pomodoro",
+      "emoji":"tomato.png",
+      "user":"afonsopacifer",
+      "description":"Pomodoro timer for developers.",
+      "url":"http://afonsopacifer.github.io/react-pomodoro/",
+      "tags":["javascript","reactjs"]
+    },
+    {
       "name":"open-source-checklist",
       "emoji":"ballot_box_with_check.png",
       "user":"afonsopacifer",
@@ -25,10 +41,26 @@
       "tags":["open-source","workflow"]
     },
     {
+      "name":"da-vinci-css",
+      "emoji":"art.png",
+      "user":"afonsopacifer",
+      "description":"Creating shapes and drawings with CSS.",
+      "url":"https://github.com/afonsopacifer/da-vinci-css",
+      "tags":["css"]
+    },
+    {
+      "name":"react-comments",
+      "emoji":"speech_balloon.png",
+      "user":"afonsopacifer",
+      "description":"A React comment feed.",
+      "url":"http://afonsopacifer.github.io/react-comments/",
+      "tags":["javascript","reactjs"]
+    },
+    {
       "name":"slush-react-start",
       "emoji":"package.png",
       "user":"afonsopacifer",
-      "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel)",
+      "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel).",
       "url":"https://github.com/afonsopacifer/slush-react-start",
       "tags":["reactjs","workflow"]
     },
@@ -39,14 +71,6 @@
       "description":"Front-End boilerplate with tangerine flavor.",
       "url":"https://github.com/afonsopacifer/slush-tangerine",
       "tags":["html","css","javascript","workflow"]
-    },
-    {
-      "name":"da-vinci-css",
-      "emoji":"art.png",
-      "user":"afonsopacifer",
-      "description":"Creating shapes and drawings with CSS.",
-      "url":"https://github.com/afonsopacifer/da-vinci-css",
-      "tags":["css"]
     },
     {
       "name":"css-magic",
@@ -63,14 +87,6 @@
       "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
       "url":"http://afonsopacifer.github.io/egg-emergency/",
       "tags":["css"]
-    },
-    {
-      "name":"microscope",
-      "emoji":"microscope.png",
-      "user":"afonsopacifer",
-      "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
-      "url":"https://github.com/afonsopacifer/microscope",
-      "tags":["css","css-patterns"]
     },
     {
       "name":"commit-wars",
@@ -110,7 +126,79 @@
       "user":"afonsopacifer",
       "description":"Adds a standard syntax and indentation to css.",
       "url":"https://github.com/afonsopacifer/pacificator",
+      "tags":["javascript","nodejs"]
+    },
+    {
+      "name":"dev-notes",
+      "emoji":"memo.png",
+      "user":"afonsopacifer",
+      "description":"Anotações de um Dev Front-End.",
+      "url":"https://github.com/afonsopacifer/dev-notes",
+      "tags":["personal"]
+    },
+    {
+      "name":"SPA-example",
+      "emoji":"mortar_board.png",
+      "user":"afonsopacifer",
+      "description":"Exemplo de uma SPA utilizando Jquery e History API.",
+      "url":"https://github.com/afonsopacifer/SPA-example",
       "tags":["javascript"]
+    },
+    {
+      "name":"react-unit-test-example",
+      "emoji":"page_facing_up.png",
+      "user":"afonsopacifer",
+      "description":"Exemplo de teste unitário em componentes ReactJS.",
+      "url":"https://github.com/afonsopacifer/react-unit-test-example",
+      "tags":["javascript","reactjs","tests"]
+    },
+    {
+      "name":"my-personal-website",
+      "emoji":"coffee.png",
+      "user":"afonsopacifer",
+      "description":"My personal website.",
+      "url":"https://github.com/afonsopacifer/my-personal-website",
+      "tags":["personal"]
+    },
+    {
+      "name":"afonsoconfigs",
+      "emoji":"rocket.png",
+      "user":"afonsopacifer",
+      "description":"My packages, configs, dotfiles, plugins, etc...",
+      "url":"https://github.com/afonsopacifer/afonsoconfigs",
+      "tags":["workflow","personal"]
+    },
+    {
+      "name":"phonegap-boilerplate",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/phonegap-boilerplate",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"css-grid-layout-manual",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/css-grid-layout-manual",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"post-apocalypse-flexbox",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/post-apocalypse-flexbox",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"front-end-checklist",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/front-end-checklist",
+      "tags":["project-in-construction"]
     }
   ],
   "articles":[
@@ -252,7 +340,7 @@
       "description":"Assim que postei o último artigo, o Raphael Amorim me parabenizou pelo repositório commit-wars, e me confessou que já tinha pensando em fazer algo do gênero, porém, um pouco diferente e bem mais completo, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-880d05f61831",
       "local":"Medium",
-      "tags":["open-source","commit-wars"]
+      "tags":["open-source","commit-wars","personal"]
     },
     {
       "img":"guerra-dos-clones.jpg",
@@ -262,7 +350,7 @@
       "description":"É pessoal, depois de receber tantos feedbacks positivos sobre o primeiro post, eu não poderia deixar de comentar que escrever sem duvidas é tão importante quando contribuir em projetos. etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-a6cd5372b46",
       "local":"Medium",
-      "tags":["open-source","commit-wars"]
+      "tags":["open-source","commit-wars","personal"]
     },
     {
       "img":"a-ameaca-fantasma.jpg",
@@ -272,7 +360,7 @@
       "description":"Tudo começou no último Meetup RioJS de 2014, quando o @raphamorim deu uma talk intitulada Confissões de um contribuidor, basicamente ele apresentou os benefícios de aderir ao movimento Write Code Every Day, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-5c51ddd837cd#.nq1xp6z0w",
       "local":"Medium",
-      "tags":["open-source","commit-wars"]
+      "tags":["open-source","commit-wars","personal"]
     }
   ],
 
@@ -287,7 +375,7 @@
       "time":"15:17",
       "date":"Mar 19 2016",
       "dateschema":"2016-03-19",
-      "description":":)",
+      "description":"Episódio piloto falando sobre o objetivo do canal e de quebra abordamos a especificação de Custom Properties.",
       "url":"https://www.youtube.com/watch?v=TkEdCWshqag",
       "tags":["css"]
     }
@@ -314,7 +402,7 @@
       "dateschema":"2016-05-14",
       "description":"Trocamos ideia sobre: Atomic Design, FlexBox, Bootstrap, Inline Style, Componentização, Testes de regressão visual, PostCSS e o atual cenário FrontEnd.",
       "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
-      "tags":["css","reactjs","css-layouts","tests","css-patterns"]
+      "tags":["css","reactjs","css-layouts","tests","css-patterns","personal"]
     },
     {
       "name":"Escrever Código Todo Dia - Vale a pena?",
@@ -325,7 +413,7 @@
       "dateschema":"2016-05-11",
       "description":"Um bate-pao entre Raphael Amorim e Afonso Pacifer, onde eles conversam um pouco sobre o desafio de Escrever Código Todo Dia, relatando experiências de vida e suas opiniões.",
       "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
-      "tags":["open-source"]
+      "tags":["open-source","personal"]
     }
   ],
 

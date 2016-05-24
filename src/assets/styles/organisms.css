@@ -14,8 +14,8 @@
 .or-background-img {
   background: #0d0d0d;
   /*background-image: url('../img/afonso.jpg');*/
-  background-position: right;
-  background-repeat: no-repeat;
+  /*background-position: right;
+  background-repeat: no-repeat;*/
   position: relative;
   border-top: 2px solid #ccc;
 }
