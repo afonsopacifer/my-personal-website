@@ -384,7 +384,7 @@
   "miscs":[
     {
       "name":"PodTech #2 - Participação na entrevista com Suissa",
-      "img":"demo.jpg",
+      "img":"podtech-2.jpg",
       "alt":"PodTech #2 - Participação na entrevista com Suissa",
       "time":"1:29:06",
       "date":"May 21 2016",
@@ -395,18 +395,18 @@
     },
     {
       "name":"PodTech #1 - Entrevista comigo :)",
-      "img":"demo.jpg",
+      "img":"podtech-1.jpg",
       "alt":"PodTech #1 - Entrevista comigo :)",
       "time":"1:03:30",
       "date":"May 14 2016",
       "dateschema":"2016-05-14",
       "description":"Trocamos ideia sobre: Atomic Design, FlexBox, Bootstrap, Inline Style, Componentização, Testes de regressão visual, PostCSS e o atual cenário FrontEnd.",
-      "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
+      "url":"https://www.youtube.com/watch?v=ck7pYoDDD5s",
       "tags":["css","reactjs","css-layouts","tests","css-patterns","personal"]
     },
     {
       "name":"Escrever Código Todo Dia - Vale a pena?",
-      "img":"demo.jpg",
+      "img":"escrever-codigo-todo-dia.jpg",
       "alt":"Escrever Código Todo Dia - Vale a pena?",
       "time":"24:59",
       "date":"May 11 2016",
