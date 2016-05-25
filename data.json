@@ -199,6 +199,14 @@
       "description":"work in progress.",
       "url":"https://github.com/afonsopacifer/front-end-checklist",
       "tags":["project-in-construction"]
+    },
+    {
+      "name":"learn-english",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/learn-english",
+      "tags":["project-in-construction"]
     }
   ],
   "articles":[
