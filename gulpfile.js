@@ -85,7 +85,7 @@ gulp.task('connect', () => {
 // Deploy for gh-pages
 // ===========================================
 gulp.task('deploy', () => {
-  return gulp.src('./out/')
+  return gulp.src('./out/**/*')
     .pipe(ghPages());
 });
 
