@@ -1,0 +1,109 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Afonso Pacifer - Front-End Developer and CSS Evangelist"
+	-var description = "A front-end developer passionate for css who spends his time playing with open source projects."
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-default"
+	-var current = "home"
+
+block content
+
+	//- Hello and About me
+	//- ===========================================
+	//- div.or-background-img
+	//- 	div.ml-hello
+	//- 		div
+	//- 			span.at-hello.bs-highligth-misc Hello,
+	//- 		div
+	//- 			span.bs-highligth-default My name is 
+	//- 			span.bs-highligth-screencasts Afonso Pacifer 
+	//- 			span.bs-highligth-default and I live in Rio de Janeiro - Brazil.
+	//- 		div
+	//- 			span.bs-highligth-default I am a 
+	//- 			span.bs-highligth-posts UI Engeneer 
+	//- 			span.bs-highligth-default and 
+	//- 			span.bs-highligth-talks CSS Evangelist
+	//- 			span.bs-highligth-default addicted to 
+	//- 			span.bs-highligth-projects Open Source.
+
+	main.or-main.or-container
+		
+
+		//- Update
+		//- ===========================================
+		div.bs-flex-wrap.bs-section-col
+
+			//- Writing Updates
+			//- ===========================================
+			section.or-section.bs-post
+				h2.at-heading-lv2 Writing
+
+				- for (var i = 0; i < 3; ++i)
+					article.ml-article
+
+						a(href=articles[i].url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=articles[i].name
+								span.at-date=articles[i].date
+							div.img-container
+								img(src="assets/img/articles-covers/"+articles[i].img alt=articles[i].alt class="at-img")
+
+						p.at-paraghaph=articles[i].description
+
+						div.ml-tags-container
+							- each tag in articles[i].tags
+								a(href=tag+".html" class="at-tag")=tag
+
+				a(href="writing.html" class="at-btn bs-margin") See all
+
+			//- Screencasts Updates
+			//- ===========================================
+			section.or-section.bs-screencast
+				h2.at-heading-lv2 Screencasts
+
+				- for (var x = 0; x < 1; ++x)
+					article.ml-article
+
+						a(href=screencasts[x].url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=screencasts[x].ep
+									span=screencasts[x].theme
+								span.at-date=screencasts[x].date
+							div.img-container
+								img(src="assets/img/screencasts-covers/"+screencasts[x].img alt=screencasts[x].alt class="at-img")
+								span.at-video-dutarion=screencasts[x].time
+
+						p.at-paraghaph=screencasts[x].description
+
+						div.ml-tags-container
+							- each tag in screencasts[x].tags
+								a(href=tag+".html" class="at-tag")=tag
+
+				a(href="screencasts.html" class="at-btn bs-margin") See all
+
+			//- Misc Updates
+			//- ===========================================
+			section.or-section.bs-misc
+				h2.at-heading-lv2 Misc
+
+				- for (var y = 0; y < 3; ++y)
+					article.ml-article
+
+						a(href=miscs[y].url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=miscs[y].name
+								span.at-date=miscs[y].date
+							div.img-container
+								img(src="assets/img/misc-covers/"+miscs[y].img alt=miscs[y].alt class="at-img")
+								span.at-video-dutarion=miscs[y].time
+
+						p.at-paraghaph=miscs[y].description
+
+						div.ml-tags-container
+							- each tag in miscs[y].tags
+								a(href=tag+".html" class="at-tag")=tag
+
+				a(href="misc.html" class="at-btn bs-margin") See all

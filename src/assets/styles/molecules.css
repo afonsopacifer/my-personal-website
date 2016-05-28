@@ -1,0 +1,147 @@
+/* logotipo
+=========================================== */
+.ml-logotipo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .ml-logotipo {flex: 1;}
+}
+
+/* menu
+=========================================== */
+@media screen and (min-width: 768px) {
+  .ml-nav {
+    flex: 1;
+  }
+}
+
+.ml-nav {
+}
+
+.ml-menu {
+  padding-left: 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .ml-menu {
+    position: absolute;
+    background-color: #262626;
+    text-align: left;
+    z-index: 2;
+  }
+}
+
+.ml-iten-menu {list-style: none;}
+
+@media screen and (min-width: 768px) {
+  .ml-iten-menu {display: inline-block;}
+}
+
+@media screen and (max-width: 768px) {
+
+  .ml-logotipo {
+    order: 2;
+  }
+
+  .ml-nav {
+    order: 1;
+  }
+}
+
+/* article
+=========================================== */
+.ml-article {
+  padding-bottom: 5px;
+  background: #fff;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+/* article
+=========================================== */
+.ml-hello {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 20px 10px;
+  color: #dedddd;
+  bottom: 0;
+}
+
+/* heading-lv3
+=========================================== */
+.ml-heading-lv3 {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  display: flex;
+  min-height: 40px;
+}
+
+/* forms
+=========================================== */
+.ml-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* tags
+=========================================== */
+.ml-tags {
+  width: 100%;
+  margin: 15px 0;
+}
+
+/* tags
+=========================================== */
+.ml-tags {
+  width: 100%;
+  margin: 15px 0;
+}
+
+/* footer
+=========================================== */
+.ml-footer-left {
+  text-align: left;
+  padding: 15px 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+  .ml-footer-left {
+    width: 100%;
+  }
+}
+
+.ml-footer-right {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+  .ml-footer-right {
+    width: 100%;
+    margin: 15px 0;
+    justify-content: center;
+  }
+}
+
+.ml-footer-down {
+  background-color: var(--highlight-background);
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-weight: 300;
+  font-size: .9em;
+  width: 100%;
+}

@@ -1,134 +1,234 @@
 {
-  "personal_projects":[
+  "projects":[
     {
       "name":"awesome-flexbox",
       "emoji":"metal.png",
       "user":"afonsopacifer",
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
-      "url":"https://github.com/afonsopacifer/awesome-flexbox"
+      "url":"https://github.com/afonsopacifer/awesome-flexbox",
+      "tags":["css","css-layouts"]
     },
     {
       "name":"flex-grid-framework",
       "emoji":"star2.png",
       "user":"afonsopacifer",
       "description":"The Flex Semantic Grid focusing on performance.",
-      "url":"https://afonsopacifer.github.io/flex-grid-framework/"
-    },
-    {
-      "name":"open-source-checklist",
-      "emoji":"ballot_box_with_check.png",
-      "user":"afonsopacifer",
-      "description":"A guide to help you remember important things when creating an open source project ;D",
-      "url":"http://afonsopacifer.github.io/open-source-checklist/"
-    },
-    {
-      "name":"slush-react-start",
-      "emoji":"package.png",
-      "user":"afonsopacifer",
-      "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel)",
-      "url":"https://github.com/afonsopacifer/slush-react-start"
-    },
-    {
-      "name":"slush-tangerine",
-      "emoji":"tangerine.png",
-      "user":"afonsopacifer",
-      "description":"Front-End boilerplate with tangerine flavor.",
-      "url":"https://github.com/afonsopacifer/slush-tangerine"
-    },
-    {
-      "name":"da-vinci-css",
-      "emoji":"art.png",
-      "user":"afonsopacifer",
-      "description":"Creating shapes and drawings with CSS.",
-      "url":"https://github.com/afonsopacifer/da-vinci-css"
-    },
-    {
-      "name":"css-magic",
-      "emoji":"card.png",
-      "user":"afonsopacifer",
-      "description":"An illusion created only with CSS.",
-      "url":"https://github.com/afonsopacifer/css-magic"
-    },
-    {
-      "name":"egg-emergency",
-      "emoji":"sparkling_heart.png",
-      "user":"afonsopacifer",
-      "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
-      "url":"http://afonsopacifer.github.io/egg-emergency/"
+      "url":"https://afonsopacifer.github.io/flex-grid-framework/",
+      "tags":["css","css-layouts"]
     },
     {
       "name":"microscope",
       "emoji":"microscope.png",
       "user":"afonsopacifer",
       "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
-      "url":"https://github.com/afonsopacifer/microscope"
+      "url":"https://github.com/afonsopacifer/microscope",
+      "tags":["css","css-patterns"]
+    },
+    {
+      "name":"react-pomodoro",
+      "emoji":"tomato.png",
+      "user":"afonsopacifer",
+      "description":"Pomodoro timer for developers.",
+      "url":"http://afonsopacifer.github.io/react-pomodoro/",
+      "tags":["javascript","reactjs"]
+    },
+    {
+      "name":"open-source-checklist",
+      "emoji":"ballot_box_with_check.png",
+      "user":"afonsopacifer",
+      "description":"A guide to help you remember important things when creating an open source project ;D",
+      "url":"http://afonsopacifer.github.io/open-source-checklist/",
+      "tags":["open-source","workflow"]
+    },
+    {
+      "name":"da-vinci-css",
+      "emoji":"art.png",
+      "user":"afonsopacifer",
+      "description":"Creating shapes and drawings with CSS.",
+      "url":"https://github.com/afonsopacifer/da-vinci-css",
+      "tags":["css"]
+    },
+    {
+      "name":"react-comments",
+      "emoji":"speech_balloon.png",
+      "user":"afonsopacifer",
+      "description":"A React comment feed.",
+      "url":"http://afonsopacifer.github.io/react-comments/",
+      "tags":["javascript","reactjs"]
+    },
+    {
+      "name":"slush-react-start",
+      "emoji":"package.png",
+      "user":"afonsopacifer",
+      "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel).",
+      "url":"https://github.com/afonsopacifer/slush-react-start",
+      "tags":["reactjs","workflow"]
+    },
+    {
+      "name":"slush-tangerine",
+      "emoji":"tangerine.png",
+      "user":"afonsopacifer",
+      "description":"Front-End boilerplate with tangerine flavor.",
+      "url":"https://github.com/afonsopacifer/slush-tangerine",
+      "tags":["html","css","javascript","workflow"]
+    },
+    {
+      "name":"css-magic",
+      "emoji":"card.png",
+      "user":"afonsopacifer",
+      "description":"An illusion created only with CSS.",
+      "url":"https://github.com/afonsopacifer/css-magic",
+      "tags":["css"]
+    },
+    {
+      "name":"egg-emergency",
+      "emoji":"sparkling_heart.png",
+      "user":"afonsopacifer",
+      "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
+      "url":"http://afonsopacifer.github.io/egg-emergency/",
+      "tags":["css"]
     },
     {
       "name":"commit-wars",
       "emoji":"octocat.png",
       "user":"afonsopacifer",
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
-      "url":"https://github.com/afonsopacifer/commit-wars"
+      "url":"https://github.com/afonsopacifer/commit-wars",
+      "tags":["open-source","commit-wars"]
     },
     {
       "name":"learning-css-grid-layout",
       "emoji":"blue_book.png",
       "user":"afonsopacifer",
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
-      "url":"https://github.com/afonsopacifer/learning-css-grid-layout"
+      "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
+      "tags":["css","css-layouts"]
     },
     {
       "name":"pumpkin",
       "emoji":"jack_o_lantern.png",
       "user":"afonsopacifer",
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
-      "url":"https://github.com/afonsopacifer/pumpkin"
+      "url":"https://github.com/afonsopacifer/pumpkin",
+      "tags":["workflow"]
     },
     {
       "name":"open-source-boilerplate",
       "emoji":"rocket.png",
       "user":"afonsopacifer",
       "description":"A template to help you create open source projects more organized.",
-      "url":"https://github.com/afonsopacifer/open-source-boilerplate"
-    },
-    {
-      "name":"my-portfolio",
-      "emoji":"muscle.png",
-      "user":"afonsopacifer",
-      "description":"List of some cool projects :)",
-      "url":"http://afonsopacifer.github.io/my-portfolio/"
-    },
-    {
-      "name":"my-personal-website",
-      "emoji":"coffee.png",
-      "user":"afonsopacifer",
-      "description":"My personal website.",
-      "url":"https://github.com/afonsopacifer/my-personal-website"
+      "url":"https://github.com/afonsopacifer/open-source-boilerplate",
+      "tags":["open-source","workflow"]
     },
     {
       "name":"pacificator",
       "emoji":"cop.png",
       "user":"afonsopacifer",
       "description":"Adds a standard syntax and indentation to css.",
-      "url":"https://github.com/afonsopacifer/pacificator"
+      "url":"https://github.com/afonsopacifer/pacificator",
+      "tags":["javascript","nodejs"]
+    },
+    {
+      "name":"dev-notes",
+      "emoji":"memo.png",
+      "user":"afonsopacifer",
+      "description":"Anotações de um Dev Front-End.",
+      "url":"https://github.com/afonsopacifer/dev-notes",
+      "tags":["personal"]
+    },
+    {
+      "name":"SPA-example",
+      "emoji":"mortar_board.png",
+      "user":"afonsopacifer",
+      "description":"Exemplo de uma SPA utilizando Jquery e History API.",
+      "url":"https://github.com/afonsopacifer/SPA-example",
+      "tags":["javascript"]
+    },
+    {
+      "name":"react-unit-test-example",
+      "emoji":"page_facing_up.png",
+      "user":"afonsopacifer",
+      "description":"Exemplo de teste unitário em componentes ReactJS.",
+      "url":"https://github.com/afonsopacifer/react-unit-test-example",
+      "tags":["javascript","reactjs","tests"]
+    },
+    {
+      "name":"my-personal-website",
+      "emoji":"coffee.png",
+      "user":"afonsopacifer",
+      "description":"My personal website.",
+      "url":"https://github.com/afonsopacifer/my-personal-website",
+      "tags":["personal"]
     },
     {
       "name":"afonsoconfigs",
       "emoji":"rocket.png",
       "user":"afonsopacifer",
       "description":"My packages, configs, dotfiles, plugins, etc...",
-      "url":"https://github.com/afonsopacifer/afonsoconfigs"
+      "url":"https://github.com/afonsopacifer/afonsoconfigs",
+      "tags":["workflow","personal"]
+    },
+    {
+      "name":"phonegap-boilerplate",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/phonegap-boilerplate",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"css-grid-layout-manual",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/css-grid-layout-manual",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"post-apocalypse-flexbox",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/post-apocalypse-flexbox",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"front-end-checklist",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/front-end-checklist",
+      "tags":["project-in-construction"]
+    },
+    {
+      "name":"learn-english",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/learn-english",
+      "tags":["project-in-construction"]
     }
   ],
   "articles":[
+    {
+      "img":"react-test.jpg",
+      "alt":"Iniciando seus testes unitários em componentes ReactJS",
+      "name":"Iniciando seus testes unitários em componentes ReactJS",
+      "date":"May 08 2016",
+      "description":"Vamos testar um componente simples, que escreve hello na página. Como somos descolados vamos usar ES6 e um bundler para organizar nossas dependências e componentes.",
+      "url":"https://medium.com/@afonsopacifer/iniciando-seus-testes-unit%C3%A1rios-em-componentes-reactjs-de-forma-moderna-c711977d7143#.cq0htj66o",
+      "local":"Medium",
+      "tags":["javascript","reactjs","tests"]
+    },
     {
       "img":"urls.jpg",
       "alt":"Pensando em URLs no Github",
       "name":"Pensando em URLs no Github",
       "date":"Mar 19 2016",
-      "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando, e sem falar que podem existir links quebrados em seus projetos e você nem estar sabendo. Nesse artigo irei demonstrar algumas dessas situações e como resolve-las.",
+      "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando.",
       "url":"https://medium.com/@afonsopacifer/pensando-em-urls-no-github-3517d97249d0#.un4beit6n",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source"]
     },
     {
       "img":"finn.jpg",
@@ -137,7 +237,8 @@
       "date":"Mar 15 2016",
       "description":"Foi realmente incrível passar esses últimos dias com vocês, recebi tantos feedbacks positivos, vi tantos desenhos irados e conheci muita gente boa. Só tenho a agracer o carinho de todos!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-10-hora-do-finn",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"flexbox.jpg",
@@ -146,7 +247,8 @@
       "date":"Mar 13 2016",
       "description":"Flexbox é um modulo da CSS3 que define um novo box model otimizado para interfaces, ou seja, agora temos uma especificação focada em interfaces, nada de floats ou tabelas aqui.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-9-flexbox",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time","css-layouts"]
     },
     {
       "img":"animacoes-pt2.jpg",
@@ -155,7 +257,8 @@
       "date":"Mar 12 2016",
       "description":"Na parte 1 aprendemos a configurar nossas animações, hoje iremos focar nas animações de fato, em cada movimento e conbinações de movimentos. Vamos nessa <3",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-8-animacoes-parte-2",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"pseudo-elementos.jpg",
@@ -164,7 +267,8 @@
       "date":"Mar 11 2016",
       "description":"Abordaremos basicamente os pseudo-elementos ::after e ::before, hoje aprenderemos que esses caras são muito importantes para a qualidade de nossos desenhos.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-7-pseudo-elementos",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"sombras.jpg",
@@ -173,7 +277,8 @@
       "date":"Mar 11 2016",
       "description":"Sombras com CSS são bem fáceis de criar e entender, tão fáceis, que a partir de hoje você meu caro leitor, nunca mais vai precisar de nenhum box-shadow generator em sua vida ;)",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-6-sombras",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"animacoes-pt1.jpg",
@@ -182,7 +287,8 @@
       "date":"Mar 11 2016",
       "description":"Chegou a hora de falar sobre umas das coisas mais divertidas da vida! Vamos aprender um pouco sobre animações com CSS3, que é algo tão simples quanto poderoso!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"amor.jpg",
@@ -191,7 +297,8 @@
       "date":"Mar 08 2016",
       "description":"Agora que tal juntarmos tudo para desenhar algo que represente o motivo desta série de posts existir? Vamos la!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-4-desenhando-com-amor",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"transformacao.jpg",
@@ -200,7 +307,8 @@
       "date":"Mar 07 2016",
       "description":"Agora sim! Vamos conhecer umas das melhores features do CSS3, o que vai literalmente transformar sua percepção da linguagem :D",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-3-transformacoes",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"pocisionamento.jpg",
@@ -209,7 +317,8 @@
       "date":"Mar 06 2016",
       "description":"Agora que sabemos como criar formas básicas, podemos dar o próximo passo e preparar nossa folha de papel em branco para posicionarmos nossas formas e montar nosso desenho, a princípio usaremos apenas o bom e velho position, mas nos próximos artigos veremos flexbox e outras coisinhas legais sobre posicionamento.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-2-posicionamento",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"formas.jpg",
@@ -218,7 +327,8 @@
       "date":"Mar 05 2016",
       "description":"Depois de muito tempo sem fazer nada legal, resolvi pegar uma noite e fazer algo para me distrair e acabei criando o Jake apenas com CSS, depois de mostrar para a galera no facebook recebi alguns pedidos para ensinar os macetes para fazer essas coisas fofas com CSS.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-1-formas-basicas",
-      "local":"Codepen"
+      "local":"Codepen",
+      "tags":["css","adventure-time"]
     },
     {
       "img":"variaveis-css.jpg",
@@ -227,7 +337,8 @@
       "date":"Nov 17 2015",
       "description":"Olá pessoal, neste artigo irei abordar o básico sobre variáveis nativas com CSS, e como você pode usar essa tecnologia hoje e sem medo de ser feliz.",
       "url":"http://tableless.com.br/como-usar-variaveis-no-css-de-forma-nativa/",
-      "local":"Tableless"
+      "local":"Tableless",
+      "tags":["css"]
     },
     {
       "img":"a-vinganca-dos-commits.jpg",
@@ -236,7 +347,8 @@
       "date":"Jul 31 2015",
       "description":"Assim que postei o último artigo, o Raphael Amorim me parabenizou pelo repositório commit-wars, e me confessou que já tinha pensando em fazer algo do gênero, porém, um pouco diferente e bem mais completo, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-880d05f61831",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source","commit-wars","personal"]
     },
     {
       "img":"guerra-dos-clones.jpg",
@@ -245,7 +357,8 @@
       "date":"Jun 30 2015",
       "description":"É pessoal, depois de receber tantos feedbacks positivos sobre o primeiro post, eu não poderia deixar de comentar que escrever sem duvidas é tão importante quando contribuir em projetos. etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-a6cd5372b46",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source","commit-wars","personal"]
     },
     {
       "img":"a-ameaca-fantasma.jpg",
@@ -254,14 +367,77 @@
       "date":"May 31 2015",
       "description":"Tudo começou no último Meetup RioJS de 2014, quando o @raphamorim deu uma talk intitulada Confissões de um contribuidor, basicamente ele apresentou os benefícios de aderir ao movimento Write Code Every Day, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-5c51ddd837cd#.nq1xp6z0w",
-      "local":"Medium"
+      "local":"Medium",
+      "tags":["open-source","commit-wars","personal"]
     }
   ],
 
   "talks_next":[],
 
+  "screencasts":[
+    {
+      "ep":"#000 ",
+      "img":"episodio-piloto.jpg",
+      "alt":"Episódio piloto + Propriedades customizadas e variáveis.",
+      "theme":"Episódio piloto + Propriedades customizadas e variáveis.",
+      "time":"15:17",
+      "date":"Mar 19 2016",
+      "dateschema":"2016-03-19",
+      "description":"Episódio piloto falando sobre o objetivo do canal e de quebra abordamos a especificação de Custom Properties.",
+      "url":"https://www.youtube.com/watch?v=TkEdCWshqag",
+      "tags":["css"]
+    }
+  ],
+
+  "miscs":[
+    {
+      "name":"PodTech #2 - Participação na entrevista com Suissa",
+      "img":"podtech-2.jpg",
+      "alt":"PodTech #2 - Participação na entrevista com Suissa",
+      "time":"1:29:06",
+      "date":"May 21 2016",
+      "dateschema":"2016-05-21",
+      "description":"Trocamos ideia sobre: Projetos, Programação Funcional, Educação, JavaScript, Atomic Design e muito mais.",
+      "url":"https://www.youtube.com/watch?v=V2-g2JE7b9M",
+      "tags":["css","css-patterns","javascript","open-source"]
+    },
+    {
+      "name":"PodTech #1 - Entrevista comigo :)",
+      "img":"podtech-1.jpg",
+      "alt":"PodTech #1 - Entrevista comigo :)",
+      "time":"1:03:30",
+      "date":"May 14 2016",
+      "dateschema":"2016-05-14",
+      "description":"Trocamos ideia sobre: Atomic Design, FlexBox, Bootstrap, Inline Style, Componentização, Testes de regressão visual, PostCSS e o atual cenário FrontEnd.",
+      "url":"https://www.youtube.com/watch?v=ck7pYoDDD5s",
+      "tags":["css","reactjs","css-layouts","tests","css-patterns","personal"]
+    },
+    {
+      "name":"Escrever Código Todo Dia - Vale a pena?",
+      "img":"escrever-codigo-todo-dia.jpg",
+      "alt":"Escrever Código Todo Dia - Vale a pena?",
+      "time":"24:59",
+      "date":"May 11 2016",
+      "dateschema":"2016-05-11",
+      "description":"Um bate-pao entre Raphael Amorim e Afonso Pacifer, onde eles conversam um pouco sobre o desafio de Escrever Código Todo Dia, relatando experiências de vida e suas opiniões.",
+      "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
+      "tags":["open-source","personal"]
+    }
+  ],
+
   "talks_2016":[
-     {
+    {
+      "event":"Front in Rio HTML Edition",
+      "theme":"O que há de novo no HTML5.1?",
+      "attendees":"≈ 100",
+      "date":"May 14 2016",
+      "dateschema":"2015-05-14",
+      "local":"Unirio - ",
+      "address":"Urca, Rio de Janeiro - RJ",
+      "url":"5c10b859485045a7a1b833e6a1051448",
+      "tags":["html","open-source"]
+    },
+    {
       "event":"#3 FEMUG RJ",
       "theme":"CSS as a programing language",
       "attendees":"≈ 40",
@@ -269,11 +445,12 @@
       "dateschema":"2015-01-23",
       "local":"Estácio - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language"
+      "url":"a00934b237c342c3b79d4e09e1ebb927",
+      "tags":["css"]
     }
   ],
 
-  "talks":[
+  "talks_2015":[
      {
       "event":"Semana Acadêmica UFF",
       "theme":"Software Livre: Eu escolho você!",
@@ -282,7 +459,8 @@
       "dateschema":"2015-11-26",
       "local":"UFF - ",
       "address":"Niterói - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce"
+      "url":"59db3f89140e4a3f9e990426b23f8a34",
+      "tags":["open-source"]
     },
     {
       "event":"XV FEUCTEC",
@@ -292,7 +470,8 @@
       "dateschema":"2015-10-28",
       "local":"FEUC - ",
       "address":"Campo Grande, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+      "url":"0e42fc349ba74f069272778c378c6121",
+      "tags":["html","css","javascript"]
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -302,7 +481,8 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco"
+      "url":"87885d11f3ff4925a671e162b851a280",
+      "tags":["open-source"]
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -312,7 +492,8 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+      "url":"0e42fc349ba74f069272778c378c6121",
+      "tags":["html","css","javascript"]
     },
     {
       "event":"#1 FEMUG RJ",
@@ -322,7 +503,8 @@
       "dateschema":"2015-10-10",
       "local":"Web Radar - ",
       "address":"Botafogo, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk"
+      "url":"aa2e8c52404a4508b31bfed4bac0cfcf",
+      "tags":["css"]
     },
     {
       "event":"#3 BarraJS",
@@ -332,7 +514,8 @@
       "dateschema":"2015-07-25",
       "local":"LEO - ",
       "address":"Barra da Tijuca, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/css-grid-layout"
+      "url":"9de50ebecb9749a78ff7f62bd67634f9",
+      "tags":["css","css-layouts"]
     },
     {
       "event":"#15 RioJS",
@@ -342,7 +525,8 @@
       "dateschema":"2015-07-18",
       "local":"He:labs - ",
       "address":"Glória, Rio de Janeiro - RJ",
-      "url":"https://speakerdeck.com/afonsopacifer/flexbox"
+      "url":"227ecc9635aa47a1b304ad566fea11d6",
+      "tags":["css","css-layouts"]
     }
   ]
 

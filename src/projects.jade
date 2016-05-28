@@ -1,0 +1,41 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Projects - Afonso Pacifer"
+	-var description = "List of open source projects developed by Afonso Pacifer."
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-project"
+	-var current = "projects"
+
+block content
+
+	main.or-main.or-container
+
+		//- Projects
+		section.or-section
+			h2.at-heading-lv2 Projects
+				span.at-total-value=projects.length
+
+			div.or-list-article
+
+				- for project in projects
+					- var name = project.name
+					- var user = project.user
+					- var emoji = project.emoji
+					- var url = project.url
+					- var description = project.description
+
+						article.ml-article
+							a(href=project.url target="_blank" class="bs-decoration-off")
+								h3.ml-heading-lv3
+									img(src="assets/img/emojis/"+emoji class="at-emojis")
+									span.at-heading-lv3-text=name
+									div.at-github-star
+										iframe(class="at-star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+
+								p.at-paraghaph=description
+								div.ml-tags-container
+									- each tag in project.tags
+										a(href=tag+".html" class="at-tag")=tag

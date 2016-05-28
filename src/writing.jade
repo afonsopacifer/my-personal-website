@@ -1,0 +1,37 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Writing - Afonso Pacifer"
+	-var description = "List of talks presented by Alfonso Pacifer."
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-post"
+	-var current = "writing"
+
+block content
+
+	main.or-main.or-container
+
+		//- Articles list
+		section.or-section
+			h2.at-heading-lv2 Writing
+				span.at-total-value=articles.length
+
+			div.or-list-article
+
+				- for article in articles
+					article.ml-article
+
+						a(href=article.url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=article.name
+								span.at-date=article.date
+							div.img-container
+								img(src="assets/img/articles-covers/"+article.img alt=article.alt class="at-img")
+
+						p.at-paraghaph=article.description
+
+						div.ml-tags-container
+							- each tag in article.tags
+								a(href=tag+".html" class="at-tag")=tag

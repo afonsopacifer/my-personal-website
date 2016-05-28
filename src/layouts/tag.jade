@@ -1,0 +1,149 @@
+doctype html
+html(lang="en" prefix="og: http://ogp.me/ns#")
+
+	head
+
+		//- head metas
+		//- ===========================================
+		include ./../includes/head-metas.jade
+
+		//- head requests
+		//- ===========================================
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+		link(rel="stylesheet" href="assets/styles/style.css")
+
+		//- Fonts
+		link(href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css')
+
+	block page_style
+
+	block page_content
+
+	body(class=skin)
+
+		//- header
+		//- ===========================================
+		include ./../partials/header.jade
+					
+		//- main
+		//- ===========================================
+		main.or-main.or-container
+
+			//- Articles list
+			div.or-container
+				section.or-section
+					h2.at-heading-lv2 Content about 
+						span=page
+						span.at-total-value#totalValue
+
+					div.or-list-article
+
+						- for article in articles
+							- each tag in article.tags
+								if tag == page
+									article.ml-article.bs-post
+
+										a(href=article.url target="_blank" class="bs-decoration-off")
+											h3.ml-heading-lv3
+												span.at-heading-lv3-text=article.name
+												span.at-date=article.date
+
+										div.ml-tags-container
+											- each tag in article.tags
+												a(href=tag+".html" class="at-tag")=tag
+
+						//- Screencasts list
+						- for screencast in screencasts
+							- each tag in screencast.tags
+								if tag == page
+									article.ml-article.bs-screencast
+
+										a(href=screencast.url target="_blank" class="bs-decoration-off")
+											h3.ml-heading-lv3
+												span.at-heading-lv3-text=screencast.ep
+													span=screencast.theme
+												span.at-date=screencast.date
+
+										div.ml-tags-container
+											- each tag in screencast.tags
+												a(href=tag+".html" class="at-tag")=tag
+
+						//- Misc list
+						- for misc in miscs
+							- each tag in misc.tags
+								if tag == page
+									article.ml-article.bs-misc
+
+										a(href=misc.url target="_blank" class="bs-decoration-off")
+											h3.ml-heading-lv3
+												span.at-heading-lv3-text=misc.name
+												span.at-date=misc.date
+
+										div.ml-tags-container
+											- each tag in misc.tags
+												a(href=tag+".html" class="at-tag")=tag
+
+						//- Talks
+						- for talk in talks_2016
+							- each tag in talk.tags
+								if tag == page
+									article.ml-article.bs-talk
+
+										a(href=talk.url target="_blank" class="bs-decoration-off")
+											h3.ml-heading-lv3
+												span(class="at-heading-lv3-text")=talk.theme
+												span(class="at-date")=talk.date
+
+											div.ml-tags-container
+												- each tag in talk.tags
+													a(href=tag+".html" class="at-tag")=tag
+
+						- for talk in talks_2015
+							- each tag in talk.tags
+								if tag == page
+									article.ml-article.bs-talk
+
+										a(href=talk.url target="_blank" class="bs-decoration-off")
+											h3.ml-heading-lv3
+												span(class="at-heading-lv3-text")=talk.theme
+												span(class="at-date")=talk.date
+
+											div.ml-tags-container
+												- each tag in talk.tags
+													a(href=tag+".html" class="at-tag")=tag
+
+						//- Projects
+						- for project in projects
+							- each tag in project.tags
+								if tag == page
+									- var name = project.name
+									- var user = project.user
+									- var emoji = project.emoji
+									- var url = project.url
+									- var description = project.description
+
+										article.ml-article.bs-project
+											a(href=project.url target="_blank" class="bs-decoration-off")
+												h3.ml-heading-lv3
+													img(src="assets/img/emojis/"+emoji class="at-emojis")
+													span.at-heading-lv3-text=name
+													div.at-github-star
+														iframe(class="at-star-count" src="https://ghbtns.com/github-btn.html?user="+user+"&repo="+name+"&type=star&count=true" frameborder="0" scrolling="0")
+												//- p.at-paraghaph=description
+												div.ml-tags-container
+													- each tag in project.tags
+														a(href=tag+".html" class="at-tag")=tag
+
+		//- footer
+		//- ===========================================
+		include ./../partials/footer.jade
+
+		//- I could not do with pug hahaha
+		//- ===========================================
+		include ./../includes/counter.html
+
+		//- bottom requests
+		//- ===========================================
+		include ./../includes/analytics.html
+
+		script(type="text/javascript" src="assets/scripts/index.js")

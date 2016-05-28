@@ -1,0 +1,257 @@
+/* text
+=========================================== */
+.at-heading-lv1 {
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  font-weight: 400;
+}
+
+.at-sub-heading {
+  color: #dedddd;
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+}
+
+.at-heading-lv2 {
+  color: var(--complementary-color);
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 0 5px 10px 5px;
+  padding: 10px 0;
+}
+
+.at-total-value {
+  color: #B1B0B0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.at-total-value:before {
+  content:" (";
+}
+
+.at-total-value:after {
+  content:")";
+}
+
+.at-heading-lv3-text {
+  flex: 1;
+  transition: opacity .3s;
+}
+
+.at-heading-lv3-text:hover {
+  opacity: .7;
+}
+
+.at-date {
+  color: #ccc;
+  font-size: .6em;
+  font-weight: 300;
+  width: 70px;
+  text-align: right;
+  margin-left: auto;
+}
+
+.at-paraghaph {
+  color: var(--complementary-color);
+  margin: 10px 0;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.at-hello {
+  font-size: 30px;
+}
+
+/* menu
+=========================================== */
+@media screen and (min-width: 768px) {
+  .at-btn-open {display: none;}
+}
+
+.at-link-menu {
+  color: #dedddd;
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+  padding: 10px;
+  transition: color .2s;
+}
+
+.at-link-menu:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .at-link-menu {background: #262626;}
+}
+
+/* link to Cast Show
+=========================================== */
+.at-css-cast-show {
+  padding: 5px 10px;
+  margin-left: 10px;
+  order: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .at-css-cast-show {
+    order: 3;
+  }
+}
+
+/* links
+=========================================== */
+.at-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 0;
+  transition: opacity .3s;
+}
+
+.at-btn:hover {
+  opacity: .7;
+}
+
+.at-text-link {
+  display: inline-block;
+  color: var(--complementary-color);
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.at-text-link:hover {
+  opacity: .7;
+}
+
+/* social icons
+=========================================== */
+.at-social-icon {
+  margin: 0 5px;
+  transition: opacity .3s;
+}
+
+.at-social-icon:hover {
+  opacity: .7;
+}
+
+/* forms
+=========================================== */
+.at-label {
+  margin: 0 5px 6px 5px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+
+.at-input {
+  width: 100%;
+  max-width: 200px;
+  height: 37px;
+  margin: 0;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: 0;
+}
+
+.at-input:focus {
+  outline:0;
+  border-color: #000;
+}
+
+/* images
+=========================================== */
+.at-img {
+  width: 100%;
+}
+
+/* videos
+=========================================== */
+.at-video-dutarion {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+/* tag
+=========================================== */
+.at-tag {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 3px 7px;
+  margin-right: 8px;
+  margin-top: 8px;
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.at-tag:hover {
+  opacity: .7;
+}
+
+/* emojis
+=========================================== */
+.at-emojis {
+  margin-right: 8px;
+  width: 25px;
+  height: 25px;
+}
+
+/* start
+=========================================== */
+.at-github-star {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.at-star-count {
+  width: 86px;
+  height: 22px;
+}
+
+/* heart
+=========================================== */
+.at-heart {
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #eef616;
+  position: relative;
+  display: inline-block;
+  animation: pulse .5s infinite alternate ease-in;
+}
+
+.at-heart:before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eef616;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: "";
+}
+
+.at-heart:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eef616;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+}
+
+@keyframes pulse {
+    from {transform: rotate(-135deg) scale(1);}
+    to   {transform: rotate(-135deg) scale(1.2);}
+}

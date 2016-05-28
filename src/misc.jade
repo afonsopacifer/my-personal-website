@@ -1,0 +1,38 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "Misc - Afonso Pacifer"
+	-var description = "List of misc content."
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-misc"
+	-var current = "misc"
+
+block content
+
+	main.or-main.or-container
+
+		//- Misc list
+		section.or-section
+			h2.at-heading-lv2 Misc
+				span.at-total-value=miscs.length
+
+			div.or-list-article
+
+				- for misc in miscs
+					article.ml-article
+
+						a(href=misc.url target="_blank" class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=misc.name
+								span.at-date=misc.date
+							div.img-container
+								img(src="assets/img/misc-covers/"+misc.img alt=misc.alt class="at-img")
+								span.at-video-dutarion=misc.time
+
+						p.at-paraghaph=misc.description
+
+						div.ml-tags-container
+							- each tag in misc.tags
+								a(href=tag+".html" class="at-tag")=tag

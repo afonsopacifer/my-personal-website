@@ -1,0 +1,74 @@
+.or-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+}
+
+.or-header {
+  background-color: var(--highlight-background);
+  color: var(--highlight-color);
+}
+
+.or-background-img {
+  background: #0d0d0d;
+  /*background-image: url('../img/afonso.jpg');*/
+  /*background-position: right;
+  background-repeat: no-repeat;*/
+  position: relative;
+  border-top: 2px solid #ccc;
+}
+
+.or-main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--complementary-background);
+  padding: 40px 0;
+  flex: 1;
+}
+
+.or-section {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/*@media screen and (max-width: 860px) {
+  .or-section {
+    width: calc(50% - 10px);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .or-section {
+    width: calc(100% - 10px);
+  }
+}*/
+
+
+.or-list-article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.or-list-article .ml-article {
+  width: calc((100%/3) - 10px);
+}
+
+@media screen and (max-width: 860px) {
+  .or-list-article .ml-article {
+    width: calc(50% - 10px);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .or-list-article .ml-article {
+    width: calc(100% - 10px);
+  }
+}
+
+.or-footer {
+  background: #fff;
+}
