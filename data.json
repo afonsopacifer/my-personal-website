@@ -376,6 +376,18 @@
 
   "screencasts":[
     {
+      "ep":"#001 ",
+      "img":"flexbox.jpg",
+      "alt":"Flexbox Layout: O guia definitivo.",
+      "theme":"Flexbox Layout: O guia definitivo.",
+      "time":"50:17",
+      "date":"May 29 2016",
+      "dateschema":"2016-05-29",
+      "description":"Nesse episódio abordamos com detalhes todas as propriedades do Flexbox e seus valores, além de conhecer um pouca de sua história e mais alguns detalhes.",
+      "url":"https://www.youtube.com/watch?v=qBxGXb4iTQw&feature=youtu.be",
+      "tags":["css","css-layouts"]
+    },
+    {
       "ep":"#000 ",
       "img":"episodio-piloto.jpg",
       "alt":"Episódio piloto + Propriedades customizadas e variáveis.",
