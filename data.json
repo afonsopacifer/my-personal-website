@@ -376,6 +376,18 @@
 
   "screencasts":[
     {
+      "ep":"#002 ",
+      "img":"grids.jpg",
+      "alt":"Grids semânticos VS não semânticos.",
+      "theme":"Grids semânticos VS não semânticos.",
+      "time":"38:57",
+      "date":"Jun 05 2016",
+      "dateschema":"2016-06-05",
+      "description":"Nesse episódio nós criamos dois sistemas de grids com CSS, um semântico utilizando o pré-processador Stylus e um não semântico. Debatemos sobre qual abordagem é melhor e conversamos sobre como podemos nos libertar dos grids que existem por ai na internet.",
+      "url":"https://youtu.be/fHM2MUn1gwg",
+      "tags":["css","css-layouts"]
+    },
+    {
       "ep":"#001 ",
       "img":"flexbox.jpg",
       "alt":"Flexbox Layout: O guia definitivo.",
