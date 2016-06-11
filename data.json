@@ -73,6 +73,30 @@
       "tags":["html","css","javascript","workflow"]
     },
     {
+      "name":"skip-to-content",
+      "emoji":"arrow_down.png",
+      "user":"afonsopacifer",
+      "description":"A Polymer element for Skip to Content.",
+      "url":"https://github.com/afonsopacifer/skip-to-content",
+      "tags":["polymer","webcomponent"]
+    },
+    {
+      "name":"hamburguer-menu",
+      "emoji":"hamburger.png",
+      "user":"afonsopacifer",
+      "description":"A Polymer element for Off-canvas Menu.",
+      "url":"https://github.com/afonsopacifer/hamburguer-menu",
+      "tags":["polymer","webcomponent"]
+    },
+    {
+      "name":"github-corner",
+      "emoji":"octocat.png",
+      "user":"afonsopacifer",
+      "description":"A Polymer element for Github Corner.",
+      "url":"https://github.com/afonsopacifer/github-corner",
+      "tags":["polymer","webcomponent"]
+    },
+    {
       "name":"css-magic",
       "emoji":"card.png",
       "user":"afonsopacifer",
@@ -167,6 +191,14 @@
       "description":"My packages, configs, dotfiles, plugins, etc...",
       "url":"https://github.com/afonsopacifer/afonsoconfigs",
       "tags":["workflow","personal"]
+    },
+    {
+      "name":"code-style-guide",
+      "emoji":"construction.png",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/code-style-guide",
+      "tags":["project-in-construction"]
     },
     {
       "name":"phonegap-boilerplate",
