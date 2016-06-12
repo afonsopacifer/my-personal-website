@@ -408,6 +408,18 @@
 
   "screencasts":[
     {
+      "ep":"#003 ",
+      "img":"amor.jpg",
+      "alt":"Como declarar seu amor apenas com CSS.",
+      "theme":"Como declarar seu amor apenas com CSS.",
+      "time":"17:22",
+      "date":"Jun 12 2016",
+      "dateschema":"2016-06-12",
+      "description":"Episódio especial de dia dos namorados onde aprendemos a desenhar um coração animado apenas com CSS.",
+      "url":"https://www.youtube.com/watch?v=I3m8gWgUUto",
+      "tags":["css","adventure-time"]
+    },
+    {
       "ep":"#002 ",
       "img":"grids.jpg",
       "alt":"Grids semânticos VS não semânticos.",
