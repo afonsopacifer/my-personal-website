@@ -407,6 +407,18 @@
   "talks_next":[],
 
   "screencasts":[
+      {
+      "ep":"#004 ",
+      "img":"mobile-first.jpg",
+      "alt":"Mobile First está errado?",
+      "theme":"Mobile First está errado?",
+      "time":"12:17",
+      "date":"Jun 19 2016",
+      "dateschema":"2016-06-19",
+      "description":"Episódio onde entendemos qual o papel do Mobile First no Design, Front-End e Back-end. Além de entender como realmente usa-lo, isso é, se ele realmente existir.",
+      "url":"https://www.youtube.com/watch?v=Rrys1PVR5tQ",
+      "tags":["css"]
+    },
     {
       "ep":"#003 ",
       "img":"amor.jpg",
