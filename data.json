@@ -243,6 +243,16 @@
   ],
   "articles":[
     {
+      "img":"sampajs.jpg",
+      "alt":"Como foi o Sampa.JS para um carioca que curte CSS?",
+      "name":"Como foi o Sampa.JS para um carioca que curte CSS?",
+      "date":"Jun 27 2016",
+      "description":"Fala galera, esse é apenas o relato de um carioca que que teve a oportunidade de participar do já tradicional Sampa.JS, e de cara quero dizer que voltarei nos próximos anos COM CERTEZA!",
+      "url":"https://medium.com/@afonsopacifer/como-foi-o-sampa-js-para-um-carioca-que-curte-css-3702665c60cc#.82wcbksfk",
+      "local":"Medium",
+      "tags":["javascript","reactjs","nodejs"]
+    },
+    {
       "img":"react-test.jpg",
       "alt":"Iniciando seus testes unitários em componentes ReactJS",
       "name":"Iniciando seus testes unitários em componentes ReactJS",
@@ -408,6 +418,18 @@
 
   "screencasts":[
     {
+      "ep":"#006 ",
+      "img":"sampajs.jpg",
+      "alt":"Review: Tudo o que rolou no Sampa.JS",
+      "theme":"Review: Tudo o que rolou no Sampa.JS",
+      "time":"25:15",
+      "date":"Jun 26 2016",
+      "dateschema":"2016-06-26",
+      "description":"Um Review com tudo o que rolou no SampaJS 2016, com Eliseu (SeuCXB) e Mario Souto.",
+      "url":"https://www.youtube.com/watch?v=aGnQs_w-sl4",
+      "tags":["javascript","nodejs"]
+    },
+    {
       "ep":"#005 ",
       "img":"polymer-00.jpg",
       "alt":"O que é Polymer Project e por que usar?",
@@ -417,7 +439,7 @@
       "dateschema":"2016-06-22",
       "description":"Introdução a série de Progressive Web Apps utilizando: HTTP2, Service Workers, Web components, Polymer CLI, etc...",
       "url":"https://www.youtube.com/watch?v=Jr_Xoy3Pbkw",
-      "tags":["polymer"]
+      "tags":["polymer","webcomponent"]
     },
     {
       "ep":"#004 ",
@@ -519,11 +541,22 @@
 
   "talks_2016":[
     {
+      "event":"Sampa JS",
+      "theme":"AST - Abstract Syntax Tree",
+      "attendees":"≈ 150",
+      "date":"Jun 25 2016",
+      "dateschema":"2016-06-25",
+      "local":"PUC - ",
+      "address":"São Paulo - SP",
+      "url":"14944a3bbf764db988093eef92f5ebf2",
+      "tags":["javascript","nodejs"]
+    },
+    {
       "event":"Front in Rio HTML Edition",
       "theme":"O que há de novo no HTML5.1?",
       "attendees":"≈ 100",
       "date":"May 14 2016",
-      "dateschema":"2015-05-14",
+      "dateschema":"2016-05-14",
       "local":"Unirio - ",
       "address":"Urca, Rio de Janeiro - RJ",
       "url":"5c10b859485045a7a1b833e6a1051448",
@@ -534,7 +567,7 @@
       "theme":"CSS as a programing language",
       "attendees":"≈ 40",
       "date":"Jan 23 2016",
-      "dateschema":"2015-01-23",
+      "dateschema":"2016-01-23",
       "local":"Estácio - ",
       "address":"Nova Iguaçu - RJ",
       "url":"a00934b237c342c3b79d4e09e1ebb927",
