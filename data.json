@@ -243,6 +243,16 @@
   ],
   "articles":[
     {
+      "img":"frontweeksp.jpg",
+      "alt":"Um relato sobre como foi a #FrontWeekSP para um comedor de biscoito!",
+      "name":"Um relato sobre como foi a #FrontWeekSP para um comedor de biscoito!",
+      "date":"Jul 05 2016",
+      "description":"Esse é um relato das coisas maravilhosas que aconteceram comigo nessa semana que entrou para a história da comunidade mundial de desenvolvedores Front-End.",
+      "url":"https://medium.com/@afonsopacifer/um-relato-sobre-como-foi-a-frontweeksp-para-um-comedor-de-biscoito-85e936052bd#.ucnpbahra",
+      "local":"Medium",
+      "tags":["css","personal"]
+    },
+    {
       "img":"sampajs.jpg",
       "alt":"Como foi o Sampa.JS para um carioca que curte CSS?",
       "name":"Como foi o Sampa.JS para um carioca que curte CSS?",
@@ -250,7 +260,7 @@
       "description":"Fala galera, esse é apenas o relato de um carioca que que teve a oportunidade de participar do já tradicional Sampa.JS, e de cara quero dizer que voltarei nos próximos anos COM CERTEZA!",
       "url":"https://medium.com/@afonsopacifer/como-foi-o-sampa-js-para-um-carioca-que-curte-css-3702665c60cc#.82wcbksfk",
       "local":"Medium",
-      "tags":["javascript","reactjs","nodejs"]
+      "tags":["javascript","reactjs","nodejs","personal"]
     },
     {
       "img":"react-test.jpg",
@@ -540,6 +550,17 @@
   ],
 
   "talks_2016":[
+    {
+      "event":"Meetup CSS SP",
+      "theme":"Como desenhar com CSS me trouxe até o Google",
+      "attendees":"≈ 150",
+      "date":"Jun 30 2016",
+      "dateschema":"2016-06-30",
+      "local":"Google - ",
+      "address":"São Paulo - SP",
+      "url":"0eedbfbda6774904af1ca0d96aa7c50e",
+      "tags":["css","personal"]
+    },
     {
       "event":"Sampa JS",
       "theme":"AST - Abstract Syntax Tree",
