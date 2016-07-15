@@ -52,6 +52,8 @@ $ gulp build
 	|   ├── layouts/
 	|   |   ├── default.jade
 	|   |   └── tag.jade
+	|   ├── challenges/
+	|   |   └── ?.jade
 	|   ├── tags/
 	|   |   └── ?.jade
 	|   ├── writing.jade
