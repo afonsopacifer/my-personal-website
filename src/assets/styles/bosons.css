@@ -36,6 +36,7 @@ body {
   --talks-color: #A168CA;
   --projects-color: #01A3CA;
   --default-color: #2D2D2D;
+  --challenges-color: #8e1111;
 }
 
 /* flex powers
@@ -145,11 +146,12 @@ body {
 /* current page
 =========================================== */
 .home        .ml-iten-menu:nth-child(1) .at-link-menu,
-.writing     .ml-iten-menu:nth-child(2) .at-link-menu,
-.screencasts .ml-iten-menu:nth-child(3) .at-link-menu,
-.misc        .ml-iten-menu:nth-child(4) .at-link-menu,
-.speaking    .ml-iten-menu:nth-child(5) .at-link-menu,
-.projects    .ml-iten-menu:nth-child(6) .at-link-menu {
+.challenge   .ml-iten-menu:nth-child(2) .at-link-menu,
+.writing     .ml-iten-menu:nth-child(3) .at-link-menu,
+.screencasts .ml-iten-menu:nth-child(4) .at-link-menu,
+.misc        .ml-iten-menu:nth-child(5) .at-link-menu,
+.speaking    .ml-iten-menu:nth-child(6) .at-link-menu,
+.projects    .ml-iten-menu:nth-child(7) .at-link-menu {
   color: #fff;
   border-bottom: 2px solid #fff;
   background: rgba(255, 255, 255, 0.2);;
@@ -382,4 +384,45 @@ body {
 
 .bs-project .ml-footer-down {
   background-color: var(--projects-color);
+}
+
+/* challenges
+=========== */
+.bs-challenge .or-header {
+  background-color: var(--challenges-color);
+}
+
+.bs-challenge .at-heading-lv2 {
+  border-bottom: 4px solid var(--challenges-color);
+}
+
+.bs-challenge .ml-heading-lv3 {
+  color: var(--challenges-color);
+}
+
+.bs-challenge .at-btn {
+  background-color: var(--challenges-color);
+  color: #fff;
+}
+
+.bs-challenge .at-strong {
+  color: var(--challenges-color);
+  font-weight: 400;
+}
+
+.bs-challenge .at-tag {
+  border: 1px solid var(--challenges-color);
+  color: var(--challenges-color);
+}
+
+.bs-challenge .at-label {
+  color: var(--challenges-color);
+}
+
+.bs-challenge .at-social-icon {
+  fill: var(--challenges-color);
+}
+
+.bs-challenge .ml-footer-down {
+  background-color: var(--challenges-color);
 }

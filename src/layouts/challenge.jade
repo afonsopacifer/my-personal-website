@@ -1,0 +1,46 @@
+doctype html
+html(lang="en" prefix="og: http://ogp.me/ns#")
+
+	head
+
+		//- head metas
+		//- ===========================================
+		include ./../includes/head-metas.jade
+
+		//- head requests
+		//- ===========================================
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+		link(rel="stylesheet" href="assets/styles/style.css")
+
+		//- Fonts
+		link(href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css')
+
+	block page_style
+
+	body(class=skin+" "+current)
+
+		//- header
+		//- ===========================================
+		include ./../partials/header.jade
+					
+		//- main
+		//- ===========================================
+		block page_content
+
+
+		//- Widgets
+		//- ===========================================
+		include ./../includes/disqus.html
+		include ./../includes/facebook.html
+		include ./../includes/twitter.html
+
+
+		//- footer
+		//- ===========================================
+		include ./../partials/footer.jade
+
+		//- bottom requests
+		//- ===========================================
+		include ./../includes/analytics.html
+
+		script(type="text/javascript" src="assets/scripts/index.js")

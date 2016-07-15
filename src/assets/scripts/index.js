@@ -17,7 +17,7 @@
 
   btnOpen.addEventListener("click",toggleMenu);
 
-  const mediaQuery = window.matchMedia("(min-width: 768px)");
+  const mediaQuery = window.matchMedia("(min-width: 888px)");
 
   if (mediaQuery.matches) {
     menu.style.display = "block";

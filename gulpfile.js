@@ -14,7 +14,7 @@ var gulp     = require('gulp'),
 // Compile Jade
 // ===========================================
 gulp.task('jade', () => {
-	gulp.src(['src/**.jade','src/tags/**.jade'])
+	gulp.src(['src/**.jade','src/tags/**.jade','src/challenges/**.jade'])
 		  .pipe(data(file => require('./config.json')))
 		  .pipe(data(file => require('./data.json')))
     	.pipe(jade())

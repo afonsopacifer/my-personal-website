@@ -6,6 +6,22 @@
   position: relative;
 }
 
+.or-text {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 10px;
+  flex: 1;
+  position: relative;
+}
+
+.or-text-paper {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+}
+
+
 .or-header {
   background-color: var(--highlight-background);
   color: var(--highlight-color);

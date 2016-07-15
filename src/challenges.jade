@@ -1,0 +1,49 @@
+extends ./layouts/default.jade
+
+block page_infos
+	-var title = "challenge - Afonso Pacifer"
+	-var description = "List of challenges proposed by Alfonso Pacifer."
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-challenge"
+	-var current = "challenge"
+
+block content
+
+	main.or-main.or-container
+
+		//- Articles list
+		section.or-section
+			h2.at-heading-lv2 Challenges
+				span.at-total-value=challenges.length
+
+			div.or-list-article
+
+				- for challenge in challenges
+					article.ml-article
+
+						a(href=challenge.url class="bs-decoration-off")
+							h3.ml-heading-lv3
+								span.at-heading-lv3-text=challenge.name
+								span.at-date=challenge.date
+							div.img-container
+								img(src="assets/img/challengers/"+challenge.img alt=challenge.alt class="at-img")
+
+						b.at-strong Nível: 
+						span=challenge.level
+						br
+						b.at-strong Tempo em que foi criado: 
+						span=challenge.dev_time
+						br
+						b.at-strong Tempo estimado proposto: 
+						span=challenge.expect_time
+						br
+						b.at-strong Deadline: 
+						span=challenge.deadline
+						br
+						br
+
+						div.ml-tags-container
+							- each tag in challenge.tags
+								a(href=tag+".html" class="at-tag")=tag

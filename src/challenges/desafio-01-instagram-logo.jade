@@ -1,0 +1,82 @@
+extends ./../layouts/challenge.jade
+
+block page_infos
+	-var title = "Desafio CSS #01 - Logo do instagram"
+	-var description = ""
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-challenge"
+	-var current = "challenge"
+
+block page_content
+	main.or-text
+		h2.at-heading-lv2=title
+
+		section.or-text-paper
+
+			div.ml-social-share
+				a(href="https://twitter.com/share" class="twitter-share-button at-social-share" data-via="afonsopacifer" data-show-count="true") Tweet
+
+				iframe(src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fafonsopacifer.com%2Fdesafio-01-instagram-logo.html&layout=button&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" class="at-social-share")
+
+			img(src="assets/img/challengers/instagram-logo.jpg")
+
+			ul
+				li <b>Nível:</b> Médio
+				li <b>Tempo em que foi criado:</b> 15 minutos
+				li <b>Tempo estimado proposto:</b> 30 minutos
+				li <b>Deadline do desafio:</b> 22/07/16
+
+			hr
+
+			//h2 Confira o video que explicativo :)
+
+			//iframe(src="https://www.youtube.com/embed/N1EuAO_M6q0" frameborder="0" allowfullscreen class="at-video")
+
+			hr
+
+			h2 Quem pode participar? Como participar?
+
+			p Qualquer pessoa pode participar, pois, do júnior até o sênior, todos nós estamos sempre aprendendo. E nada melhor do que aprender se divertindo.
+
+			p Para participar, você deve enviar a sua proposta para o e-mail csscastshow@gmail.com. Embora não faça parte da regra, tente realizar a tarefa no tempo proposto – isso é importante para medirmos melhor o nosso próprio desempenho! Ao diminuir a sua própria marca, a evolução fica ainda mais perceptível!
+
+			p Os iniciantes têm o objetivo de conseguir cumprir a tarefa, os intermediários de cumprir a tarefa antes do tempo proposto, os mais avançados têm o desafio de tentar superar a minha marca!
+
+			hr
+
+			h2 Regras:
+
+			ul
+				li Cada participante só pode submeter uma única proposta;
+				li O participante deve utilizar apenas as tags HTML propostas neste artigo;
+				li O código poderá ser escrito no codepen, jsfiddle ou similar;
+				li Para participar, o interessado deve mandar o link do desafio feito para o email csscastshow@gmail.com – Caso o seu e-mail não seja respondido em até 2 dias com um “recebido”, entre em contato novamente, pois algo pode ter acontecido;
+				li O e-mail precisa ser enviado com o assunto “Desafio CSS #01”;
+				li O deadline do desafio é dia 22 de julho;
+				li Por favor, não divulgue a solução na Internet até terminar o desafio, a principal missão aqui é propor uma forma divertida de praticar CSS;
+				li As medidas, assim como cores e efeitos, deverão ser o mais próximas possíveis. Se ficar muito distante do proposto, será desconsiderado;
+
+			hr
+
+			h2 Ganho alguma coisa se participar?
+
+			p Sim! Todos que participarem e acertarem o desafio/cumprirem a meta, ao final de cada desafio participaram de um sorteio para ganhar prêmios.
+
+			hr
+
+			h2 Resultados:
+			
+			p Após a deadline, aqui entrará:
+
+			ul
+				li Video mostranto o desenvolvimento do desenho.
+				li A lista dos participantes que concluiram o desafio.
+				li Código do desenho original imcorporado via codepen.
+			
+			p Boa sorte a todos!
+
+			hr
+
+			div(id="disqus_thread" class="at-disqus")

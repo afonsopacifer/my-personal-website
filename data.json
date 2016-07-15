@@ -244,8 +244,8 @@
   "articles":[
     {
       "img":"frontweeksp.jpg",
-      "alt":"Um relato sobre como foi a #FrontWeekSP para um comedor de biscoito!",
-      "name":"Um relato sobre como foi a #FrontWeekSP para um comedor de biscoito!",
+      "alt":"Como foi a #FrontWeekSP para um comedor de biscoito?",
+      "name":"Como foi a #FrontWeekSP para um comedor de biscoito?",
       "date":"Jul 05 2016",
       "description":"Esse é um relato das coisas maravilhosas que aconteceram comigo nessa semana que entrou para a história da comunidade mundial de desenvolvedores Front-End.",
       "url":"https://medium.com/@afonsopacifer/um-relato-sobre-como-foi-a-frontweeksp-para-um-comedor-de-biscoito-85e936052bd#.ucnpbahra",
@@ -673,6 +673,21 @@
       "address":"Glória, Rio de Janeiro - RJ",
       "url":"227ecc9635aa47a1b304ad566fea11d6",
       "tags":["css","css-layouts"]
+    }
+  ],
+  "challenges":[
+    {
+      "name":"Desafio CSS #01 - Logo do instagram",
+      "img":"instagram-logo.jpg",
+      "alt":"Desafio CSS #01 - Logo do instagram",
+      "date":"Jul 15 2016",
+      "dateschema":"2016-07-15",
+      "deadline":"Jul 22 2016",
+      "level": "Médio",
+      "dev_time": "15 minutos",
+      "expect_time": "30 minutos",
+      "url":"desafio-01-instagram-logo.html",
+      "tags":["css"]
     }
   ]
 
