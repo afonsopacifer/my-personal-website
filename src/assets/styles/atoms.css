@@ -128,6 +128,16 @@
   opacity: .7;
 }
 
+.at-list-link {
+  display: inline-block;
+  color: var(--challenges-color);
+  transition: opacity .3s;
+}
+
+.at-list-link:hover {
+  opacity: .7;
+}
+
 /* social icons
 =========================================== */
 .at-social-icon {
