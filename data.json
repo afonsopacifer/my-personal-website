@@ -551,6 +551,17 @@
 
   "talks_2016":[
     {
+      "event":"Front in Vale",
+      "theme":"As entrelinhas do CSS",
+      "attendees":"≈ 200",
+      "date":"Set 10 2016",
+      "dateschema":"2016-09-10",
+      "local":"Faro Hotel - ",
+      "address":"São José dos campos - SP",
+      "url":"043a85833c13479a8eed9c6d09a281d3",
+      "tags":["css","personal","javascript","nodejs"]
+    },
+    {
       "event":"Meetup CSS SP",
       "theme":"Como desenhar com CSS me trouxe até o Google",
       "attendees":"≈ 150",
