@@ -551,6 +551,17 @@
 
   "talks_2016":[
     {
+      "event":"Rio Dev Day",
+      "theme":"Desmistificando o CSS4, ou não :)",
+      "attendees":"≈ 40",
+      "date":"Nov 19 2016",
+      "dateschema":"2016-11-19",
+      "local":"Estácio de Sá - ",
+      "address":"Rio de Janeiro - RJ",
+      "url":"85fb6b362d72448a8c07c786324aca68",
+      "tags":["css","personal","javascript","nodejs"]
+    },
+    {
       "event":"Front in Vale",
       "theme":"As entrelinhas do CSS",
       "attendees":"≈ 200",
@@ -699,6 +710,19 @@
       "expect_time": "30 minutos",
       "url":"desafio-01-instagram-logo.html",
       "tags":["css"]
+    },
+    {
+      "name":"Desafio CSS #02 - Logo do ReactJS",
+      "img":"react-logo.jpg",
+      "alt":"Desafio CSS #02 - Logo do ReactJS",
+      "date":"Out  2016",
+      "dateschema":"2016-10-",
+      "deadline":"Out 21 2016",
+      "level": "Fácil",
+      "dev_time": "10 minutos",
+      "expect_time": "20 minutos",
+      "url":"desafio-02-reactjs-logo.html",
+      "tags":["css","react"]
     }
   ]
 

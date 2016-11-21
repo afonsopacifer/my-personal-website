@@ -1,0 +1,80 @@
+extends ./../layouts/challenge.jade
+
+block page_infos
+	-var title = "Desafio CSS #02 - Logo do ReactJS"
+	-var description = "Segundo desafio! Quem consegue desenhar a logo do ReactJS apenas com CSS?"
+	-var keywords = ""
+
+block page_style
+	-var skin = "bs-challenge"
+	-var current = "challenge"
+
+block page_content
+	main.or-text
+		h2.at-heading-lv2=title
+
+		section.or-text-paper
+
+			div.ml-social-share
+				a(href="https://twitter.com/share" class="twitter-share-button at-social-share" data-via="afonsopacifer" data-show-count="true") Tweet
+
+				iframe(src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fafonsopacifer.com%2Fdesafio-02-reactjs-logo.html&layout=button&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" class="at-social-share")
+
+			img(src="assets/img/challengers/react-logo.jpg")
+
+			ul
+				li <b>Nível:</b> Fácil
+				li <b>Tempo em que foi criado:</b> 10 minutos
+				li <b>Tempo estimado proposto:</b> 20 minutos
+				li <b>Deadline do desafio:</b> 21/10/16
+
+			hr
+
+			//h2 Confira o video que explicativo :)
+
+			//iframe(src="https://www.youtube.com/embed/7qGvEwSpxyo" frameborder="0" allowfullscreen class="at-video")
+
+			//hr
+
+			h2 Quem pode participar? Como participar?
+
+			p Qualquer pessoa pode participar, pois, do júnior até o sênior, todos nós estamos sempre aprendendo. E nada melhor do que aprender se divertindo.
+
+			p Para participar, você deve enviar a sua proposta para o e-mail csscastshow@gmail.com. Embora não faça parte da regra, tente realizar a tarefa no tempo proposto – isso é importante para medirmos melhor o nosso próprio desempenho! Ao diminuir a sua própria marca, a evolução fica ainda mais perceptível!
+
+			p Os iniciantes têm o objetivo de conseguir cumprir a tarefa, os intermediários de cumprir a tarefa antes do tempo proposto, os mais avançados têm o desafio de tentar superar a minha marca!
+
+			hr
+
+			h2 Regras:
+
+			ul
+				li Cada participante só pode submeter uma única proposta;
+				li O participante deve utilizar apenas as tags HTML propostas neste artigo;
+				li O código poderá ser escrito no codepen, jsfiddle ou similar;
+				li Para participar, o interessado deve mandar o link do desafio feito para o email csscastshow@gmail.com – Caso o seu e-mail não seja respondido em até 2 dias com um “recebido”, entre em contato novamente, pois algo pode ter acontecido;
+				li O e-mail precisa ser enviado com o assunto “Desafio CSS #01”;
+				li O deadline do desafio é dia 22 de julho;
+				li Por favor, não divulgue a solução na Internet até terminar o desafio, a principal missão aqui é propor uma forma divertida de praticar CSS;
+				li Não vale usar pré nem pós processadores ;)
+				li As medidas, assim como cores e efeitos, deverão ser o mais próximas possíveis. Se ficar muito distante do proposto, será desconsiderado;
+
+			hr
+
+			h2 HTML que deve ser utilizado:
+			pre
+				|&#60;div class="react-logo">
+				|  &#60;div class="reactive">&#60;/div>
+				|&#60;/div>
+
+			hr
+
+			h2 Ganho alguma coisa ao participar?
+
+			p Sim! Todos que participarem e acertarem o desafio/cumprirem a meta, ao final de cada desafio participarão de um sorteio para ganhar prêmios.
+
+			//hr
+
+			hr
+
+			div(id="disqus_thread" class="at-disqus")
