@@ -551,6 +551,17 @@
 
   "talks_2016":[
     {
+      "event":"Front in Floripa",
+      "theme":"Diga adeus aos pré/pós processadores CSS",
+      "attendees":"≈ 200",
+      "date":"Nov 26 2016",
+      "dateschema":"2016-11-26",
+      "local":"Hotel Maria do Mar - ",
+      "address":"Florianópolis - SC",
+      "url":"a7d9fcce89d340b7af4d2e59dfdd3ecb",
+      "tags":["css","personal","javascript","nodejs"]
+    },
+    {
       "event":"Rio Dev Day",
       "theme":"Desmistificando o CSS4, ou não :)",
       "attendees":"≈ 40",
