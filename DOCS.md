@@ -1,7 +1,7 @@
 # Getting Started
 
 ## 1 - Install
-*install the basics dependencies*
+*install the basics dependencies* :
 
 - [NodeJS](https://nodejs.org/en/)
 - [GulpJS](http://gulpjs.com/)
